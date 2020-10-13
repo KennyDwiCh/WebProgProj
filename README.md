@@ -1,4 +1,4 @@
-# WebProgProj
+# WebProgProj (Ponshop)
 Tugas Project UTS dan UAS webprog
 NIM Dari Kecil ke Besar
 Steven Tjayadi/535180085 
