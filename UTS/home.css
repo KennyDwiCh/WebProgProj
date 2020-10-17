@@ -61,15 +61,12 @@
 
 .category > button{
     border-radius: 33px;
-    margin-left: 8.8px;
+    margin-left: 14px;
     background-color: white;
     color: #0A292B;
-}
-  
-.trending{
-    font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
 
-div.men, div.women > *{
+div.men, div.women, div.sale, div.trending, div.atas, div.mid > *{
     font-family: 'Roboto', sans-serif;
 }
