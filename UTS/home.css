@@ -1,0 +1,69 @@
+.atas{
+    margin: 0;
+    height: 60px;
+    background-color: red;  
+}
+
+.mid{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+
+.ongoing{
+    margin-top: 60px;
+}
+
+.ongoing > .row{
+    position: absolute;
+}
+
+.ongoing > .slide{
+    margin-top: -30px;
+}
+
+.grid-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 7px 7px;
+    grid-template-areas:
+      "card1 card1 card2 card2 category category category category"
+      "card3 card3 card3 card3 men totebag pullover pullover"
+      "card3 card3 card3 card3 mask totebag pullover pullover"
+}
+
+.pullover { grid-area: pullover; }
+
+.totebag { grid-area: totebag; }
+
+.men { grid-area: men; 
+}
+
+.mask { grid-area: mask; }
+
+.card2 { grid-area: card2; }
+
+.card1 { grid-area: card1; }
+
+.card3 { grid-area: card3; }
+
+.category { 
+    grid-area: category; 
+    
+}
+
+.category > button{
+    border-radius: 33px;
+    margin-left: 8.8px;
+    background-color: white;
+}
+  
+.trending{
+    font-family: 'Roboto', sans-serif;
+}
+
+div.men, div.women > *{
+    font-family: 'Roboto', sans-serif;
+}
