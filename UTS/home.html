@@ -139,13 +139,35 @@
                   </div>
                   
                   <div class="card1">
-                    <div class="card" style=" border-radius: 33px;">
+                    <div type="button" data-toggle="modal" data-target="#card1" class="card" style=" border-radius: 33px;">
                       <img class="card-img-top" src="HomePage/furniture, tech news/PISXIC0.png" alt="Card image cap" style="height: 4.98rem; border-top-left-radius: 33px; border-top-right-radius: 33px;">
                       <div class="card-body">
                         <p class="card-text" style="font-size: 13px;"><b>Tech News!</b><br>
                           Upgrade yourself with a new technology!
                           <a href="#" class="btn btn-primary" style="margin-left: 204px; height: 20px; font-size: 6px; background-color: #0A292B; border: none;" >Click!</a>
                         </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="modal fade" id="card1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            <img src="HomePage/furniture, tech news/PISXIC0.png" alt="" >
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-left: -50px;">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -883,45 +905,56 @@
             <div class="modal fade" id="NasaJacket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document" >
                 <div class="modal-content" style="width: 800px; margin-left: -150px;">
-                  <div id="close1"class="modal-header" style="border: none;">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
                   <div class="modal-body">
                     <div class="d-inline-flex p-2">
                       <div class="p-2" style="margin-right: 15px;">
-                        <img src="HomePage/Men/Heron Preston y la NASA crean la colección perfecta para llevar tu look a la luna.png" alt="" width="350px" >
+                        <div class="gambar">
+                          <div id="spot">
+                            <img src="HomePage/Men/Heron Preston y la NASA crean la colección perfecta para llevar tu look a la luna.png" id="expandedImg" style="width: 350px" >
+                          </div>
+                          <div id="tengah" class="d-flex flex-row bd-highlight mb-3">
+                            <div class="p-2 bd-highlight"  style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                              <img src="HomePage/Men/Heron Preston y la NASA crean la colección perfecta para llevar tu look a la luna.png" height="100%" width="100%" style="object-fit: contain;" alt="Nature" onclick="myFunction(this);">
+                            </div>
+                            <!-- <div class="p-2 bd-highlight" style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                              <img src="HomePage/Men/3-pack Joggers.jpg" alt="Mountains" onclick="myFunction(this);"  height="100%" width="100%" style="object-fit: contain;">
+                            </div>
+                            <div class="p-2 bd-highlight" style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                              <img src="HomePage/Men/5x Plus Size Plain Forest Green T-Shirt (1).png" alt="Lights" onclick="myFunction(this);"  height="100%" width="100%" style="object-fit: contain;">
+                            </div> -->
+                          </div>
+                        </div>
                       </div>
                       <div class="p-2">
-                        <div class="d-flex flex-column">
-                          <div class="p-2">
-                            <h2><b>NASA Jacket</b></h2>
-                          </div>
-                          <div class="p-2">
-                            <div class="d-flex flex-row" style="margin-top: -35px; margin-left: -6px;">
-                              <div class="p-2"><img src="icon/star.png" alt="" width="12px"></div>
-                              <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
-                              <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
-                              <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
-                              <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                        <div class="d-flex flex-column" style="width: 360px;">
+                          <div class="ket" style="margin-left: -12px;">
+                            <div class="p-2" >
+                              <h2><b>NASA Jacket</b></h2>
+                            </div>
+                            <div class="p-2">
+                              <div class="d-flex flex-row" style="margin-top: -35px; margin-left: -6px;">
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                              </div>
                             </div>
                           </div>
-                          
                           <div class="row">
                             <div class="col-2" style="margin-top: 15px;">PRICE</div>
                             <div class="col-8" style="color: #006667; font-size: large; margin-top: 15px;"><b>IDR 425.000,-</b></div>
                           </div>
-                          <div class="row">
+                          <div class="row" style="margin-left: 0px;">
                             <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
                           </div>
-                          <div class="row">
+                          <div class="row" >
                             <div class="col-2">COLOR</div>
                             <div class="col-8">
                               <div style="border: black solid; width: 20px; height: 20px; background-color: black;"></div>
                             </div>
                           </div>
-                          <div class="row">
+                          <div class="row" style="margin-left: 0px;">
                             <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
                           </div>
                           <div class="row">
@@ -930,7 +963,7 @@
                               <input type="number" style="height: 20px; border-radius: 5px;">
                             </div>
                           </div>
-                          <div class="row">
+                          <div class="row" style="margin-left: 0px;">
                             <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
                           </div>
                           <div class="row">
@@ -941,7 +974,7 @@
                               <img src="icon/l.png" alt="" width="25px" height="25px">
                             </div>
                           </div>
-                          <div class="row">
+                          <div class="row" style="margin-left: 0px;">
                             <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
                           </div>
                           <div class="row">
@@ -951,13 +984,27 @@
                             <div class="col-9" style="margin-top: 15px;">
                               Crafted of a waterproof nylon shell durable enough to withstand anything from drizzle to downpour at a moment's notice.</div>
                           </div>
+                          <div class="d-flex flex-row-reverse bd-highlight" style="margin-top: 30px;">
+                            <div class="d-flex flex-column-reverse bd-highlight" >
+                              <div class="p-2 bd-highlight">
+                                <img type="button"src="icon/Group 115.png" alt="" width="40px" >
+                              </div>
+                              <div class="p-2 bd-highlight">
+                                <p style="color: white;">a</p>
+                              </div>
+                            </div>
+                            <div class="d-flex flex-column-reverse bd-highlight" >
+                              <div class="p-2 bd-highlight">
+                                <h5><b>IDR 425.000,-</b></h5>
+                              </div>
+                              <div class="p-2 bd-highlight">
+                                <small><b>Total</b></small>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="modal-footer">
-                    <h5><b>IDR 425.000,-</b></h5>
-                    <img type="button"src="icon/Group 115.png" alt="" width="50px">
                   </div>
                 </div>
               </div>
