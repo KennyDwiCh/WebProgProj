@@ -26,6 +26,42 @@
 
 }
 
+.card .multi-button {
+    z-index: 0;
+    position: absolute;
+    top: 2.25rem;
+    left: 2.25rem;
+    border-radius: 100%;
+    width: 0rem;
+    height: 0rem;
+    transform: translate(-50%, -50%);
+    transition: 0.25s cubic-bezier(0.25, 0, 0, 1);
+}
+
+.card .multi-button button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 100%;
+    background: var(--background);
+    color: var(--text);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: 0.25s cubic-bezier(0.25, 0, 0, 1);
+    box-shadow: 0 0 0rem -0.25rem var(--background);
+}
+
+ .card .multi-button button:hover {
+    background: var(--text);
+    color: var(--background);
+    box-shadow: 0 0 1rem -0.25rem var(--background);
+}
+
+ .card:hover .multi-button,  .card .multi-button:focus-within {
+    width: 2rem;
+    height: 2rem;
+}
+
 .slider img {
     width: 90%;
     margin: auto;
