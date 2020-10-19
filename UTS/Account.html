@@ -41,21 +41,24 @@
         
         <div class="middle"> 
             <div class= "row">  
-            </div>
             <div class= "col-xs-6"> 
-                <div class="profilez">
+            <div class="profilez">
                 <img src="newIcon/iconuser.png">
-                <p>Kelompok 8</p>
-                <p>Member since 2019</p>
-                <p>My Account</p>
-                <p>Order</p>
-                <p>Wishlist</p>
-                <p>History</p>
-                <p>Help & Support</p>
+                <p><button class ="link">Kelompok 8</button></p>
+                <p><button class ="link">Member since 2019</button></p>
+                <p><button class ="link">My Account</button></p>
+                <p><button class ="link">Order</button></p>
+                <p><button class ="link">Wishlist</button></p>
+                <p><button class ="link">History</button></p>
+                <p><button class ="link">Help & Support</button></p>
             </div>
             </div>
             <div class= "col-xs-6"> 
-            <div class= "profbox"> 
+            <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Profile')">Profile</button>
+                    <button class="tablinks" onclick="openCity(event, 'Address')">Address</button>
+            </div>
+            <div id="Profile" class= "tabcontent"> 
                 <label for="inputPassword5">Name</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Date of Birth</label>
@@ -68,13 +71,30 @@
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 </div>
             </div>  
-               
+            </div>
         </div>
+    </div>
+    <div class="rightbar" style="font-family: 'Amiko', sans-serif;">
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
 </body>
 </html>
