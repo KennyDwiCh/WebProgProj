@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.btn:focus {
+    box-shadow: none;
+}
+
 .atas{
     margin: 0;
     height: 60px;
@@ -150,6 +154,12 @@ li{
     background-color: white;
     color: #0A292B;
     font-size: small;
+}
+
+.category > a{
+border-color: #dcdcdc;
+border-radius: 33px;
+background-color: white; 
 }
 
 div.men, div.women, div.sale, div.trending, div.atas, div.mid > *{
