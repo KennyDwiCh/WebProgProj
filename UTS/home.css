@@ -2,8 +2,9 @@ html {
     scroll-behavior: smooth;
 }
 
-.btn:focus {
-    box-shadow: none;
+.btn:focus, input:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
 }
 
 .atas{
@@ -63,11 +64,6 @@ html {
     background: var(--text);
     color: var(--background);
     box-shadow: 0 0 1rem -0.25rem var(--background);
-}
-
- .card:hover .multi-button,  .card .multi-button:focus-within {
-    width: 2rem;
-    height: 2rem;
 }
 
 .slider img {
@@ -161,6 +157,7 @@ border-color: #dcdcdc;
 border-radius: 33px;
 background-color: white; 
 }
+
 
 div.men, div.women, div.sale, div.trending, div.atas, div.mid > *{
     font-family: 'Roboto', sans-serif;
