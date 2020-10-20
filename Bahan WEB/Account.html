@@ -45,19 +45,20 @@
             <div class="profilez">
                 <img src="newIcon/iconuser.png">
                 <p><button class ="link">Kelompok 8</button></p>
-                <p><button class ="link">Member since 2019</button></p>
-                <p><button class ="link">My Account</button></p>
-                <p><button class ="link">Order</button></p>
+                <p>Member since 2019</p>
+                <p><button class ="link" onclick="openTab(event,'Accs')">My Account</button></p>
+                <p><button class ="link" onclick="openTab(event,'ord')">Order</button></p>
                 <p><button class ="link">Wishlist</button></p>
                 <p><button class ="link">History</button></p>
                 <p><button class ="link">Help & Support</button></p>
             </div>
             </div>
-            <div class= "col-xs-6"> 
+            <div class= "col-xs-6">
+            <div id="Accs" class="tabcontents"> 
             <div class="tab">
                     <button class="tablinks" onclick="openCity(event, 'Profile')">Profile</button>
                     <button class="tablinks" onclick="openCity(event, 'Address')">Address</button>
-            </div>
+           </div>
             <div id="Profile" class= "tabcontent"> 
                 <label for="inputPassword5">Name</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
@@ -69,6 +70,7 @@
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Mobile Number</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                </div>
                 </div>
             </div>  
             </div>
@@ -94,6 +96,16 @@
           }
           document.getElementById(cityName).style.display = "block";
           evt.currentTarget.className += " active";
+        }
+        </script>
+        <script>
+            function openTab(evt, cityNames) {
+          var i, tabcontent;
+          tabcontent = document.getElementsByClassName("tabcontents");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          document.getElementById(cityNames).style.display = "block";
         }
         </script>
 </body>
