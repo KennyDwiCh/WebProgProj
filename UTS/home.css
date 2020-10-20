@@ -135,5 +135,8 @@
 
 div.men, div.women, div.sale, div.trending, div.atas, div.mid > *{
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+
 }
 
