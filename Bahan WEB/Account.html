@@ -40,17 +40,44 @@
         
         
         <div class="middle"> 
+            <div class="top">
+                <div class="d-flex bd-highlight mb-3">
+                    <div class="mr-auto p-2 bd-highlight">
+                        <img class="ponshop" src="Gambar/Logo/160059991334135361(1).png" width="157" height="157">
+                    </div>
+                    <div id="search" class="p-2 bd-highlight">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button"><img src="newIcon/icon Search.svg" width="20" height="20"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <img class="leftsearch" src="Icon/shopping-basket (1).png" type="button" width="25" height="25">
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <img class="leftsearch" src="Icon/bell.png" type="button" width="25" height="25">
+                    </div>
+                </div>
+                <div id="mini-category" class="d-flex justify-content-end">
+                    <button type="button" class="btn btn-link btn-sm" >Fashion</button>
+                    <button type="button" class="btn btn-link btn-sm">Electronic</button>
+                    <button type="button" class="btn btn-link btn-sm">Hobby</button>
+                    <button type="button" class="btn btn-link btn-sm">Other...</button>
+                </div>
+            </div>
             <div class= "row">  
             <div class= "col-xs-6"> 
             <div class="profilez">
                 <img src="newIcon/iconuser.png">
                 <p><button class ="link">Kelompok 8</button></p>
                 <p>Member since 2019</p>
-                <p><button class ="link" onclick="openTab(event,'Accs')">My Account</button></p>
-                <p><button class ="link" onclick="openTab(event,'ord')">Order</button></p>
-                <p><button class ="link">Wishlist</button></p>
-                <p><button class ="link">History</button></p>
-                <p><button class ="link">Help & Support</button></p>
+                <p><button class ="link" onclick="openTab(event,'Accs')" id="defaultOpen">My Account</button></p>
+                <p><button class ="link" onclick="openTab(event,'Ord')">Order</button></p>
+                <p><button class ="link" onclick="openTab(event,'Wish')">Wishlist</button></p>
+                <p><button class ="link" onclick="openTab(event,'Hist')">History</button></p>
+                <p><button class ="link" onclick="openTab(event,'Help')">Help & Support</button></p>
             </div>
             </div>
             <div class= "col-xs-6">
@@ -70,13 +97,95 @@
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Mobile Number</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            </div>
+            <div id = "Address" class="tabcontent">
+                <label for="inputPassword5">Address</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            </div>
+            </div>
+            <div id="Ord" class="tabcontents">
+                    <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'Basket')">Basket</button>
+                            <button class="tablinks" onclick="openCity(event, 'Is_Packed')">Is Packed</button>
+                            <button class="tablinks" onclick="openCity(event, 'Delivered')">Delivered</button>
+                            <button class="tablinks" onclick="openCity(event, 'Completed')">Completed</button>
+                   </div>
+                    <div id="Basket" class= "tabcontent"> 
+                        <div class="card1"> 
+                            <div class="card" style="width: 15.67rem;">
+                                <img class="border" src="Gambar/Acc/PH1.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="card1"> 
+                            <div class="card" style="width: 15.67rem;">
+                                <img class="border" src="Gambar/Acc/PH2.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Is_Packed" class= "tabcontent"> 
+                        <div class="card1"> 
+                            <div class="card" style="width: 15.67rem;">
+                                <img class="border" src="Gambar/Acc/PH3.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Delivered" class= "tabcontent"> 
+                        <div class="card1"> 
+                            <div class="card" style="width: 15.67rem;">
+                                <img class="border" src="Gambar/Acc/PH4.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Completed" class= "tabcontent"> 
+                        <div class="card1"> 
+                            <div class="card" style="width: 15.67rem;">
+                                <img class="border" src="Gambar/Acc/PH5.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div id="Wish" class="tabcontents">
+                <div class="tab">   
+                    <button class="tablinks"onclick="openCity(event, 'Wishs')">Wishlist</button>
                 </div>
+                <div id="Wishs" class= "tabcontent"> 
+                    <div class="card1"> 
+                        <div class="card" style="width: 15.67rem;">
+                            <img class="border" src="Gambar/Acc/PH6.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div id="Hist" class="tabcontents">
+                <div class="tab">   
+                    <button class="tablinks"onclick="openCity(event, 'History')"id="defaultOpen">History</button>
+                </div>
+                <div id="History" class= "tabcontent"> 
+                    <div class="card1"> 
+                        <div class="card" style="width: 15.67rem;">
+                            <img class="border" src="Gambar/Acc/PH7.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Help" class="tabcontents">
+                <div class="tab">   
+                    <button class="tablinks"onclick="openCity(event, 'History')"id="defaultOpen">Help & Support</button>
+                </div>
+                <div id="History" class= "tabcontent"> 
+                    <p>Where My Stuff?</p>
+                    <p>Find a Missing Package That Shows As Delivered</p>
+                    <p>Track Your Package</p>
+                    <p>Cancel Items Or Orders</p>
+                    <p>About Problem Sign In</p>
+                    <p>Return Items You've Ordered</p>
+                    <p>Check Status of your Refund</p>
+                    <p>Where My Stuff?</p>
+                </div>
+            </div>
             </div>  
             </div>
         </div>
-    </div>
-    <div class="rightbar" style="font-family: 'Amiko', sans-serif;">
     </div>
 
 
@@ -95,8 +204,9 @@
             tablinks[i].className = tablinks[i].className.replace(" active", "");
           }
           document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.className += " active";
+          evt.currentTarget.className += " active"; 
         }
+        document.getElementById("defaultOpen").click();
         </script>
         <script>
             function openTab(evt, cityNames) {
@@ -107,6 +217,7 @@
           }
           document.getElementById(cityNames).style.display = "block";
         }
+        document.getElementById("defaultOpen").click();
         </script>
 </body>
 </html>
