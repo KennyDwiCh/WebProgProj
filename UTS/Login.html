@@ -2,86 +2,115 @@
 <html lang="en">
 <head>
     <title>Ponshop</title>
+    <link rel="icon" href="/Gambar/Logo/160059991334135361 (1).png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="LandingPage.css">
-    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="landing">
-        <div class="leftbar">
-            <nav class="navbar navbar-light light-blue lighten-4">
-                
-                <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-                    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" >
-                    <span class="dark-blue-text" >
-                        <i class="fas fa-bars fa-1x" ></i>
-                    </span>
-                  <input class ="hamburger" type="image" src="Icon/icon hamburger.png" width="35" height="23">  
-                </button>
-                
-                <div class="collapse navbar-collapse show" id="navbarSupportedContent1">
-                  
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="LandingPage.html"><input class="side" type="image" src="newIcon/home.svg" width="36.53" height="38.79"><p>Home</p><span class="sr-only">(current)</span></a>
-                             
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="category.html"><input class="side" type="image" src="newIcon/category.svg" width="32" height="32"><p>Category</p></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><input class="side" type="image" src="newIcon/forme.svg" width="30.98" height="31.5"><p>For Me</p></a>
-                        </li>
-                    </ul>
-                </div>    
-              </nav> 
-        </div>
-        
-        
-        <div class="middle"> 
-            <div class="top">
-                <div class="d-flex bd-highlight mb-3">
-                    <div class="mr-auto p-2 bd-highlight">
-                        <img class="ponshop" src="Gambar/Logo/160059991334135361(1).png" width="157" height="157">
-                    </div>
-                    <div id="search" class="p-2 bd-highlight">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button"><img src="newIcon/icon Search.svg" width="20" height="20"></button>
+    <div class="page" style="background-color: #F4F9F9;">
+        <nav id="navbar_top">
+            <div id="navbar" class="atas" style="padding-left: 60px; background-color: white; width: auto; height: 90px;">
+              <div class="d-flex bd-highlight mb-3">
+                <div class="d-flex flex-row bd-highlight mb-3">
+                  <div class="p-2 bd-highlight">
+                    <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
+                      <img onclick="topFunction()" class="ponshop" src="HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
+                  </div>
+                  </div>
+                  <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
+                    <small>Category</small>
+                  </a>
+                  <div class="p-2 bd-highlight">
+                    <div class="d-flex flex-row bd-highlight mb-3">
+                      <div class="p-2 bd-highlight" style="margin-top: -17px;">
+                        <div id="search" class="p-2 bd-highlight" style="margin-top: 20px; padding-right: 100px;">
+                          <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="width: 44rem; height: 32px; border-color: #0A292B; border-right: none; ">
+                              <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="button" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
+                              </div>
+                          </div>
+                          <div class="d-flex flex-row bd-highlight mb-3" style="font-size: 10px; margin-top: -20px; margin-left: -7px; color: #687D7E;">
+                            <div class="p-2 bd-highlight">
+                              <a href="television" style="color: #687D7E;">Television</a>
                             </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="skincare" style="color: #687D7E;">Skin Care</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="menshirt" style="color: #687D7E;">Men Shirt</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="laptop" style="color: #687D7E;">Laptop</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="smartphone" style="color: #687D7E;">Smartphone</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="music" style="color: #687D7E;">Music</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="drone" style="color: #687D7E;">Drone</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="table" style="color: #687D7E;">Table</a>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                              <a href="womenbag" style="color: #687D7E;">Women Bag</a>
+                            </div>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="p-2 bd-highlight">
+                        
+                        <div class="p-2 bd-highlight">
+                          <img class="leftsearch" src="Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
                         </div>
+                      </div>
+                      <div class="p-2 bd-highlight">
+                        <div class="p-2 bd-highlight" >
+                          <img class="leftsearch" src="Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                        </div>
+                      </div>
                     </div>
-                    <div class="p-2 bd-highlight">
-                        <img class="leftsearch" src="Icon/shopping-basket (1).png" type="button" width="25" height="25">
+                  </div>
+                  <div class="vertical"></div>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
+                      Kelusi
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
+                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
+                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
                     </div>
-                    <div class="p-2 bd-highlight">
-                        <img class="leftsearch" src="Icon/bell.png" type="button" width="25" height="25">
-                    </div>
-                </div>
-                <div id="mini-category" class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-link btn-sm" >Fashion</button>
-                    <button type="button" class="btn btn-link btn-sm">Electronic</button>
-                    <button type="button" class="btn btn-link btn-sm">Hobby</button>
-                    <button type="button" class="btn btn-link btn-sm">Other...</button>
+                  </div>
+                  <div class="help" style="margin-top: 30px; margin-left: 20px;">
+                    <a href="" style="color: #0A292B;">
+                      <small >Help</small>
+                    </a>
+                  </div>
                 </div>
             </div>
+        </nav>     
+        <div class="mid"> 
             <div class= "row">  
             <div class= "col-xs-6">
             <div id="Accs" class="tabcontents"> 
-            <div class="tab">
+            <div class="tabs">
                     <button class="tablinks" onclick="openCity(event, 'Login')">Login</button>
                     <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
            </div>
-            <div id="Login" class= "tabcontent"> 
+            <div id="Login" class= "tabscontent"> 
                 <label for="inputPassword5">Username</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Password</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <button>Login</button>
             </div>
-            <div id = "Register" class="tabcontent">
+            <div id = "Register" class="tabscontent">
                 <label for="inputPassword5">Username</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Email Address</label>
@@ -105,6 +134,42 @@
             </div>
         </div>
     </div>
+</div>
+    <footer>
+        <div class="d-flex justify-content-center">
+          <div class="d-flex flex-column bd-highlight mb-3" >
+            <div class="p-2 bd-highlight" style="margin-bottom: -15px;">EXPLORE</div>
+            <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;"><small>About Us</small></a>
+            <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;"><small>Blog</small></a>
+            <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;"><small>Contact</small></a>
+          </div>
+          <div class="d-flex flex-column bd-highlight mb-3" style="margin-left: 160px; margin-right: 160px;">
+            <div class="p-2 bd-highlight"style="margin-bottom: -15px;">FOLLOW US</div>
+            <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;">
+              <img src="icon/facebook (1).png" width="15px" alt="">
+              <small>Facebook</small>
+            </a>
+            <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;">
+              <img src="icon/instagram (1).png" width="15px" alt="">
+              <small>Instagram</small>
+            </a>
+            <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;">
+              <img src="icon/twitter.png" width="15px" alt="">
+              <small>Twitter</small>
+            </a>
+          </div>
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight" style="margin-bottom: -15px;">DOWNLOAD</div>
+            <div class="p-2 bd-highlight" style="margin-bottom: -20px;">
+              <img src="Icon/barcode.png" width="50px" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="" style="color: #F4F9F9;"> Ponshop.com</a>
+        </div>
+      </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -113,7 +178,7 @@
     <script>
         function openCity(evt, cityName) {
           var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
+          tabcontent = document.getElementsByClassName("tabscontent");
           for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
           }
