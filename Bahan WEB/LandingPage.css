@@ -374,3 +374,6 @@ button.link {
     border-top: none;
     width: 800px;
   }
+  #Wish{
+    display: inline-block;
+  }
