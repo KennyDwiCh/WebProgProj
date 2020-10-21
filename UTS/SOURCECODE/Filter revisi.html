@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ponshop</title>
+    <link rel="icon" href="/Gambar/Logo/160059991334135361(1).png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+</head>
+<body>
+    <div class="page" style="background-color: #F4F9F9;">
+    <div class="atas" style="padding-left: 60px; background-color: white; width: auto; height: 90px;">
+      <div class="d-flex bd-highlight mb-3">
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <div class="p-2 bd-highlight">
+            <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
+              <img class="ponshop" src="HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
+          </div>
+          </div>
+          <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
+            <small>Category</small>
+          </a>
+          <div class="p-2 bd-highlight">
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="p-2 bd-highlight" style="margin-top: -17px;">
+                <div class="p-2 bd-highlight" style="margin-top: 20px; padding-right: 100px;">
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="autocomplete" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="width: 44rem; height: 32px; border-color: #0A292B; border-right: none; ">
+                      <div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button" onclick="" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
+                      </div>
+                  </div>
+                  <div class="d-flex flex-row bd-highlight mb-3" style="font-size: 10px; margin-top: -20px; margin-left: -7px;">
+                    <div class="p-2 bd-highlight">Television</div>
+                    <div class="p-2 bd-highlight">Skin Care</div>
+                    <div class="p-2 bd-highlight">Men Shirt</div>
+                    <div class="p-2 bd-highlight">Laptop</div>
+                    <div class="p-2 bd-highlight">Smartphone</div>
+                    <div class="p-2 bd-highlight">Music</div>
+                    <div class="p-2 bd-highlight">Drone</div>
+                    <div class="p-2 bd-highlight">Table</div>
+                    <div class="p-2 bd-highlight">Women Bag</div>
+                  </div>
+              </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="p-2 bd-highlight">
+                  <img class="leftsearch" src="Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="p-2 bd-highlight" >
+                  <img class="leftsearch" src="Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="vertical"></div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
+              Kelusi
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
+              <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
+              <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
+            </div>
+          </div>
+          <div class="help" style="margin-top: 30px; margin-left: 20px;">
+            <small >Help</small>
+          </div>
+        </div>
+
+    </div>
+    </div>
+	
+	
+	<div class="mid">
+        <div class="ongoing" style="margin-top: 10px;">
+            <div id="child-list" class="d-flex bd-highlight mb-3" >
+                <div id="welcome" class="mr-auto p-2 bd-highlight" ><h1><b>3 Results for "s"</b></h1></div>
+                <button type="button" class="btn btn-link btn-sm" style="color: #0A292B;" >Ongoing</button>
+                <button type="button" class="btn btn-link btn-sm" style="color: #0A292B;">Produck</button>
+                <button type="button" class="btn btn-link btn-sm" style="color: #0A292B;">Sale</button>
+                <button type="button" class="btn btn-link btn-sm" style="color: #0A292B;">Men</button>
+                <button type="button" class="btn btn-link btn-sm" style="color: #0A292B;">Women</button>
+            </div>			
+				
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Type Filter
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Trending</a>
+						<a class="dropdown-item" href="#">Sales</a>
+						<a class="dropdown-item" href="#">Newest</a>
+					</div>
+					<div class="container">
+						<span class="button-checkbox">
+							<button type="button" class="btn" data-color="default">Men</button>
+							<input type="checkbox" class="hidden"/>	
+						</span>
+						<span class="button-checkbox">
+							<button type="button" class="btn" data-color="default">Women</button>
+							<input type="checkbox" class="hidden"/>
+						</span>
+						<span class="button-checkbox">
+							<button type="button" class="btn" data-color="default">Tech</button>
+							<input type="checkbox" class="hidden"/>
+						</span>
+						<span class="button-checkbox">
+							<button type="button" class="btn" data-color="default">Interior</button>
+							<input type="checkbox" class="hidden"/>
+						</span>
+						<span class="button-checkbox">
+							<button type="button" class="btn" data-color="default">Music</button>
+							<input type="checkbox" class="hidden"/>
+						</span>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/jogger.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Jogger Swearpants</h5>
+			</div> 
+			<p class="card-text col mb-4">Midweight, 50% cotton/50% polyester fleece provides warmth without the weight<br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 120.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-button: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/sepatu.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Converse Urban Utility Chuck</h5>
+			</div> 
+			<p class="card-text col mb-4">Shaft measures approximately 4.75" from arch</p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 349.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-button: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/nasa.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>NASA Jacket</h5>
+			</div> 
+			<p class="card-text col mb-4">crafted of a waterproof nylon shell durable enough to withstand anything from drizzle <br/> to downpour at a moment's notice.</p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 425.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/jam.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>LeMannosh</h5>
+			</div> 
+			<p class="card-text col mb-4">Slim black plated stainless steel case; black dial with gold-tone hands and linear hour and minute markers<br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 149.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/topi.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Space Bucket Hat</h5>
+			</div> 
+			<p class="card-text col mb-4">The 100% cotton (Solid color) and 55%Cotton,45%Polyester (Camouflage color) make it, cozy and comfortable for the perfect fit.<br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 92.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/kaos.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Smooth T-Shirt</h5>
+			</div> 
+			<p class="card-text col mb-4">100% Cotton; Light Steel: 90% Cotton, 10% Polyester<br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 99.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/lengan.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Japan Long Sleeve</h5>
+			</div> 
+			<p class="card-text col mb-4"></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 142.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Men/kemeja.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Tropical Leaf Stripe</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 251.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/item.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>SweatyRock Crop Top</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 89.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/tas.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Shoulder Bag Rucksack</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 272.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/ijo.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Delicate Solid Slim</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 183.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/sepatu.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>High Heel Dress Pumps Shoes</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 529.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/jaket.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Denim Jacket</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 222.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/topi.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Tropical Hat</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 69.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/celana.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Timeless Oska</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 328.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<div class="mid card h-100" type="button" id="demo" style="margin-top: 40px; margin-left: 90px; margin-right: 90px; margin-bottom: 40px;">
+		<div class="grid-container" id="borderpicbutton">
+			<div> 
+			<img src="HomePage/Women/panjang.png">
+			</div>
+		<div class="mid-text">
+			<div class="udlite-focus-visible-target udlite-heading-md course-card--course-title--2f7tE col mb-4" style="font-family: 'Roboto', sans-serif;">
+				<h5>Crop Tops Autumn Winter</h5>
+			</div> 
+			<p class="card-text col mb-4"><br/></p>
+			<div class="left-text col mb-4">
+				<span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+					<span class="fa fa-star checkedstar"></span>
+				</span>
+			</div>
+			<div class="col mb-4" style="color: #006667;">
+				<h6><b>IDR 162.000,-</b></h6>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="Script Filter.js"></script>
+</body>
+</html>

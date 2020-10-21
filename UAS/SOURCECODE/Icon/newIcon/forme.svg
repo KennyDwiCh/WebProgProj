@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.085" height="41.5" viewBox="0 0 41.085 41.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a292b;
+        stroke: #0a292b;
+      }
+
+      .cls-2 {
+        filter: url(#forme);
+      }
+    </style>
+    <filter id="forme" x="0" y="0" width="41.085" height="41.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#0a292b" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="forme-2" data-name="forme" class="cls-1" d="M14.017,31.5a4,4,0,0,1-2.376-7.218l11.483-8.475a4,4,0,0,1,.853-.481A6.413,6.413,0,0,1,19.09,9.1V6.411a6.41,6.41,0,1,1,12.82,0V9.1a6.413,6.413,0,0,1-4.888,6.229,4,4,0,0,1,.853.481l11.482,8.475A4,4,0,0,1,36.983,31.5Z" transform="translate(-1.96 2)"/>
+  </g>
+</svg>
