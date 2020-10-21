@@ -166,3 +166,13 @@ div.men, div.women, div.sale, div.trending, div.atas, div.mid > *{
 
 }
 
+footer{
+    height: 170px;
+    background-color: #006667;
+    color: #F4F9F9;
+}
+
+
+.line{
+    border-top: #F4F9F9 2px solid;
+}
