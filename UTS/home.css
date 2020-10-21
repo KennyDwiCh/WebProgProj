@@ -153,13 +153,13 @@ li{
 }
 
 .category > a{
-border-color: #dcdcdc;
-border-radius: 33px;
-background-color: white; 
+    border-color: #dcdcdc;
+    border-radius: 33px;
+    background-color: white; 
 }
 
 
-div.men, div.women, div.sale, div.trending, div.atas, div.mid > *{
+div.men, div.women, div.sale, div.trending, div.atas, div.mid,div.listmodal > *{
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     text-justify: inter-word;
@@ -172,10 +172,10 @@ footer{
     color: #F4F9F9;
 }
 
-
 .line{
     border-top: #F4F9F9 2px solid;
 }
+
 .tabs {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -210,4 +210,4 @@ footer{
   button.link { 
     background:none;
     border:none; 
-}
+  }

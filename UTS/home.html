@@ -1061,7 +1061,7 @@
           <h3 style="margin-bottom: 20px;">Trending</h3>
 
           <div class="card-deck">
-            <div class="card" style="border-radius: 33px;">
+            <div type="button" data-toggle="modal" data-target="#whitebeanie" class="card" style="border-radius: 33px;">
               <img src="HomePage/Trending/beanie.png" class="card-img-top" alt="..." style="border-top-right-radius: 33px; border-top-left-radius: 33px;">
               <div class="card-body">
                 <h5 class="card-title">White Beanie</h5>
@@ -1072,6 +1072,106 @@
                   during the cold weather.
                 </p>
                 <p style="color: #006667; font-size: large;"><b>IDR 69.000</b></p>  
+              </div>
+            </div>
+            <div class="modal fade" id="whitebeanie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-radius: 33px;">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content" style="width: 800px; margin-left: -150px; border-radius: 33px;">
+                  <div class="modal-body">
+                    <div class="d-inline-flex p-2">
+                      <div class="p-2" style="margin-right: 25px;">
+                        <div class="gambar">
+                          <div class="card" style="--background:#F4F9F9; --text:white; border-radius: 33px;">
+                            <div class="multi-button">
+                              <button> <img src="icon/160325485471381259.png" alt="" width="25px"></button>
+                            </div>
+                            <img src="HomePage/Trending/beanie.png" id="expandedImg" style="width: 250px; border-top-left-radius: 33px; border-top-right-radius: 33px;" >
+                          </div>
+                          <div id="tengah" class="d-flex flex-row bd-highlight mb-3">
+                            <div class="p-2 bd-highlight"  style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                              <img src="HomePage/Trending/beanie.png" height="100%" width="100%" style="object-fit: contain;" alt="Nature" onclick="myFunction(this);">
+                            </div>
+                            <!-- <div class="p-2 bd-highlight" style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                              <img src="HomePage/advantages playing music/alat music/acoustic guitar/81B313JGAUL._AC_SL1500_.jpg" alt="Mountains" onclick="myFunction(this);"  height="100%" width="100%" style="object-fit: contain;">
+                            </div>
+                            <div class="p-2 bd-highlight" style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                              <img src="HomePage/advantages playing music/alat music/acoustic guitar/918n11n2mSL._AC_SL1500_.jpg" alt="Lights" onclick="myFunction(this);"  height="100%" width="100%" style="object-fit: contain;">
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                      <div class="p-2" style="width: 400px;">
+                        <div class="d-flex flex-column">
+                          <div class="ket" style="margin-left: -12px;">
+                            <div class="p-2" >
+                              <h2><b>White Beanie</b></h2>
+                            </div>
+                            <div class="p-2">
+                              <div class="d-flex flex-row" style="margin-top: -35px; margin-left: -6px;">
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2" style="margin-top: 15px;">PRICE</div>
+                            <div class="col-8" style="color: #006667; font-size: large; margin-top: 15px;"><b>IDR 69.000,-</b></div>
+                          </div>
+                          <div class="row" style="margin-left: 0px;">
+                            <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
+                          </div>
+                          <div class="row" >
+                            <div class="col-2">COLOR</div>
+                            <div class="col-8">
+                              <div style="border: #DCDCDC 1px solid; width: 20px; height: 20px; background-color: white;"></div>
+                            </div>
+                          </div>
+                          <div class="row" style="margin-left: 0px;">
+                            <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2">QTY</div>
+                            <div class="col-8" >
+                              <input value="1" type="number" value="1" style="height: 20px; border-radius: 5px; width: 40px; border-color: #DCDCDC; border-style: solid;">
+                            </div>
+                          </div>
+                          <div class="row" style="margin-left: 0px;">
+                            <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
+                          </div>
+          
+                          <div class="row">
+                            <div class="col-2" style="margin-top: 15px;">DESC</div>
+                          </div>
+                          <div class="row">
+                            <div class="col-9" style="margin-top: 15px;">
+                              Premium Material, Classic Unisex Solid Color Warm Knitted White Beanies for Women Men. Soft, comfortable, friendly to skin, will give the best care to you during the cold weather.</div>
+                          </div>
+                          <div class="d-flex flex-row-reverse bd-highlight" >
+                            <div class="d-flex flex-column-reverse bd-highlight" >
+                              <div class="p-2 bd-highlight">
+                                <img type="button"src="icon/Group 115.png" alt="" width="40px" >
+                              </div>
+                              <!-- <div class="p-2 bd-highlight">
+                                <p style="color: white;">a</p>
+                              </div> -->
+                            </div>
+                            <div class="d-flex flex-column-reverse bd-highlight" >
+                              <div class="p-2 bd-highlight">
+                                <h5 style="color: #006667;"><b>IDR 69.0000,-</b></h5>
+                              </div>
+                              <div class="p-2 bd-highlight " >
+                                <small ><b>Total</b></small>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="card" style="border-radius: 33px;">
@@ -1121,7 +1221,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="card-group">
-                      <div class="card">
+                      <div class="card" type="button" data-toggle="modal" data-target="#greentotebag">
                         <img src="HomePage/sale/Fashion/green.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Green Tote Bag</h5>
@@ -1143,6 +1243,7 @@
                           <p style="color: #006667; font-size: large;"><b>IDR 29.000,-</b></p>
                           </div>
                       </div>
+                      
                       <div class="card">
                         <img src="HomePage/sale/Fashion/white.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -1208,6 +1309,114 @@
                           </div>
                           <p style="color: #006667; font-size: large;"><b>IDR 106.800,-</b></p>
                           </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="greentotebag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="border-radius: 33px;">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content" style="width: 800px; margin-left: -150px; border-radius: 33px;">
+                        <div class="modal-body">
+                          <div class="d-inline-flex p-2">
+                            <div class="p-2" style="margin-right: 25px;">
+                              <div class="gambar">
+                                <div class="card" style="--background:#F4F9F9; --text:white; border-radius: 33px;">
+                                  <div class="multi-button">
+                                    <button> <img src="icon/160325485471381259.png" alt="" width="25px"></button>
+                                  </div>
+                                  <img src="HomePage/sale/Fashion/green.png" id="expandedImg" style="width: 250px; border-top-left-radius: 33px; border-top-right-radius: 33px;" >
+                                </div>
+                                <div id="tengah" class="d-flex flex-row bd-highlight mb-3">
+                                  <div class="p-2 bd-highlight"  style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                                    <img src="HomePage/sale/Fashion/green.png" height="100%" width="100%" style="object-fit: contain;" alt="Nature" onclick="myFunction(this);">
+                                  </div>
+                                  <!-- <div class="p-2 bd-highlight" style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                                    <img src="HomePage/advantages playing music/alat music/acoustic guitar/81B313JGAUL._AC_SL1500_.jpg" alt="Mountains" onclick="myFunction(this);"  height="100%" width="100%" style="object-fit: contain;">
+                                  </div>
+                                  <div class="p-2 bd-highlight" style="height: 100px; width: 100px; border: #DCDCDC solid 1px;">
+                                    <img src="HomePage/advantages playing music/alat music/acoustic guitar/918n11n2mSL._AC_SL1500_.jpg" alt="Lights" onclick="myFunction(this);"  height="100%" width="100%" style="object-fit: contain;">
+                                  </div> -->
+                                </div>
+                              </div>
+                            </div>
+                            <div class="p-2" style="width: 400px;">
+                              <div class="d-flex flex-column">
+                                <div class="ket" style="margin-left: -12px;">
+                                  <div class="p-2" >
+                                    <h2><b>Green Tote Bag</b></h2>
+                                  </div>
+                                  <div class="p-2">
+                                    <div class="d-flex flex-row" style="margin-top: -35px; margin-left: -6px;">
+                                      <div class="p-2"><img src="icon/star.png" alt="" width="12px"></div>
+                                      <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                      <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                      <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                      <div class="p-2"><img src="icon/star.png" alt="" width="12px" style="margin-left: -10px;"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-2" style="color: #687D7E; margin-top: 15px; font-size: 9px;">List Price</div>
+                                  <div class="col-8" style="color: #687D7E; font-size: large; margin-top: 15px; font-size: 10px;"><strike><b>IDR 40.000,-</b></strike></div>
+                                </div>
+                                <div class="row" style="margin-top: -15px; margin-bottom: -15px;">
+                                  <div class="col-2" style="margin-top: 15px;">PRICE</div>
+                                  <div class="col-8" style="color: #006667; font-size: large; margin-top: 15px;"><b>IDR 29.000,-</b></div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-2" style="color: #687D7E; margin-top: 15px; font-size: 10px;">Save</div>
+                                  <div class="col-8" style="color: #687d7e; font-size: large; margin-top: 15px; font-size: 10px;"><b>IDR 11.000,-</b></div>
+                                </div>
+                                <div class="row" style="margin-left: 0px;">
+                                  <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
+                                </div>
+                                <div class="row" >
+                                  <div class="col-2">COLOR</div>
+                                  <div class="col-8">
+                                    <div style="border: #DCDCDC 1px solid; width: 20px; height: 20px; background-color: #B7E2C0;"></div>
+                                  </div>
+                                </div>
+                                <div class="row" style="margin-left: 0px;">
+                                  <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-2">QTY</div>
+                                  <div class="col-8" >
+                                    <input value="1" type="number" value="1" style="height: 20px; border-radius: 5px; width: 40px; border-color: #DCDCDC; border-style: solid;">
+                                  </div>
+                                </div>
+                                <div class="row" style="margin-left: 0px;">
+                                  <div class="col-9" style="border:none; width: 500px; height: 0.1px; background-color: #DCDCDC; margin-bottom: 10px; margin-top: 10px;"></div>
+                                </div>
+                
+                                <div class="row">
+                                  <div class="col-2" style="margin-top: 15px;">DESC</div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-9" style="margin-top: 15px;">
+                                    100% Premium 18 oz. washed soft cotton canvas</div>
+                                </div>
+                                <div class="d-flex flex-row-reverse bd-highlight" >
+                                  <div class="d-flex flex-column-reverse bd-highlight" >
+                                    <div class="p-2 bd-highlight">
+                                      <img type="button"src="icon/Group 115.png" alt="" width="40px" >
+                                    </div>
+                                    <!-- <div class="p-2 bd-highlight">
+                                      <p style="color: white;">a</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="d-flex flex-column-reverse bd-highlight" >
+                                    <div class="p-2 bd-highlight">
+                                      <h5 style="color: #006667;"><b>IDR 29.0000,-</b></h5>
+                                    </div>
+                                    <div class="p-2 bd-highlight " >
+                                      <small ><b>Total</b></small>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -2043,12 +2252,11 @@
       <a href="" style="color: #F4F9F9;"> Ponshop.com</a>
     </div>
   </footer>
-    
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="home.js"></script>
 </body>
+
 </html>
