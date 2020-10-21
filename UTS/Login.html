@@ -68,26 +68,27 @@
                 </div>
             </div>
             <div class= "row">  
-            <div class= "col-xs-6"> 
-            <div class="profilez">
-                <img src="newIcon/iconuser.png">
-                <p><button class ="link">Kelompok 8</button></p>
-                <p>Member since 2019</p>
-                <p><button class ="link" onclick="openTab(event,'Accs')" id="defaultOpen">My Account</button></p>
-                <p><button class ="link" onclick="openTab(event,'Ord')">Order</button></p>
-                <p><button class ="link" onclick="openTab(event,'Wish')">Wishlist</button></p>
-                <p><button class ="link" onclick="openTab(event,'Hist')">History</button></p>
-                <p><button class ="link" onclick="openTab(event,'Help')">Help & Support</button></p>
-            </div>
-            </div>
             <div class= "col-xs-6">
             <div id="Accs" class="tabcontents"> 
             <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'Profile')">Profile</button>
-                    <button class="tablinks" onclick="openCity(event, 'Address')">Address</button>
+                    <button class="tablinks" onclick="openCity(event, 'Login')">Login</button>
+                    <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
            </div>
-            <div id="Profile" class= "tabcontent"> 
-                <label for="inputPassword5">Name</label>
+            <div id="Login" class= "tabcontent"> 
+                <label for="inputPassword5">Username</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <label for="inputPassword5">Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <button>Login</button>
+            </div>
+            <div id = "Register" class="tabcontent">
+                <label for="inputPassword5">Username</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <label for="inputPassword5">Email Address</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <label for="inputPassword5">Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <label for="inputPassword5">Repeat Password</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Date of Birth</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
@@ -97,91 +98,8 @@
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Mobile Number</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <button>Register</button>
             </div>
-            <div id = "Address" class="tabcontent">
-                <label for="inputPassword5">Address</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-            </div>
-            </div>
-            <div id="Ord" class="tabcontents">
-                    <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'Basket')">Basket</button>
-                            <button class="tablinks" onclick="openCity(event, 'Is_Packed')">Is Packed</button>
-                            <button class="tablinks" onclick="openCity(event, 'Delivered')">Delivered</button>
-                            <button class="tablinks" onclick="openCity(event, 'Completed')">Completed</button>
-                   </div>
-                    <div id="Basket" class= "tabcontent"> 
-                        <div class="card1"> 
-                            <div class="card" style="width: 15.67rem;">
-                                <img class="border" src="Gambar/Acc/PH1.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                        <div class="card1"> 
-                            <div class="card" style="width: 15.67rem;">
-                                <img class="border" src="Gambar/Acc/PH2.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Is_Packed" class= "tabcontent"> 
-                        <div class="card1"> 
-                            <div class="card" style="width: 15.67rem;">
-                                <img class="border" src="Gambar/Acc/PH3.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Delivered" class= "tabcontent"> 
-                        <div class="card1"> 
-                            <div class="card" style="width: 15.67rem;">
-                                <img class="border" src="Gambar/Acc/PH4.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="Completed" class= "tabcontent"> 
-                        <div class="card1"> 
-                            <div class="card" style="width: 15.67rem;">
-                                <img class="border" src="Gambar/Acc/PH5.png" class="card-img-top" alt="...">
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div id="Wish" class="tabcontents">
-                <div class="tab">   
-                    <button class="tablinks"onclick="openCity(event, 'Wishs')">Wishlist</button>
-                </div>
-                <div id="Wishs" class= "tabcontent"> 
-                    <div class="card1"> 
-                        <div class="card" style="width: 15.67rem;">
-                            <img class="border" src="Gambar/Acc/PH6.png" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="Hist" class="tabcontents">
-                <div class="tab">   
-                    <button class="tablinks"onclick="openCity(event, 'History')"id="defaultOpen">History</button>
-                </div>
-                <div id="History" class= "tabcontent"> 
-                    <div class="card1"> 
-                        <div class="card" style="width: 15.67rem;">
-                            <img class="border" src="Gambar/Acc/PH7.png" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="Help" class="tabcontents">
-                <div class="tab">   
-                    <button class="tablinks"onclick="openCity(event, 'Helps')"id="defaultOpen">Help & Support</button>
-                </div>
-                <div id="Helps" class= "tabcontent"> 
-                    <p>Where My Stuff?</p>
-                    <p>Find a Missing Package That Shows As Delivered</p>
-                    <p>Track Your Package</p>
-                    <p>Cancel Items Or Orders</p>
-                    <p>About Problem Sign In</p>
-                    <p>Return Items You've Ordered</p>
-                    <p>Check Status of your Refund</p>
-                    <p>Where My Stuff?</p>
-                </div>
             </div>
             </div>  
             </div>
