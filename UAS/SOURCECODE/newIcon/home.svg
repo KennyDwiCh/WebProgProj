@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.564" height="48.317" viewBox="0 0 46.564 48.317">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a292b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0a292b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0.3px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        filter: url(#Union_6);
+      }
+    </style>
+    <filter id="Union_6" x="0" y="0" width="46.564" height="48.317" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#0a292b" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="home" transform="translate(-87.483 -400.183)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 87.48, 400.18)">
+      <path id="Union_6-2" data-name="Union 6" class="cls-1" d="M7.5,38.5A3.5,3.5,0,0,1,4,35V17a3.5,3.5,0,0,1,1.7-3H3.237a1,1,0,0,1-.563-1.826L19.936.385a1,1,0,0,1,1.128,0L38.326,12.174A1,1,0,0,1,37.762,14H35.3A3.5,3.5,0,0,1,37,17V35a3.5,3.5,0,0,1-3.5,3.5Z" transform="translate(5.78 1.82)"/>
+    </g>
+    <g id="Rectangle_49" data-name="Rectangle 49" class="cls-2" transform="translate(109 426)">
+      <rect class="cls-3" width="7" height="15"/>
+      <rect class="cls-4" x="0.15" y="0.15" width="6.7" height="14.7"/>
+    </g>
+  </g>
+</svg>
