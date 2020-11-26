@@ -1,0 +1,74 @@
+[
+ {
+  "Image": "kategori/PC/Monitor.jpg", 
+  "Name": "AORUS FI27Q 27\" 165Hz 1440P FreeSync IPS Gaming Monitor", 
+  "Description": "AORUS FI27Q 27\" 165Hz 1440P FreeSync IPS Gaming Monitor, Exclusive Built-in ANC, 2560x1440 Display, 1 ms Response Time, HDR, 95% DCI-P3, 1x Display Port 1.2, 2X HDMI 2.0, 2X USB 3.0.", 
+  "Color": "B", 
+  "List Price": 6999000, 
+  "Category": "PC", 
+  "Filter": "Normal", 
+  "Discount": 0.0, 
+  "Price": 6999000, 
+  "Save": 0
+ }, 
+ {
+  "Image": "kategori/PC/Laptop.jpg", 
+  "Name": "Acer Predator Helios 300 Gaming Laptop", 
+  "Description": "Acer Predator Helios 300 Gaming Laptop, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6\" Full HD 144Hz 3ms IPS Display, 16GB Dual-Channel DDR4, 512GB NVMe SSD, Wi-Fi 6, RGB Keyboard.", 
+  "Color": "B", 
+  "List Price": 15999000, 
+  "Category": "PC", 
+  "Filter": "Normal", 
+  "Discount": 0.0, 
+  "Price": 15999000, 
+  "Save": 0
+ }, 
+ {
+  "Image": "HomePage/furniture, tech news/Tech News/omen/71cXpbx4L3L._AC_SL1500_.jpg", 
+  "Name": "HP - OMEN 15-EK0013DX 15.6\" Gaming Laptop 10th Gen Core i7-10750H 16GB RAM- NVIDIA GeForce RTX 2060", 
+  "Description": "Maximize performance and keep your system cool even under pressure. 3-sided narrow bezel display with high resolution and refresh rate. Provides optimization of thermal, performance and acoustic. Creates extra headroom for CPU and GPUto optimize in-game FPS. The keys in backlit keyboard are illuminated for ease of viewing in dim or completely dark conditions. Bang and Olufsen audio technology delivers clear, crisp and more straight-forward sound for your PC. Bluetooth connection allows you to connect wirelessly to other devices to share and transfer files. SSDs provide a huge performance advantage they\u2019re faster to start up, faster to shut down, and faster to transfer data.", 
+  "Color": "None", 
+  "List Price": 23999000, 
+  "Category": "PC", 
+  "Filter": "Newest", 
+  "Discount": 22.92, 
+  "Price": 18499000, 
+  "Save": 5500000
+ }, 
+ {
+  "Image": "kategori/PC/Desktop.jpg", 
+  "Name": "MSI MEG Trident X 10SD-864US SFF Gaming Desktop", 
+  "Description": "MSI MEG Trident X 10SD-864US SFF Gaming Desktop, Intel Core i7-10700KF, GeForce RTX 2070 Super, 32GB Memory, 1TB SSD, WiFi 6, USB Type-C, Thunderbolt 3, Windows 10 Home.", 
+  "Color": "B", 
+  "List Price": 25499000, 
+  "Category": "PC", 
+  "Filter": "Normal", 
+  "Discount": 0.0, 
+  "Price": 25499000, 
+  "Save": 0
+ }, 
+ {
+  "Image": "HomePage/furniture, tech news/Tech News/macbook/71pC69I3lzL._AC_SL1500_.jpg", 
+  "Name": "New Apple MacBook Pro (16-inch, 16GB RAM, 512GB Storage, 2.6GHz Intel Core i7) - Space Gray", 
+  "Description": "MacBook Pro elevates the notebook to a whole new level of performance and portability. Wherever your ideas take you, you\u2019ll get there faster than ever with high\u2011performance processors and memory, advanced graphics, blazing\u2011fast storage, and more all in a compact 3-pound package. With up to a 10th-generation quad-core Intel Core i7 processor, the 13-inch MacBook Pro is ready to take on even the toughest tasks. So when you\u2019re powering through pro\u2011level processing jobs like compiling code, layering multiple tracks in a music composition, or encoding video, you\u2019ll get everything done faster. And for the first time, you can configure 32GB of memory on a 13-inch MacBook Pro for up to 50 percent faster performance when you\u2019re applying edits to gigapixel images in Photoshop, the capacity to load more virtual instruments, and incredible fluidity when you\u2019re running multiple virtual machines. The available 10th-generation Intel processor with powerful new Iris Plus graphics delivers up to 80 percent faster graphics performance than the previous generation.", 
+  "Color": "None", 
+  "List Price": 33599000, 
+  "Category": "PC", 
+  "Filter": "Newest", 
+  "Discount": 4.46, 
+  "Price": 32099000, 
+  "Save": 1500000
+ }, 
+ {
+  "Image": "HomePage/furniture, tech news/Tech News/s20/61eqsQ1P4ZL._AC_SL1500_.jpg", 
+  "Name": "Samsung Galaxy S20+ (8GB/128GB) Dual SIM, 6.7\" Display - Cosmic Black", 
+  "Description": "Meet Galaxy S20, S20+, and S20 Ultra. With revolutionary 8K Video Snap changing how you capture not just video, but photography. Add in Samsung Knox security, an intelligent battery, powerful processor, and massive storage and the Galaxy S20 series unveils a whole new world for mobile. It starts with 10x Hybrid Optic Zoom enabled by a revolutionary folded lens and high resolution image sensor. Couple that with Super Resolution Zoom enhanced by camera AI to get close up to the action and capture moments you might have missed. The larger sensor and anti-rolling stabilizer balances camera movement so your footage won't turn out blurry and unstable, but super smooth. We created a secure processor dedicated to protecting your PIN, password, pattern, and Blockchain Private Key. Combined with the Knox platform, security is infused into every part of your phone, from hardware to software. So private data stays private.", 
+  "Color": "None", 
+  "List Price": 16999000, 
+  "Category": "PC", 
+  "Filter": "Newest", 
+  "Discount": 29.41, 
+  "Price": 11999000, 
+  "Save": 5000000
+ }
+]
