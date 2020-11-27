@@ -1,7 +1,7 @@
 const { json } = require('body-parser');
 const { error } = require('console');
 const express = require('express');
-const session = require('express-session');
+const sess = require('express-session');
 const mongoose = require("mongoose");
 const acc = require('./acc');
 
