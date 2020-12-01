@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const acc = require('./acc');
 
 mongoose.connect(
-    "mongodb://127.0.0.1:27017/MongoDB",
+    "mongodb://127.0.0.1:27017/Account-ponshop",
     {useNewUrlParser:true}
 )
 const db = mongoose.connection;
