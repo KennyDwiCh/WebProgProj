@@ -1,0 +1,26 @@
+{    
+    "furnitures":   [
+    {
+        "Image": "HomePage/furniture, tech news/Furniture/Photo-Oct-07-3-44-12-PM-768x1152.jpg", 
+        "Name": "PILLOW COMBINATIONS FOR EVERY COUCH COLOR", 
+        "Description": "Throw pillows are loved by many and loathed by some (cough. cough. hubbies). But whether you love or loath them there\u2019s just no way around it\u2026 they\u2019re an essential part of every room! Well, minus the bathroom and kitchen I suppose. Living rooms, family rooms, bedrooms, and entryways provide the perfect backdrop for displaying these pretty cloth squares. Pillows add dimension, color, and texture to a room and also give personality to the space.", 
+        "Color": "None", 
+        "HargaList": "IDR 10.350.000,-",
+        "ListPrice": 10350000, 
+        "Category": "Furniture", 
+        "Filter": "Newest", 
+        "Discount": 22.0
+    }, 
+    {
+        "Image": "HomePage/furniture, tech news/Furniture/This Toronto Home is the Definition of Cozy Chic.jpg", 
+        "Name": "Toronto Home is the Definition of Cozy Chic", 
+        "Description": "Sometimes, buying a house in Toronto can be straight-up weird. The homeowner, a civil litigation lawyer, learned this when she and her husband, a consultant, started looking for a home in Wychwood in 2017. They\u2019d been searching for months when they spotted a rickety For Sale sign. Strangely, the house wasn\u2019t listed online. When they reached out, they learned that the seller an older man was a bit peculiar.", 
+        "Color": "None", 
+        "ListPrice": 8999000, 
+        "HargaList": "IDR 8.999.000,-",
+        "Category": "Furniture", 
+        "Filter": "Newest", 
+        "Discount": 28.0
+    }
+    ]
+}
