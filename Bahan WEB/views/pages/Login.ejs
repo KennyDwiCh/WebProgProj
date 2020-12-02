@@ -106,29 +106,31 @@
            </div>
             <div id="Login" class= "tabscontent"> 
                 <label for="inputPassword5">Username</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Password</label>
                 <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <button>Login</button>
             </div>
             <div id = "Register" class="tabscontent">
+              <form action="/register" method="POST">
                 <label for="inputPassword5">Username</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" name ="username"id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Email Address</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" name="email" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Password</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="password" name = "password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Repeat Password</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="password" name = "reppass"id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
                 <label for="inputPassword5">Date of Birth</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" name = "dateof" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Gender</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" name = "gender" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Address</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="text" name = "address" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Mobile Number</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-                <button>Register</button>
+                <input type="text" name="mobnum" id="inputPassword5" class="form-control">
+                <input type="submit" value="register">
+              </form>
             </div>
             </div>
             </div>  

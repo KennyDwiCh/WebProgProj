@@ -1,5 +1,5 @@
-{ "name" : "admin",
-  "username": "admin",
+[
+{ "username": "admin",
   "password": "admin",
   "email" : "admin",
   "reppass" : "admin",
@@ -8,3 +8,4 @@
   "address" : "admin",
   "mobnum" : "admin"
 }
+]

@@ -1,7 +1,7 @@
 const { json } = require('body-parser');
 const { error } = require('console');
 const express = require('express');
-const sess = require('express-session');
+const session = require('express-session');
 const mongoose = require("mongoose");
 const acc = require('./acc');
 
@@ -43,7 +43,6 @@ Router.get('/register',async(req,res)=>{
 });
 
 Router.post('/register',async(req,res)=>{
-    const name = req.body.name;
     const username = req.body.username;
     const email = req.body.email;
     const password = req.body.password;
@@ -54,8 +53,7 @@ Router.post('/register',async(req,res)=>{
     const mobnum = req.body.mobnum;
     
     var acc_insert = new acc({
-        name : name,
-        usernam : username,
+        username : username,
         email : email,
         password : password,
         reppass : reppass,
