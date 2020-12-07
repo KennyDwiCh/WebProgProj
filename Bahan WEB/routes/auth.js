@@ -3,7 +3,7 @@ const { error } = require('console');
 const express = require('express');
 const session = require('express-session');
 const mongoose = require("mongoose");
-const acc = require('./acc');
+const acc = require('../models/User');
 
 mongoose.connect(
     "mongodb://127.0.0.1:27017/Account-ponshop",
@@ -13,33 +13,29 @@ const db = mongoose.connection;
 db.once("open",()=>{
     console.log("Succses connect ke monggose")
 })
-const account = require('./acc')
+const account = require('../models/User')
 const Router = express.Router();
 
-Router.get('/Login', async (req,res)=>{
-    if (req.session.user){
-        res.redirect('/');
-    }else{
-        res.render('/Login', {layout:false});
-    }
+Router.get('/login', async (req,res)=>{
+        res.render('pages/Login');
 });
 
-Router.post('/Login', async (req,res)=>{
+Router.post('/login', async (req,res)=>{
     
     const username = req.body.username;
     const password = req.body.password;
 
     acc.find({"username": username, "password": password}).exec((error,data)=>{
-        if(error) console.log(JSON.stringify(error));
+        if(error) console.log(j son.stringify(error));
         if(data){
-            console.log("Find: "+JSON.stringify(data));
+            console.log("Find: "+json.stringify(data));
             req.session.user = username;
             res.redirect('/');
         }
     });
 });
 Router.get('/register',async(req,res)=>{
-    res.render('register',{layout:false});
+    res.render('pages/Login',{layout:false});
 });
 
 Router.post('/register',async(req,res)=>{
@@ -65,12 +61,12 @@ Router.post('/register',async(req,res)=>{
     acc_insert.save((err,product) => {
         if (err) console.log(err);
         console.log(JSON.stringify(product))
-        res.redirect('/Login');
+        res.redirect('/login');
     });
 });
 
 Router.get('/logout',async(req,res)=>{
     req.session.destroy();
-    res.redirect('/Login');
+    res.redirect('/login');
 });
 module.exports = Router;

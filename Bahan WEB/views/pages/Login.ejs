@@ -4,8 +4,7 @@
     <title>Ponshop</title>
     <link rel="icon" href="/Gambar/Logo/160059991334135361 (1).png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="home.css">
-    <link rel="script" href="Auth.js">
+    <link rel="stylesheet" href="/css/home.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -80,12 +79,13 @@
                   <div class="vertical"></div>
                   <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
-                      Kelusi
+                      Admin
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
                       <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
                       <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
+                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Logout</a>
                     </div>
                   </div>
                   <div class="help" style="margin-top: 30px; margin-left: 20px;">
@@ -104,23 +104,25 @@
                     <button class="tablinks" onclick="openCity(event, 'Login')">Login</button>
                     <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
            </div>
-            <div id="Login" class= "tabscontent"> 
+            <div id="Login" class= "tabscontent">
+              <form action="/login" method="post"> 
                 <label for="inputPassword5">Username</label>
-                <input type="text" id="inputPassword5" class="form-control">
+                <input type="text" name= "username" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Password</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="password" name= "password" id="inputPassword5" class="form-control">
                 <button>Login</button>
+              </form>
             </div>
             <div id = "Register" class="tabscontent">
-              <form action="/register" method="POST">
+              <form action="/register" method="post">
                 <label for="inputPassword5">Username</label>
                 <input type="text" name ="username"id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Email Address</label>
                 <input type="text" name="email" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Password</label>
-                <input type="password" name = "password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="password" name = "password" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Repeat Password</label>
-                <input type="password" name = "reppass"id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                <input type="password" name = "reppass"id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Date of Birth</label>
                 <input type="text" name = "dateof" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Gender</label>
@@ -129,7 +131,7 @@
                 <input type="text" name = "address" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Mobile Number</label>
                 <input type="text" name="mobnum" id="inputPassword5" class="form-control">
-                <input type="submit" value="register">
+                <input type="submit" value="Register">
               </form>
             </div>
             </div>
