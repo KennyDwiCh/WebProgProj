@@ -1,0 +1,32 @@
+{
+
+    "tv":   
+    [
+        {
+            "ID":"tv1",
+            "Image": "HomePage/sale/Electronic/tv.png", 
+            "Name": "55-inch Class Crystal UHD", 
+            "Description": "Crystal processor 4K: This ultra-fast processor transforms everything you watch into stunning 4K.", 
+            "Color": "B", 
+            "List Price": 8200000, 
+            "Category": "Electronic", 
+            "Filter": "Sale", 
+            "Discount": 8.0, 
+            "Price": 7500000, 
+            "Save": 700000
+        }, 
+        {
+            "ID":"tv2",
+            "Image": "kategori/Electronic/TV.jpg", 
+            "Name": "TCL 32\" 3 SMART TV", 
+            "Description": "Smart functionality delivers all your favorite content with over 500,000 movies and TV episodes, accessible through the simple and intuitive Roku TV.", 
+            "Color": "B", 
+            "List Price": 1850000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1850000, 
+            "Save": 0
+        }
+    ]
+}
