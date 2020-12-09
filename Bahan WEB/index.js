@@ -51,7 +51,7 @@ acc.find({"username": username, "password": password}).exec((error,data)=>{
     if(data){
         console.log("Find: "+JSON.stringify(data));
         req.session.user = username;
-        res.render('pages/account')
+        res.redirect('/account');
     }
 });
 });
