@@ -9,7 +9,19 @@
             "Category": "PC", 
             "Filter": "Newest", 
             "Discount": 23.0, 
-            "Price": 18499000
+            "Price": 18499000,
+            "Specification" : {
+                "nameItem": "HP Omen 15(Intel)",
+                "Screen": "IPS 15,6 inci, Full HD (1920 x 1080 piksel), refresh rate 144Hz",
+                "Wieght": "2.36KG",
+                "Processor": "Intel i7-10750H",
+                "OS": "Windwos 10 Home",
+                "GPU": "NVDIA GeForce RTX 2060 6GB GDDR6",
+                "Memory": "16GB DDR4-2933, upgradeable 32GB",
+                "Storage": "512GB SSD",
+                "Audio": "Audio by Bang&Olufsen and DRS:X Ultar",
+                "Battery": "6-Cell 70.9 Wh Li-ion polymer, support fast charging"
+            }
         },
         {
             "Image": "HomePage/furniture, tech news/Tech News/s20/61eqsQ1P4ZL._AC_SL1500_.jpg", 
