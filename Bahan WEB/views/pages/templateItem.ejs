@@ -19,9 +19,7 @@
             <div class="d-flex flex-row bd-highlight mb-3">
               <div class="p-2 bd-highlight">
                 <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
-                  <a href="home.html">
                   <img onclick="topFunction()" class="ponshop" src="HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
-                </a>
               </div>
               </div>
               <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
@@ -70,24 +68,8 @@
                   </div>
                   <div class="p-2 bd-highlight">
                     
-                    <div class="p-2 bd-highlight" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      <img onclick="basket()" class="leftsearch" src="Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
-                    </div>
-                    <div class="collapse" id="collapseExample" style="position: absolute; width: 300px; margin-top: 15px;">
-                      <div class="card card-body" style="height: 300px; width: 400px; overflow-y: scroll; margin-left: -100px;">
-                        <table class="table" >
-                          <thead>
-                            <tr>
-                              <th>Basket (?)</th>
-                              <th></th>
-                              <th style="font-size: small;">See More</th>
-                            </tr>
-                          </thead>
-                          <tbody id="listbasket" class="basketItems">
-                            
-                          </tbody>
-                        </table>
-                      </div>
+                    <div class="p-2 bd-highlight">
+                      <img class="leftsearch" src="Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
                     </div>
                   </div>
                   <div class="p-2 bd-highlight">
@@ -131,13 +113,13 @@
                   <img id="imgChange" class="gallery-hightlight hero" src="" style="margin-bottom: 5px; float: left; object-fit: contain;" alt="room1" />
                 </div>
                 <div class="room-preview">
-                  <div id="childHero1">
+                  <div class="childHero">
                     <img src="" class="room-active" alt="" style="object-fit: contain;"/>
                   </div>
-                  <div id="childHero2">
+                  <div class="childHero">
                     <img src="" alt="" class="childHero" style="object-fit: contain;"/>
                   </div>
-                  <div id="childHero3">
+                  <div class="childHero">
                     <img src="" alt="" class="childHero" style="object-fit: contain;"/>
                   </div>
                 </div>
@@ -195,12 +177,12 @@
                     </div>
                   </div>
                 </div>
-                <div id="sizeList" class="size row">
+                <div class="size row">
                   <p style=" font-weight: 600;" class="sizeBox col-sm-2">SIZE</p>
-                  <div class="S col-sm-1 size">S</div>
-                  <div class="M col-sm-1 size">M</div>
-                  <div class="L col-sm-1 size">L</div>
-                  <div class="XL col-sm-1 size">XL</div>
+                  <div class="S col-sm-1">S</div>
+                  <div class="M col-sm-1">M</div>
+                  <div class="L col-sm-1">L</div>
+                  <div class="XL col-sm-1">XL</div>
                 </div>
               </div>
             </div>
@@ -232,10 +214,10 @@
         </div>
       </div>
       <div class="row footerCol">
-        <div  class="beliCol col belihover"  type="button">
-          <p class="beliBorder" style=" font-size: 18px; font-weight: 500; ">Buy Now</p>
+        <div class="beliCol col" style="background-color: #006667;" type="button">
+          <p class="beliBorder" style="color: white; font-size: 18px; font-weight: 500; ">Buy Now</p>
         </div>
-        <div id="addtobasket" class="beliCol col baskethover" type="button">
+        <div class="beliCol col" type="button">
           <p class="beliBorder basketBorder">
             <img src="Icon/add-to-basket.png" alt="" width="20px">
           </p>

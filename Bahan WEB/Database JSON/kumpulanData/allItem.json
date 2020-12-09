@@ -658,7 +658,18 @@
             "Category": "PC", 
             "Filter": "Newest", 
             "Discount": 23.0, 
-            "Price": 18499000
+            "Price": 18499000,
+            "nameItem": "HP Omen 15(Intel)",
+            "Screen": "IPS 15,6 inci, Full HD (1920 x 1080 piksel), refresh rate 144Hz",
+            "Wieght": "2.36KG",
+            "Processor": "Intel i7-10750H",
+            "OS": "Windwos 10 Home",
+            "GPU": "NVDIA GeForce RTX 2060 6GB GDDR6",
+            "Memory": "16GB DDR4-2933, upgradeable 32GB",
+            "Storage": "512GB SSD",
+            "Audio": "Audio by Bang&Olufsen and DRS:X Ultar",
+            "Battery": "6-Cell 70.9 Wh Li-ion polymer, support fast charging"
+            
         },
         {
             "ID" : "technews2",
@@ -670,7 +681,17 @@
             "Category": "PC", 
             "Filter": "Newest", 
             "Discount": 30.0, 
-            "Price": 11999000
+            "Price": 11999000,
+            "nameItem": "Samsung Galaxy S20+",
+            "Screen": "I6.7 inches, Dynamic AMOLED 2X, 120Hz, HDR10+, refresh rate 120Hz",
+            "Wieght": "186 g",
+            "Processor": "Exynos 990 (7 nm+) - Global",
+            "OS": "Android 10, One UI 2.5",
+            "GPU": "Octa-core (2x2.73 GHz Mongoose M5 & 2x2.50 GHz Cortex-A76 & 4x2.0 GHz Cortex-A55) - Global",
+            "Memory": "8GB RAM",
+            "Storage": "128GB ",
+            "Audio": " stereo speakers",
+            "Battery": "Li-Po 4500 mAh, non-removable"
         }, 
         {
             "ID" : "technews3",
@@ -682,7 +703,17 @@
             "Category": "PC", 
             "Filter": "Newest", 
             "Discount": 5.5, 
-            "Price": 32099000
+            "Price": 32099000,
+            "nameItem": "Apple MacBook Pro 16-inch",
+            "Screen": "16 inches (2072 x 1920 pixels)",
+            "Wieght": "4.3 pounds",
+            "Processor": "9th gen Core i7, 9th Gen Core i9",
+            "OS": "Android 10, One UI 2.5",
+            "GPU": "AMD Radeon Pro 5300M (4GB), Radeon Pro 5500M (up to 8GB)",
+            "Memory": "16GB (up to 64GB)",
+            "Storage": "512GB ",
+            "Audio": "comparison",
+            "Battery": "100-watt-hour up to 11 hours"
         },
         {
             "ID" : "totebag1",
