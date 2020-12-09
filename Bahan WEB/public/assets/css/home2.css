@@ -16,7 +16,7 @@ body{
 }
 
 #headerMain{
-    z-index: 1;
+    z-index: 5;
     position: fixed;
 }
 
@@ -137,7 +137,7 @@ body{
 }
 
 .cardLove .multi-button {
-    z-index: 0;
+    z-index: -5;
     position: absolute;
     top: 11.25rem;
     left: 11.25rem;
@@ -325,3 +325,25 @@ img.room-active {
     margin-top: 7px;
     margin-left: -4px;
 }
+
+.belihover{
+    background-color: #006667;
+}
+
+.belihover p{
+    color: #F4F9F9;
+}
+
+.baskethover:hover, .baskethover:active {
+    background: #F4F9F9;
+}    
+
+.belihover:hover, .belihover:active {
+    color: #006667;
+    background: #F4F9F9;
+    
+}    
+
+.belihover p:hover, .belihover p:active {
+    color: #006667;
+}   

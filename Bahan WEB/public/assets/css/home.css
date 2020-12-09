@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn:focus, input:focus {
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
@@ -84,6 +89,16 @@ html {
     margin-left: 90px;
     margin-right: 90px;
 
+}
+
+.diskonBorder{
+    text-align: center;
+    border: 3px solid #ffcfcf;
+    background-color: #ffcfcf;
+    border-width: 7px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: -7px;
 }
 
 .ongoing{
