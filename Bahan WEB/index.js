@@ -3,7 +3,7 @@ const router = express.Router();
 const bodyParser = require('body-parser'); 
 const session = require('express-session');
 const mongoose = require("mongoose");
-const acc = require('./models/user');
+const user = require('./models/user');
 
  
 
@@ -14,6 +14,14 @@ app.use(express.json());
 // set the view engine to ejs 
 
 app.set('view engine', 'ejs'); 
+app.use(session({ 
+
+    secret: 'some_secret_key', 
+  
+    cookie: {} 
+  
+  })); 
+ 
 
  
 
@@ -46,7 +54,7 @@ app.post('/login', async (req,res)=>{
 const username = req.body.username;
 const password = req.body.password;
 
-acc.find({"username": username, "password": password}).exec((error,data)=>{
+user.find({"username": username, "password": password}).exec((error,data)=>{
     if(error) console.log(JSON.stringify(error));
     if(data){
         console.log("Find: "+JSON.stringify(data));
@@ -64,29 +72,20 @@ res.render('pages/Login',{layout:false});
 });
 
 app.post('/register',async(req,res)=>{
-const username = req.body.username;
-const email = req.body.email;
-const password = req.body.password;
-const reppass = req.body.reppass;
-const dateof = req.body.dateof;
-const gender = req.body.gender;
-const address = req.body.address;
-const mobnum = req.body.mobnum;
-
-var acc_insert = new acc({
-    username : username,
-    email : email,
-    password : password,
-    reppass : reppass,
-    dateof : dateof,
-    gender : gender,
-    address : address,
-    mobnum : mobnum,
+var acc_insert = new user({
+    username : req.body.username,
+    email : req.body.email,
+    password : req.body.password,
+    reppass : req.body.reppass,
+    dateof : req.body.dateof,
+    gender : req.body.gender,
+    address : req.body.address,
+    mobnum : req.body.mobnum,
 })
 acc_insert.save((err,product) => {
     if (err) console.log(err);
     console.log(JSON.stringify(product))
-    res.redirect('/login');
+    res.redirect('/account');
 });
 });
 
