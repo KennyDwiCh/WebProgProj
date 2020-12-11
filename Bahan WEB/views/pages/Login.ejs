@@ -4,114 +4,134 @@
     <title>Ponshop</title>
     <link rel="icon" href="/Gambar/Logo/160059991334135361 (1).png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href='/public/assets/css/home.css'/>
+    <link rel="stylesheet" href='css/home.css'/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
     
 </head>
 <body>
-    <div class="page" style="background-color: #F4F9F9;">
+    <div class="page" style="background-color: #F4F9F9; height: 800px;">
+      <div id="headerMain">
         <nav id="navbar_top">
-            <div id="navbar" class="atas" style="padding-left: 60px; background-color: white; width: auto; height: 90px;">
-              <div class="d-flex bd-highlight mb-3">
-                <div class="d-flex flex-row bd-highlight mb-3">
-                  <div class="p-2 bd-highlight">
-                    <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
-                      <img onclick="topFunction()" class="ponshop" src="HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
-                  </div>
-                  </div>
-                  <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
-                    <small>Category</small>
+          <div id="navbar" class="atas" style="padding-left: 60px; background-color: white; width: 1500px; height: 90px;">
+            <div class="d-flex bd-highlight mb-3">
+              <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                  <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
+                    <a href="/">
+                    <img onclick="topFunction()" class="ponshop" src="public/img/HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
                   </a>
-                  <div class="p-2 bd-highlight">
-                    <div class="d-flex flex-row bd-highlight mb-3">
-                      <div class="p-2 bd-highlight" style="margin-top: -17px;">
-                        <div id="search" class="p-2 bd-highlight" style="margin-top: 20px; padding-right: 100px;">
-                          <div class="input-group mb-3">
-                              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="width: 44rem; height: 32px; border-color: #0A292B; border-right: none; ">
-                              <div class="input-group-append">
-                              <button class="btn btn-outline-secondary" type="button" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
-                              </div>
-                          </div>
-                          <div class="d-flex flex-row bd-highlight mb-3" style="font-size: 10px; margin-top: -20px; margin-left: -7px; color: #687D7E;">
-                            <div class="p-2 bd-highlight">
-                              <a href="television" style="color: #687D7E;">Television</a>
+                </div>
+                </div>
+                <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
+                  <small>Category</small>
+                </a>
+                <div class="p-2 bd-highlight">
+                  <div class="d-flex flex-row bd-highlight mb-3">
+                    <div class="p-2 bd-highlight" style="margin-top: -17px;">
+                      <div id="search" class="p-2 bd-highlight" style="margin-top: 20px; padding-right: 100px;">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="width: 44rem; height: 32px; border-color: #0A292B; border-right: none; ">
+                            <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="public/img/newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
                             </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="skincare" style="color: #687D7E;">Skin Care</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="menshirt" style="color: #687D7E;">Men Shirt</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="laptop" style="color: #687D7E;">Laptop</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="smartphone" style="color: #687D7E;">Smartphone</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="music" style="color: #687D7E;">Music</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="drone" style="color: #687D7E;">Drone</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="table" style="color: #687D7E;">Table</a>
-                            </div>
-                            <div class="p-2 bd-highlight">
-                              <a href="womenbag" style="color: #687D7E;">Women Bag</a>
-                            </div>
-                          </div>
-                      </div>
-                      </div>
-                      <div class="p-2 bd-highlight">
-                        
-                        <div class="p-2 bd-highlight">
-                          <img class="leftsearch" src="Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
                         </div>
+                        <div class="d-flex flex-row bd-highlight mb-3" style="font-size: 10px; margin-top: -20px; margin-left: -7px; color: #687D7E;">
+                          <div class="p-2 bd-highlight">
+                            <a href="category_electronic_TV.html" style="color: #687D7E;">Television</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_beauty_SC.html" style="color: #687D7E;">Skin Care</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_men_Shirt.html" style="color: #687D7E;">Men Shirt</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_pc_Laptop.html" style="color: #687D7E;">Laptop</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_gadget_SP.html" style="color: #687D7E;">Smartphone</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_music_Drum.html" style="color: #687D7E;">Music</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_camera_Drone.html" style="color: #687D7E;">Drone</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_furniture_Table.html" style="color: #687D7E;">Table</a>
+                          </div>
+                          <div class="p-2 bd-highlight">
+                            <a href="category_women_Bag.html  " style="color: #687D7E;">Women Bag</a>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      
+                      <div class="p-2 bd-highlight" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <img onclick="basket()" class="leftsearch" src="public/img/Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
                       </div>
-                      <div class="p-2 bd-highlight">
-                        <div class="p-2 bd-highlight" >
-                          <img class="leftsearch" src="Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                      <div class="collapse" id="collapseExample" style="position: absolute; width: 300px; margin-top: 15px;">
+                        <div class="card card-body" style="height: 300px; width: 400px; overflow-y: scroll; margin-left: -100px;">
+                          <table class="table" >
+                            <thead>
+                              <tr>
+                                <th>Basket (?)</th>
+                                <th></th>
+                                <th style="font-size: small;">See More</th>
+                              </tr>
+                            </thead>
+                            <tbody id="listbasket" class="basketItems">
+                              
+                            </tbody>
+                          </table>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="vertical"></div>
-                  <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
-                      Admin
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
-                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
-                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
-                      <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Logout</a>
+                    <div class="p-2 bd-highlight">
+                      <div class="p-2 bd-highlight" >
+                        <img class="leftsearch" src="public/img/Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                      </div>
                     </div>
-                  </div>
-                  <div class="help" style="margin-top: 30px; margin-left: 20px;">
-                    <a href="" style="color: #0A292B;">
-                      <small >Help</small>
-                    </a>
                   </div>
                 </div>
-            </div>
-        </nav>     
+                <div class="vertical"></div>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
+                    Kelusi
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
+                    <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
+                    <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
+                  </div>
+                </div>
+                <div class="help" style="margin-top: 30px; margin-left: 20px;">
+                  <a href="" style="color: #0A292B;">
+                    <small >Help</small>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+      </div>    
         <div class="mid"> 
             <div class= "row">  
-            <div class= "col-xs-6">
+            <div class= "col-xs-6" style="position: relative;">
             <div id="Accs" class="tabcontents"> 
             <div class="tabs">
                     <button class="tablinks" onclick="openCity(event, 'Login')">Login</button>
                     <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
            </div>
             <div id="Login" class= "tabscontent">
-              <form action="/login" method="POST"> 
+              <form action="/login" method="POST" > 
                 <label for="inputPassword5">Username</label>
                 <input type="text" name= "username" id="inputPassword5" class="form-control">
                 <label for="inputPassword5">Password</label>
                 <input type="password" name= "password" id="inputPassword5" class="form-control">
-                <button>Login</button>
+                <button >Login</button>
               </form>
             </div>
             <div id = "Register" class="tabscontent">

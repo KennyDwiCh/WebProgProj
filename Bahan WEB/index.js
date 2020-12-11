@@ -7,9 +7,6 @@ const user = require('./models/user');
 const { static } = require('express');
 const app = express(); 
 
-
-
-
 app.use(express.json());
 
 // set the view engine to ejs 
