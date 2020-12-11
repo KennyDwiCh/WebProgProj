@@ -1,6 +1,6 @@
 [
  {
-  "Image": "HomePage/sale/Furniture/5.png", 
+  "Image": "public/img/HomePage/sale/Furniture/5.png", 
   "Name": "Classic Glass One Tier", 
   "Description": "This table was designed to mix contemporary design with Classic comfort while looking incredibly modern and stylish", 
   "Color": "None", 
@@ -36,7 +36,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/sale/Furniture/8.png", 
+  "Image": "public/img/HomePage/sale/Furniture/8.png", 
   "Name": "Loft Dining Table", 
   "Description": "Your satisfaction is our first priority.", 
   "Color": "None", 
@@ -48,7 +48,7 @@
   "Save": 1179900
  }, 
  {
-  "Image": "HomePage/sale/Furniture/1.png", 
+  "Image": "public/img/HomePage/sale/Furniture/1.png", 
   "Name": "Luxury White L Sofa", 
   "Description": "Looking for a modular sectional to upgrade your living room?Try our L shaped reversible sectional sofa couch.", 
   "Color": "None", 
@@ -60,7 +60,7 @@
   "Save": 668000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/4.png", 
+  "Image": "public/img/HomePage/sale/Furniture/4.png", 
   "Name": "Minimalism Black Chair", 
   "Description": "Made with a portion of recycled polyester", 
   "Color": "None", 
@@ -72,7 +72,7 @@
   "Save": 13200
  }, 
  {
-  "Image": "HomePage/sale/Furniture/3.png", 
+  "Image": "public/img/HomePage/sale/Furniture/3.png", 
   "Name": "Modern Turfed Sofa", 
   "Description": "The cushions you sit on are nice and firm. You'll never have to worry about sinking in.The more you sit in it the better.", 
   "Color": "None", 
@@ -96,7 +96,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/furniture, tech news/Furniture/Photo-Oct-07-3-44-12-PM-768x1152.jpg", 
+  "Image": "public/img/HomePage/furniture, tech news/Furniture/Photo-Oct-07-3-44-12-PM-768x1152.jpg", 
   "Name": "PILLOW COMBINATIONS FOR EVERY COUCH COLOR", 
   "Description": "Throw pillows are loved by many and loathed by some (cough. cough. hubbies). But whether you love or loath them there\u2019s just no way around it\u2026 they\u2019re an essential part of every room! Well, minus the bathroom and kitchen I suppose. Living rooms, family rooms, bedrooms, and entryways provide the perfect backdrop for displaying these pretty cloth squares. Pillows add dimension, color, and texture to a room and also give personality to the space.", 
   "Color": "None", 
@@ -108,7 +108,7 @@
   "Save": 2251000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/6.png", 
+  "Image": "public/img/HomePage/sale/Furniture/6.png", 
   "Name": "Pine and Concrete", 
   "Description": "ndustrial sofa table is designed with grain of wood, simple but vintage style matches with your taste and adds a touch of elegant charm to your room.", 
   "Color": "None", 
@@ -120,7 +120,7 @@
   "Save": 322500
  }, 
  {
-  "Image": "HomePage/sale/Furniture/2.png", 
+  "Image": "public/img/HomePage/sale/Furniture/2.png", 
   "Name": "Saucer Chair", 
   "Description": "100% micro mink fabrication with durable metal frame", 
   "Color": "None", 
@@ -132,7 +132,7 @@
   "Save": 81000
  }, 
  {
-  "Image": "HomePage/furniture, tech news/Furniture/This Toronto Home is the Definition of Cozy Chic.jpg", 
+  "Image": "public/img/HomePage/furniture, tech news/Furniture/This Toronto Home is the Definition of Cozy Chic.jpg", 
   "Name": "Toronto Home is the Definition of Cozy Chic", 
   "Description": "Sometimes, buying a house in Toronto can be straight-up weird. The homeowner, a civil litigation lawyer, learned this when she and her husband, a consultant, started looking for a home in Wychwood in 2017. They\u2019d been searching for months when they spotted a rickety For Sale sign. Strangely, the house wasn\u2019t listed online. When they reached out, they learned that the seller an older man was a bit peculiar.", 
   "Color": "None", 
@@ -144,7 +144,7 @@
   "Save": 2500000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/7.png", 
+  "Image": "public/img/HomePage/sale/Furniture/7.png", 
   "Name": "Wood Dining Table", 
   "Description": "Multiple functions - can be used as coffee table, end table, cocktail table, office table etc.", 
   "Color": "None", 

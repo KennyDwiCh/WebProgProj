@@ -1,6 +1,6 @@
 [
  {
- "Image": "HomePage/Women/panjang.png", 
+ "Image": "public/img/HomePage/Women/panjang.png", 
  "Name": "Crop Tops Autumn Winter", 
  "Description": "Casual Crop Sweatshirts, perfect to pair with pants, leggings, and shorts", 
  "Color": "None", 
@@ -12,7 +12,7 @@
  "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/ijo.png", 
+  "Image": "public/img/HomePage/Women/ijo.png", 
   "Name": "Delicate Solid Slim", 
   "Description": "A slightly tapered waistline and mock wrap design allow for a flattering silhouette without being constricting.", 
   "Color": "None", 
@@ -24,7 +24,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/jaket.png", 
+  "Image": "public/img/HomePage/Women/jaket.png", 
   "Name": "Denim Jacket", 
   "Description": "Super stretch lasts from day to night; snug fit doesn't lose shape.", 
   "Color": "None", 
@@ -48,7 +48,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/sepatu.png", 
+  "Image": "public/img/HomePage/Women/sepatu.png", 
   "Name": "High Heel Dress Pumps Shoes ", 
   "Description": "Designed in USA.", 
   "Color": "None", 
@@ -84,7 +84,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/tas.png", 
+  "Image": "public/img/HomePage/Women/tas.png", 
   "Name": "Shoulder Bag RuckSack", 
   "Description": "Material-High quality PU leather,nice touch gold metal hardware,durable polyester lining.", 
   "Color": "None", 
@@ -96,7 +96,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/item.png", 
+  "Image": "public/img/HomePage/Women/item.png", 
   "Name": "SweatyRock Crop Top ", 
   "Description": "Cotton Spandex Rayon and Polyester.Stretchy material provides you with a high quality soft, lightweight, and comfortable wear.", 
   "Color": "None", 
@@ -108,7 +108,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/celana.png", 
+  "Image": "public/img/HomePage/Women/celana.png", 
   "Name": "Timeless Osaka", 
   "Description": "Functional two sides pockets, Elasticated waist with tie, High Waist design, Cropped length.", 
   "Color": "None", 
@@ -120,7 +120,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/Women/topi.png", 
+  "Image": "public/img/HomePage/Women/topi.png", 
   "Name": "Tropical Hat", 
   "Description": "100% Polyester", 
   "Color": "None", 

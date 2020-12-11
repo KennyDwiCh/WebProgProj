@@ -1,6 +1,6 @@
 [
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Button Dark Gray.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Button Dark Gray.png", 
   "Name": "Buttom Dark Gray", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -12,7 +12,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/putih.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/putih.png", 
   "Name": "Buttom White", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -24,7 +24,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Full Dark Blue.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Full Dark Blue.png", 
   "Name": "Full Dark Blue", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -36,7 +36,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Full Pink.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Full Pink.png", 
   "Name": "Full Pink", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -48,7 +48,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Half Pale Gray.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Half Pale Gray.png", 
   "Name": "Half Pale Gray", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -60,7 +60,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Half Red.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Half Red.png", 
   "Name": "Half Red", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -72,7 +72,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Left Hard Purple.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Left Hard Purple.png", 
   "Name": "Left Hard Purple", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -84,7 +84,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Left Maroon.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Left Maroon.png", 
   "Name": "Left Maroon", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -96,7 +96,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Mid Light Brown.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Mid Light Brown.png", 
   "Name": "Mid Light Brown", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -108,7 +108,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Mid Light Pink.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Mid Light Pink.png", 
   "Name": "Mid Light Pink", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -120,7 +120,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Up Light Green.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Up Light Green.png", 
   "Name": "Up Light Green", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 
@@ -132,7 +132,7 @@
   "Save": 0
  }, 
  {
-  "Image": "HomePage/totebag,men,dll/totebag/Up Pink.png", 
+  "Image": "public/img/HomePage/totebag,men,dll/totebag/Up Pink.png", 
   "Name": "Up Pink", 
   "Description": "REUSABLE COTTON CANVAS BAGS. Canvas tote bags are made of natural cotton fibre and hence eco-friendly & non-toxic to ensure the safety of both your children and the Earth.", 
   "Color": "None", 

@@ -1,6 +1,6 @@
 [
  {
-  "Image": "HomePage/sale/Electronic/kamera.png", 
+  "Image": "public/img/HomePage/sale/Electronic/kamera.png", 
   "Name": "4K Camera Digital", 
   "Description": "4K digital camera, with 4k/30 fps smooth video resolution and photographs at 48MP", 
   "Color": "B", 
@@ -12,7 +12,7 @@
   "Save": 435000
  }, 
  {
-  "Image": "HomePage/sale/Electronic/tv.png", 
+  "Image": "public/img/HomePage/sale/Electronic/tv.png", 
   "Name": "55-inch Class Crystal UHD", 
   "Description": "Crystal processor 4K: This ultra-fast processor transforms everything you watch into stunning 4K.", 
   "Color": "B", 
@@ -24,7 +24,7 @@
   "Save": 700000
  }, 
  {
-  "Image": "HomePage/sale/Electronic/printer.png", 
+  "Image": "public/img/HomePage/sale/Electronic/printer.png", 
   "Name": "All-in-one Printer", 
   "Description": "Handle Tasks at home with print, scan, and copy versatility , and save time and paper with automatic two-sided printing", 
   "Color": "B", 
@@ -36,7 +36,7 @@
   "Save": 369000
  }, 
  {
-  "Image": "HomePage/sale/Electronic/vacum.png", 
+  "Image": "public/img/HomePage/sale/Electronic/vacum.png", 
   "Name": "Bagless Vaccum Cleaner", 
   "Description": "Powerful pet hair pick up with triple action brush roll + scatter free technology.", 
   "Color": "B", 
@@ -48,7 +48,7 @@
   "Save": 200000
  }, 
  {
-  "Image": "HomePage/sale/Fashion/black.png", 
+  "Image": "public/img/HomePage/sale/Fashion/black.png", 
   "Name": "Black Bom Beanie", 
   "Description": "Premium Material, Classic Unisex Solid Color Warm Knitted White Beanies for Women Men.", 
   "Color": "B", 
@@ -60,7 +60,7 @@
   "Save": 34650
  }, 
  {
-  "Image": "HomePage/sale/Furniture/5.png", 
+  "Image": "public/img/HomePage/sale/Furniture/5.png", 
   "Name": "Classic Glass One Tier", 
   "Description": "This table was designed to mix contemporary design with Classic comfort while looking incredibly modern and stylish", 
   "Color": "None", 
@@ -72,7 +72,7 @@
   "Save": 187000
  }, 
  {
-  "Image": "HomePage/sale/Electronic/kulkas.png", 
+  "Image": "public/img/HomePage/sale/Electronic/kulkas.png", 
   "Name": "Compact Refrigerator", 
   "Description": "stores food, soda, beer, and other beverages with minimal energy and without taking up too much space.", 
   "Color": "B", 
@@ -84,7 +84,7 @@
   "Save": 700000
  }, 
  {
-  "Image": "HomePage/sale/Fashion/green.png", 
+  "Image": "public/img/HomePage/sale/Fashion/green.png", 
   "Name": "Green Tote Bag", 
   "Description": "100% Premium 18 oz. washed soft cotton canvas", 
   "Color": "B", 
@@ -96,7 +96,7 @@
   "Save": 11000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/8.png", 
+  "Image": "public/img/HomePage/sale/Furniture/8.png", 
   "Name": "Loft Dining Table", 
   "Description": "Your satisfaction is our first priority.", 
   "Color": "None", 
@@ -108,7 +108,7 @@
   "Save": 1179900
  }, 
  {
-  "Image": "HomePage/sale/Furniture/1.png", 
+  "Image": "public/img/HomePage/sale/Furniture/1.png", 
   "Name": "Luxury White L Sofa", 
   "Description": "Looking for a modular sectional to upgrade your living room?Try our L shaped reversible sectional sofa couch.", 
   "Color": "None", 
@@ -120,7 +120,7 @@
   "Save": 668000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/4.png", 
+  "Image": "public/img/HomePage/sale/Furniture/4.png", 
   "Name": "Minimalism Black Chair", 
   "Description": "Made with a portion of recycled polyester", 
   "Color": "None", 
@@ -132,7 +132,7 @@
   "Save": 13200
  }, 
  {
-  "Image": "HomePage/sale/Furniture/3.png", 
+  "Image": "public/img/HomePage/sale/Furniture/3.png", 
   "Name": "Modern Turfed Sofa", 
   "Description": "The cushions you sit on are nice and firm. You'll never have to worry about sinking in.The more you sit in it the better.", 
   "Color": "None", 
@@ -144,7 +144,7 @@
   "Save": 721000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/6.png", 
+  "Image": "public/img/HomePage/sale/Furniture/6.png", 
   "Name": "Pine and Concrete", 
   "Description": "ndustrial sofa table is designed with grain of wood, simple but vintage style matches with your taste and adds a touch of elegant charm to your room.", 
   "Color": "None", 
@@ -156,7 +156,7 @@
   "Save": 322500
  }, 
  {
-  "Image": "HomePage/sale/Fashion/pink.png", 
+  "Image": "public/img/HomePage/sale/Fashion/pink.png", 
   "Name": "Pink Hoodie", 
   "Description": "90% Cotton / 10% Polyester", 
   "Color": "B", 
@@ -168,7 +168,7 @@
   "Save": 37500
  }, 
  {
-  "Image": "HomePage/sale/Electronic/speaker.png", 
+  "Image": "public/img/HomePage/sale/Electronic/speaker.png", 
   "Name": "Protable Speaker", 
   "Description": "Designed and Engineered by Cambridge Sound Works in the USA for greater clarity sound, accurate mids and clear", 
   "Color": "B", 
@@ -180,7 +180,7 @@
   "Save": 319600
  }, 
  {
-  "Image": "HomePage/sale/Fashion/purple.png", 
+  "Image": "public/img/HomePage/sale/Fashion/purple.png", 
   "Name": "Purple", 
   "Description": "Made with a portion of recycled polyester", 
   "Color": "B", 
@@ -192,7 +192,7 @@
   "Save": 36000
  }, 
  {
-  "Image": "HomePage/sale/Electronic/lampu.png", 
+  "Image": "public/img/HomePage/sale/Electronic/lampu.png", 
   "Name": "Rivet Task Table Lamp", 
   "Description": "This task lamp is perfect for students, crafters, artists, or anyone who needs more light in exactly the right spot.", 
   "Color": "B", 
@@ -204,7 +204,7 @@
   "Save": 150000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/2.png", 
+  "Image": "public/img/HomePage/sale/Furniture/2.png", 
   "Name": "Saucer Chair", 
   "Description": "100% micro mink fabrication with durable metal frame", 
   "Color": "None", 
@@ -216,7 +216,7 @@
   "Save": 81000
  }, 
  {
-  "Image": "HomePage/sale/Fashion/yellow.png", 
+  "Image": "public/img/HomePage/sale/Fashion/yellow.png", 
   "Name": "Sweat Shirt", 
   "Description": "Made with a portion of recycled polyester", 
   "Color": "B", 
@@ -228,7 +228,7 @@
   "Save": 13200
  }, 
  {
-  "Image": "HomePage/sale/Fashion/white.png", 
+  "Image": "public/img/HomePage/sale/Fashion/white.png", 
   "Name": "White Hoodie", 
   "Description": "90% Cotton / 10% Polyester", 
   "Color": "B", 
@@ -240,7 +240,7 @@
   "Save": 37500
  }, 
  {
-  "Image": "HomePage/sale/Fashion/shirt.png", 
+  "Image": "public/img/HomePage/sale/Fashion/shirt.png", 
   "Name": "White Shirt", 
   "Description": "Solids: 100 percent cotton; Sport grey: 90 percent cotton, 10 percent polyester", 
   "Color": "B", 
@@ -252,7 +252,7 @@
   "Save": 31680
  }, 
  {
-  "Image": "HomePage/sale/Electronic/earbuds.png", 
+  "Image": "public/img/HomePage/sale/Electronic/earbuds.png", 
   "Name": "Wireless Earbuds", 
   "Description": "Installed with Qualcomm Apt-X Tech, provides powerful, low-bit rate transmission.", 
   "Color": "B", 
@@ -264,7 +264,7 @@
   "Save": 90000
  }, 
  {
-  "Image": "HomePage/sale/Furniture/7.png", 
+  "Image": "public/img/HomePage/sale/Furniture/7.png", 
   "Name": "Wood Dining Table", 
   "Description": "Multiple functions - can be used as coffee table, end table, cocktail table, office table etc.", 
   "Color": "None", 
@@ -276,7 +276,7 @@
   "Save": 617810
  }, 
  {
-  "Image": "HomePage/sale/Fashion/beanie.png", 
+  "Image": "public/img/HomePage/sale/Fashion/beanie.png", 
   "Name": "Yellow Beanie", 
   "Description": "Soft, comfortable, friendly to skin, will give the best care to you during the cold weather.", 
   "Color": "B", 

@@ -1,6 +1,6 @@
 [
  {
-  "Image": "kategori/Men/Pants.jpg", 
+  "Image": "public/img/kategori/Men/Pants.jpg", 
   "Name": "Adidas Men's Tiro 19 Training Pants", 
   "Description": "100% Polyester, Imported, Drawstring closure, Unleash your inner striker with the performance ready Tiro '19 Pants, Adidas Soccer apparel is designed to keep you comfortable for the entire 90 minutes on the field and beyond, Slim fit hugs the body while still leaving room for movement, Climacool fabric rapidly transports heat and perspiration away from the body. Elastic waistband with inner drawcord. On seam zippered hand pockets. Ribbed inserts at lower legs. Signature 3 Stripes featured at sides.", 
   "Color": "B", 
@@ -12,7 +12,7 @@
   "Save": 0
  }, 
  {
-  "Image": "kategori/Men/Shirt.jpg", 
+  "Image": "public/img/kategori/Men/Shirt.jpg", 
   "Name": "Champion Men's Classic Jersey Script T-shirt", 
   "Description": "100% Cotton, Imported, Pull On closure, Machine Wash, Ring spun cotton fabric for extra softness. Oxford 90 percent cotton/10, percent polyester, trim, Athletic fit for comfort, Narrow collar for a more modern fit, Left chest 'C' logo and C patch on sleeve, Available in solids and graphics.", 
   "Color": "B", 
@@ -84,7 +84,7 @@
   "Save": 0
  }, 
  {
-  "Image": "kategori/Men/Shoes.jpg", 
+  "Image": "public/img/kategori/Men/Shoes.jpg", 
   "Name": "Nike Men's Odyssey React 2 Flyknit Running Shoe", 
   "Description": "Lace Up closure, Nike React technology delivers a soft, smooth and responsive ride, Flyknit construction provides lightweight flexibility and breathability, Soft, synthetic material through the midfoot quarter adds support, Foam collar is molded for smooth comfort around your ankle, Geometric, athlete-informed outsole pattern helps evenly disperse impact to provide a smooth transition and soft feel.", 
   "Color": "B", 
