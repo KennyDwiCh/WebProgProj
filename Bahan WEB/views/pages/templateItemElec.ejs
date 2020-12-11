@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Ponshop</title>
+  <head>
+    <title><%= pageTitle %></title>
     <link rel="icon" href="/Gambar/Logo/160059991334135361 (1).png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="public/css/home.css">
+    <link rel="stylesheet" href="public/css/home2.css">
     <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
@@ -19,7 +19,9 @@
             <div class="d-flex flex-row bd-highlight mb-3">
               <div class="p-2 bd-highlight">
                 <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
-                  <img onclick="topFunction()" class="ponshop" src="HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
+                  <a href="/">
+                  <img onclick="topFunction()" class="ponshop" src="public/img/HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
+                </a>
               </div>
               </div>
               <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
@@ -32,7 +34,7 @@
                       <div class="input-group mb-3">
                           <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="width: 44rem; height: 32px; border-color: #0A292B; border-right: none; ">
                           <div class="input-group-append">
-                          <button class="btn btn-outline-secondary" type="button" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
+                          <button class="btn btn-outline-secondary" type="button" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="public/img/newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
                           </div>
                       </div>
                       <div class="d-flex flex-row bd-highlight mb-3" style="font-size: 10px; margin-top: -20px; margin-left: -7px; color: #687D7E;">
@@ -69,7 +71,7 @@
                   <div class="p-2 bd-highlight">
                     
                     <div class="p-2 bd-highlight" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      <img onclick="basket()" class="leftsearch" src="Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                      <img onclick="basket()" class="leftsearch" src="public/img/Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
                     </div>
                     <div class="collapse" id="collapseExample" style="position: absolute; width: 300px; margin-top: 15px;">
                       <div class="card card-body" style="height: 300px; width: 400px; overflow-y: scroll; margin-left: -100px;">
@@ -90,7 +92,7 @@
                   </div>
                   <div class="p-2 bd-highlight">
                     <div class="p-2 bd-highlight" >
-                      <img class="leftsearch" src="Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                      <img class="leftsearch" src="public/img/Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
                     </div>
                   </div>
                 </div>
@@ -282,20 +284,24 @@
       </div>
       <div id="addtobasket" class="beliCol col baskethover" type="button">
         <p class="beliBorder basketBorder">
-          <img src="Icon/add-to-basket.png" alt="" width="20px">
+          <img src="public/img/Icon/add-to-basket.png" alt="" width="20px">
         </p>
       </div>
     </div>
     
   </div>
- </div>
- 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="home3.js"></script>
-    <script src="home2.js"></script>
+</div>
+  
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="public/js/home3.js"></script>
 </body>
 </html>

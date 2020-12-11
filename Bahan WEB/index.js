@@ -79,6 +79,9 @@ app.get('/items',(req,res)=>{
     res.render('pages/templateItem', {pageTitle: 'PONSHOP'});
 });
 
+app.get('/itemsElec',(req,res)=>{
+    res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
+});
 
 app.get('/account', async (req,res)=>{
 res.render('pages/Account');
