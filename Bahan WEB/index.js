@@ -4,23 +4,22 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const mongoose = require("mongoose");
 const user = require('./models/user');
-
- 
-
+const { static } = require('express');
 const app = express(); 
+
+
+
 
 app.use(express.json());
 
 // set the view engine to ejs 
 
+app.set('views', './views')
 app.set('view engine', 'ejs'); 
 app.use(session({ 
-
     secret: 'some_secret_key', 
-  
     cookie: {} 
-  
-  })); 
+})); 
  
 
  
@@ -63,6 +62,27 @@ user.find({"username": username, "password": password}).exec((error,data)=>{
     }
 });
 });
+app.use(express.static('public'));
+app.use(express.static("Database JSON"));
+app.use('/kumpulanData', express.static(__dirname+ 'Database JSON/kumpulanData'));
+app.use('/css', express.static(__dirname+ 'public/css'));
+app.use('/js', express.static(__dirname+ 'public/js'));
+app.use('/img', express.static(__dirname+ 'public/img'));
+app.use('/json', express.static(__dirname+ 'public/json'));
+
+app.get('', (req,res)=>{
+    res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
+});
+
+// app.get('/items', (req,res)=>{
+//     res.render('layout/selectedItems', {pageTitle: 'PONSHOP', header:'header', body:'templateItem'});
+// });
+
+app.get('/items',(req,res)=>{
+    res.render('pages/templateItem', {pageTitle: 'PONSHOP'});
+});
+
+
 app.get('/account', async (req,res)=>{
 res.render('pages/Account');
 });

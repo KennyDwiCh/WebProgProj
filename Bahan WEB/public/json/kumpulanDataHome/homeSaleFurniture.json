@@ -1,0 +1,100 @@
+{
+    "homefurniture":    [
+        {
+            "Image": "public/img/HomePage/sale/Furniture/5.png", 
+            "Name": "Classic Glass One Tier", 
+            "Description": "This table was designed to mix contemporary design with Classic comfort while looking incredibly modern and stylish", 
+            "Color": "None", 
+            "ListPrice": 935000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 20.0, 
+            "Price": 748000, 
+            "Save": 187000
+        },
+        {
+            "Image": "public/img/HomePage/sale/Furniture/8.png", 
+            "Name": "Loft Dining Table", 
+            "Description": "Your satisfaction is our first priority.", 
+            "Color": "None", 
+            "ListPrice": 5130000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 23.0, 
+            "Price": 3950100, 
+            "Save": 1179900
+        }, 
+        {
+            "Image": "public/img/HomePage/sale/Furniture/1.png", 
+            "Name": "Luxury White L Sofa", 
+            "Description": "Looking for a modular sectional to upgrade your living room?Try our L shaped reversible sectional sofa couch.", 
+            "Color": "None", 
+            "ListPrice": 8350000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 8.0, 
+            "Price": 7682000, 
+            "Save": 668000
+        }, 
+        {
+            "Image": "public/img/HomePage/sale/Furniture/4.png", 
+            "Name": "Minimalism Black Chair", 
+            "Description": "Made with a portion of recycled polyester", 
+            "Color": "None", 
+            "ListPrice": 120000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 11.0, 
+            "Price": 106800, 
+            "Save": 13200
+        }, 
+        {
+            "Image": "public/img/HomePage/sale/Furniture/3.png", 
+            "Name": "Modern Turfed Sofa", 
+            "Description": "The cushions you sit on are nice and firm. You'll never have to worry about sinking in.The more you sit in it the better.", 
+            "Color": "None", 
+            "ListPrice": 6550000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 11.0, 
+            "Price": 5829000, 
+            "Save": 721000
+        },  
+        {
+            "Image": "public/img/HomePage/sale/Furniture/6.png", 
+            "Name": "Pine and Concrete", 
+            "Description": "ndustrial sofa table is designed with grain of wood, simple but vintage style matches with your taste and adds a touch of elegant charm to your room.", 
+            "Color": "None", 
+            "ListPrice": 2150000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 15.0, 
+            "Price": 1827500, 
+            "Save": 322500
+        }, 
+        {
+            "Image": "public/img/HomePage/sale/Furniture/2.png", 
+            "Name": "Saucer Chair", 
+            "Description": "100% micro mink fabrication with durable metal frame", 
+            "Color": "None", 
+            "ListPrice": 450000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 18.0, 
+            "Price": 369000, 
+            "Save": 81000
+        },
+        {
+            "Image": "public/img/HomePage/sale/Furniture/7.png", 
+            "Name": "Wood Dining Table", 
+            "Description": "Multiple functions - can be used as coffee table, end table, cocktail table, office table etc.", 
+            "Color": "None", 
+            "ListPrice": 3290000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 19.0, 
+            "Price": 2672190, 
+            "Save": 617810
+        }
+    ]
+}

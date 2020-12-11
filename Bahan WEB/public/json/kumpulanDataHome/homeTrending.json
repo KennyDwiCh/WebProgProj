@@ -1,0 +1,52 @@
+{    
+    "trending": [
+    {
+        "Image": "public/img/HomePage/Trending/blanket.png", 
+        "Name": "Blanket", 
+        "Description": "Soft blanket utilizes 100% microfiber fabric all layers to last for long use and provides fade resistance better than others like cotton blanket", 
+        "Color": "None", 
+        "ListPrice": 99000, 
+        "Category": "Pillow", 
+        "Filter": "Trending", 
+        "Discount": 0.0,
+        "Price": 99000, 
+        "Save": 0
+    }, 
+    {
+        "Image": "public/img/HomePage/Trending/bag.png", 
+        "Name": "Duffle Bag", 
+        "Description": "Large rectangular-shaped duffel bag with roomy interior (over 6,000+ cubic inches), ideal for travel or storage Made of 100-percent nylon; lightweight, yet durable; 50-pound weight capacity.", 
+        "Color": "None", 
+        "ListPrice": 239000, 
+        "Category": "Bag", 
+        "Filter": "Trending", 
+        "Discount": 0.0,
+        "Price": 239000, 
+        "Save": 0
+    },
+    {
+        "Image": "public/img/HomePage/Trending/pillow.png", 
+        "Name": "Square Pillow", 
+        "Description": "The pillow cover is made of 100% cotton fabric material to stay soft, breathable, and dry.", 
+        "Color": "None", 
+        "ListPrice": 39000, 
+        "Category": "Pillow", 
+        "Filter": "Trending", 
+        "Discount": 0.0,
+        "Price": 39000, 
+        "Save": 0
+    }, 
+    {
+        "Image": "public/img/HomePage/Trending/beanie.png", 
+        "Name": "White Beanie", 
+        "Description": "Premium Material, Classic Unisex Solid Color Warm Knitted White Beanies for Women Men. Soft, comfortable, friendly to skin, will give the best care to you during the cold weather.", 
+        "Color": "None", 
+        "ListPrice": 69000, 
+        "Category": "White", 
+        "Filter": "Trending", 
+        "Discount": 0.0,
+        "Price": 69000, 
+        "Save": 0
+    }
+    ]
+}

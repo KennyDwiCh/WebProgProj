@@ -1,0 +1,142 @@
+<%- include(`../pages/header.ejs`) %> 
+
+<div id="contentMain">
+    <div class="information">
+      <div>
+        <div class="room-gallery">
+          <div class="cardLove" style="--background:#F4F9F9; --text:white; border-radius: 33px;">
+            <div class="multi-button">
+              <button><img src="icon/160325485471381259.png" alt="" width="25px"></button>
+            </div>
+            <div class="bingkaiImage">
+              <div>
+                <img id="imgChange" class="gallery-hightlight hero" src="" style="margin-bottom: 5px; float: left; object-fit: contain;" alt="room1" />
+              </div>
+              <div class="room-preview">
+                <div id="childHero1">
+                  <img src="" class="room-active" alt="" style="object-fit: contain;"/>
+                </div>
+                <div id="childHero2">
+                  <img src="" alt="" class="childHero" style="object-fit: contain;"/>
+                </div>
+                <div id="childHero3">
+                  <img src="" alt="" class="childHero" style="object-fit: contain;"/>
+                </div>
+              </div>
+              Share :
+              <div class="wrapper">
+                <div class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </div>
+                <div class="icon twitter">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fab fa-twitter"></i></span>
+                </div>
+                <div class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+        
+          <div id="mainInfor">
+            <h2><b id="nameChange"></b></h2>
+            <div class="rating row">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <div class="selaras"></div>
+                <div class="selaras">
+                    <p>(100 ratings)</p>
+                </div>
+            </div>
+            <div class="tengah">
+              <div class="isiTengah">
+                <div class="priceItems row">
+                    <p style=" font-weight: 600;" class="priceCol col-sm-2">PRICE</p>
+                    <p id="priceChange" class="col idr price"></p>
+                </div>
+                <div class="priceQty row">
+                    <p style=" font-weight: 600;" class="qtyCol col-sm-2">QTY</p>
+                    <div class="quantity col">
+                      <button class="btn minus-btn disabled" type="button">
+                        <p>-</p>
+                      </button>
+                      <input type="text" id="quantity" value="1">
+                      <button class="btn plus-btn" type="button">
+                        <p>+</p>
+                      </button>
+                  </div>
+                </div>
+              </div>
+              <div id="sizeList" class="size row">
+                <p style=" font-weight: 600;" class="sizeBox col-sm-2">SIZE</p>
+                <div class="S col-sm-1 size">S</div>
+                <div class="M col-sm-1 size">M</div>
+                <div class="L col-sm-1 size">L</div>
+                <div class="XL col-sm-1 size">XL</div>
+              </div>
+            </div>
+          </div>
+          
+          <br>
+      </div>
+          
+      <div  class="desc col" >
+        <p class="col" style=" font-weight: 600;">Description</p>
+        
+        <p class="col" id="descChange">
+          
+        </p>   
+         
+      </div>
+      
+  </div>
+  <br>
+  <br><br>
+  
+</div>
+  <div id="footerMain">
+    <div class="footer">
+      <div class="totalCol row">
+        Total            
+      </div>
+      <div  class="totalHarga row" style="font-size: 20px;">
+        <b class="classChange" id="totalChange"></b> 
+      </div>
+    </div>
+    <div class="row footerCol">
+      <div  class="beliCol col belihover"  type="button">
+        <p class="beliBorder" style=" font-size: 18px; font-weight: 500; ">Buy Now</p>
+      </div>
+      <div id="addtobasket" class="beliCol col baskethover" type="button">
+        <p class="beliBorder basketBorder">
+          <img src="Icon/add-to-basket.png" alt="" width="20px">
+        </p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+  
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="public/js/home3.js"></script>
+</body>
+</html>
