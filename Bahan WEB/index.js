@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const user = require('./models/user');
 const { static } = require('express');
 const app = express(); 
-const elastic = require('./Search Engine');
+
 
 app.use(express.json());
 
@@ -65,6 +65,26 @@ app.get('/items',(req,res)=>{
 app.get('/itemsElec',(req,res)=>{
     res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
 });
+
+
+//app.get('/Filter', (req,res) => {
+//    res.render('pages/' , {pagetitle: 'ponshop'});
+//})
+
+// Setelah disearching muncul 
+
+// const database_searching = require('.models/database');
+
+//app.post('/' , async (req,res) => {
+
+//const category_barang = req.body.category_barang;
+
+//var searching = database_searching.find({Name : {$regex: "J"}})
+    // searching.exec((error, data) => {
+    //      if (data) console.log("Got result in = " + JSON.stringify(data));
+   // })
+     
+//})
 
 app.get('/account', async (req,res)=>{
 res.render('pages/Account',{layout:false});
