@@ -1,0 +1,47 @@
+{
+
+    "electronic":   
+    [
+        {
+            "ID":"TV",
+            "Image": "public/img/kategori/Electronic/TV.jpg", 
+            "Name": "TCL 32inch 3 SMART TV", 
+            "Description": "Smart functionality delivers all your favorite content with over 500,000 movies and TV episodes, accessible through the simple and intuitive Roku TV.", 
+            "Color": "B", 
+            "ListPrice": 1850000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1850000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"HT",
+            "Image": "public/img/kategori/Electronic/HT.jpg", 
+            "Name": "BESTISAN Home Theater System Wired and Wireless Soundbar Speaker", 
+            "Description": "100 watt 40 Inch Deep bass sound bar trasfer 105dB room-filling and and crystal-clear home theater sound.", 
+            "Color": "B", 
+            "ListPrice": 1490000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1490000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"WM",
+            "Image": "public/img/kategori/Electronic/WM.jpg", 
+            "Name": "COMFEE’ 1.6 Cu.ft Portable Washing Machine", 
+            "Description": "This portable washing machine has 6 most commonly used programs including Normal, Quick, Heavy, Bulky, Delicate, and Spin Only. You are allowed to quickly start the machine the way you like.", 
+            "Color": "B", 
+            "ListPrice": 3790000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 3790000, 
+            "Save": 0
+        }
+    ]
+}
