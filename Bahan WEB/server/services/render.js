@@ -1,5 +1,8 @@
+// const axios = require('axios');
+
 
 exports.homeRouter = (req, res) =>{
+    // axios.get("http://localhost:3000/api/items")
     res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
 }
 

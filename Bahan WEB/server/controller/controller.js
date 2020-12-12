@@ -32,13 +32,31 @@ exports.create = (req, res) => {
 }
 
 exports.find = (req, res) => {
-    itemDB.find()
-    .then(user =>{
-        res.send(user)
-    })
-    .catch(err=>{
-        res.status(500).send({message: err.message || "Error Occurred while retriving item information"})
-    })
+    
+    if(req.query.id){
+        const id = req.query.id;
+
+        itemDB.findById(id)
+        .then(data=>{
+            if(data){
+                res.status(404).send({message: "Not Found User With ID" +id})
+            }else{
+                res.send(data)
+            }
+        })
+        .catch(err=>{
+            res.status(500).send({message: "Error retriving user with ID" +id})
+        })
+    }else{
+        itemDB.find()
+        .then(user =>{
+            res.send(user)
+        })
+        .catch(err=>{
+            res.status(500).send({message: err.message || "Error Occurred while retriving item information"})
+        })
+    }
+
 }
 
 // update by id
