@@ -1,5 +1,4 @@
-{    
-    "allItem": [ 
+[ 
         {
             "ID" : "furniture1",
             "Image": "public/img/HomePage/furniture, tech news/Furniture/Photo-Oct-07-3-44-12-PM-768x1152.jpg", 
@@ -1029,4 +1028,3 @@
         }
     ]
 
-}

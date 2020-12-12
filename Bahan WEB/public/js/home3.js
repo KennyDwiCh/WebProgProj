@@ -28,7 +28,7 @@ function basket(){
 
 var addtobasket = document.getElementById("addtobasket");
 var listbasket = document.getElementById("listbasket");
-
+var buynow = document.getElementById("buynow");
 
 var locImage = localStorage.getItem("serialNumber");
 var slicing = locImage.slice(16);
@@ -40,7 +40,7 @@ window.addEventListener('load', function(){
 });
 
 $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
-  let allItem = data.allItem;
+  let allItem = data;
   $.each(allItem, function(i, data){
       if(slicing == data.ID){
       
@@ -119,11 +119,17 @@ $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
       })
       x=0;
       array = Array();
+
+      var title = data.Name;
+      var gambar = data.Image;
+      var harga = data.ListPrice*valueCount;
+      var total = formatToCurrency(harga);
+
+      buynow.addEventListener("click", function(){
+        console.log("oke");
+      });
+
       addtobasket.addEventListener("click", function(){
-        var title = data.Name;
-        var gambar = data.Image;
-        var harga = data.ListPrice*valueCount;
-        var total = formatToCurrency(harga);
         
         var newBasket = document.createElement("tr");
         var basketItems = document.getElementsByClassName('basketItems')[0]
