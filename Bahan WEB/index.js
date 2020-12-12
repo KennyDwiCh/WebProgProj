@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 const user = require('./models/user');
 const { static } = require('express');
 const app = express(); 
+const elastic = require('./Search Engine');
 
 app.use(express.json());
 
@@ -31,7 +32,7 @@ mongoose.connect(
 )
 const db = mongoose.connection;
 db.once("open",()=>{
-    console.log("Succses connect ke monggose")
+    console.log("Success connect ke monggose")
 })
  
 
