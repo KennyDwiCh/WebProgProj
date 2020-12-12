@@ -1,0 +1,47 @@
+{
+
+    "gadget":   
+    [
+        {
+            "ID":"PB",
+            "Image": "public/img/kategori/gadget/PB.jpg", 
+            "Name": "Anker Portable Charger", 
+            "Description": "Ultra-High Capacity: The massive 20,000mAh capacity provides more than 5 charges for iPhone XS, almost 5 full charges for Galaxy S10, more than 3 and a half charges for Huawei P30, and over 2 and a half charges for iPad mini 5.", 
+            "Color": "B", 
+            "ListPrice": 629000, 
+            "Category": "gadget", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 629000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"SM",
+            "Image": "public/img/kategori/gadget/SM.jpg", 
+            "Name": "Samsung Galaxy Watch 3", 
+            "Description": "Galaxy Watch3 combines style—two sizes, two finishes, three colors and, 50,000 plus watch faces-with military-grade durability and water resistance.", 
+            "Color": "B", 
+            "ListPrice": 4499000, 
+            "Category": "gadget", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 4499000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"SP",
+            "Image": "public/img/kategori/gadget/SP.jpg", 
+            "Name": "Apple iPhone 8 Plus", 
+            "Description": "Apple iPhone 8 Plus 64GB Rose Gold Fully Unlocked.", 
+            "Color": "B", 
+            "ListPrice": 6999000, 
+            "Category": "gadget", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 6999000, 
+            "Save": 0
+        }
+    ]
+}
