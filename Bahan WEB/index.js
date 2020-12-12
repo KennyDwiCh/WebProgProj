@@ -89,6 +89,16 @@ app.use('/', require('./server/route/routes'))
 app.get('/account', async (req,res)=>{
 res.render('pages/Account',{layout:false});
 });
+app.put('/account', async (req,res)=>{
+    var username = req.session.user
+    user.find({'username' : username}.exec((error,data)=>{
+        if(error) console.log(JSON.stringify(error));
+        if(data){
+            console.log("Find: "+JSON.stringify(data));
+            username = req.db.user
+        }
+    }))
+});
 app.get('/login', async (req,res)=>{
     res.render('pages/Login');
 });
@@ -128,7 +138,27 @@ acc_insert.save((err,product) => {
     res.redirect('/account');
 });
 });
-
+app.post('/update',async(req,res)=>{
+    const username = req.body.username;
+    user.find({"username": username}).exec((error,data)=>{
+        if (error) console.log(error);
+        if (data){
+var acc_update = user({
+    username : req.body.username,
+    email : req.body.email,
+    password : req.body.password,
+    dateof : req.body.dateof,
+    gender : req.body.gender,
+    address : req.body.address,
+    mobnum : req.body.mobnum,
+});
+db.collection("user").updateMany(data,acc_update,function(err,res){
+    if (err) throw err;
+    console.log(res.result.nModified + " document(s) updated");
+});
+    }
+});
+});
 app.get('/logout',async(req,res)=>{
 req.session.destroy();
 res.redirect('/login');
