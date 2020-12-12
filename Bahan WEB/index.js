@@ -5,7 +5,9 @@ const session = require('express-session');
 const mongoose = require("mongoose");
 const user = require('./models/user');
 const { static } = require('express');
+const connectDB = require('./server/database/connection')
 const app = express(); 
+
 
 app.use(express.json());
 
@@ -18,21 +20,21 @@ app.use(session({
     cookie: {} 
 })); 
  
-
- 
+//MonggoDB Connection
+ connectDB();
 
 // body-parser to parse request body 
 
 router.use(bodyParser.urlencoded()); 
 
-mongoose.connect(
-    "mongodb://127.0.0.1:27017/Account-ponshop",
-    {useNewUrlParser:true}
-)
-const db = mongoose.connection;
-db.once("open",()=>{
-    console.log("Succses connect ke monggose")
-})
+// mongoose.connect(
+//     "mongodb://127.0.0.1:27017/Account-ponshop",
+//     {useNewUrlParser:true}
+// )
+// const db = mongoose.connection;
+// db.once("open",()=>{
+//     console.log("Success connect ke monggose")
+// })
  
 
 // static files 
@@ -49,21 +51,40 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // routes 
-app.get('/', (req,res)=>{
-    res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
-});
-
-// app.get('/items', (req,res)=>{
-//     res.render('layout/selectedItems', {pageTitle: 'PONSHOP', header:'header', body:'templateItem'});
+// app.get('/', (req,res)=>{
+//     res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
 // });
 
-app.get('/items',(req,res)=>{
-    res.render('pages/templateItem', {pageTitle: 'PONSHOP'});
-});
+// module.exports = (params)=>{
+//     router.use('/data', itemRouter());
+// }
 
-app.get('/itemsElec',(req,res)=>{
-    res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
-});
+// app.get('/itemsElec',(req,res)=>{
+//     res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
+// });
+
+
+//app.get('/Filter', (req,res) => {
+//    res.render('pages/' , {pagetitle: 'ponshop'});
+//})
+
+// Setelah disearching muncul 
+
+// const database_searching = require('.models/database');
+
+//app.post('/' , async (req,res) => {
+
+//const category_barang = req.body.category_barang;
+
+//var searching = database_searching.find({Name : {$regex: "J"}})
+    // searching.exec((error, data) => {
+    //      if (data) console.log("Got result in = " + JSON.stringify(data));
+   // })
+     
+//})
+
+// routes 
+app.use('/', require('./server/route/routes'))
 
 app.get('/account', async (req,res)=>{
 res.render('pages/Account',{layout:false});
@@ -149,3 +170,4 @@ module.exports = app;
 app.listen(3000); 
 
 console.log('Server runs at port 3000...'); 
+module.exports = router;
