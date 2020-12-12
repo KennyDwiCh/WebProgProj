@@ -1,0 +1,47 @@
+{
+
+    "camera":   
+    [
+        {
+            "ID":"actionCam",
+            "Image": "public/img/kategori/camera/ActionCam.jpg", 
+            "Name": "GoPro Camera Fusion", 
+            "Description": "GoPro Camera Fusion - 360 Waterproof Digital VR Camera with Spherical 5.2K HD Video 18MP Photos, Spherical video + photos capture incredible 5.2k videos and 18MP photos of everything around you by shooting in every direction at once.", 
+            "Color": "B", 
+            "ListPrice": 5700000, 
+            "Category": "camera", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 5700000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"drone",
+            "Image": "public/img/kategori/camera/Drone.jpg", 
+            "Name": "DJI Mavic Mini Combo", 
+            "Description": "DJI Mavic Mini Combo - Drone FlyCam Quadcopter UAV with 2.7K Camera 3-Axis Gimbal GPS 30min Flight Time, less than 0.55lbs.", 
+            "Color": "B", 
+            "ListPrice": 8299000, 
+            "Category": "camera", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 8299000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"mirrorless",
+            "Image": "public/img/kategori/camera/Mirrorless.jpg", 
+            "Name": "Sony Alpha a6400 Mirrorless Camera", 
+            "Description": "Sony Alpha a6400 Mirrorless Camera: Compact APS-C Interchangeable Lens Digital Camera with Real-Time Eye Auto Focus, 4K Video, Flip Screen & 16-50mm Lens - E Mount Compatible Cameras - ILCE-6400L/B.", 
+            "Color": "B", 
+            "ListPrice": 14099000, 
+            "Category": "camera", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 14099000, 
+            "Save": 0
+        }
+    ]
+}
