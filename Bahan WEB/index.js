@@ -38,9 +38,36 @@ db.once("open",()=>{
 // static files 
 
 app.use("/public",express.static(__dirname + '/public'));
- 
+app.use(express.static('public'));
+app.use(express.static("Database JSON"));
+app.use('/kumpulanData', express.static(__dirname+ 'Database JSON/kumpulanData'));
+app.use('/css', express.static(__dirname+ 'public/css'));
+app.use('/js', express.static(__dirname+ 'public/js'));
+app.use('/img', express.static(__dirname+ 'public/img'));
+app.use('/json', express.static(__dirname+ 'public/json'));
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 // routes 
+app.get('/', (req,res)=>{
+    res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
+});
+
+// app.get('/items', (req,res)=>{
+//     res.render('layout/selectedItems', {pageTitle: 'PONSHOP', header:'header', body:'templateItem'});
+// });
+
+app.get('/items',(req,res)=>{
+    res.render('pages/templateItem', {pageTitle: 'PONSHOP'});
+});
+
+app.get('/itemsElec',(req,res)=>{
+    res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
+});
+
+app.get('/account', async (req,res)=>{
+res.render('pages/Account',{layout:false});
+});
 app.get('/login', async (req,res)=>{
     res.render('pages/Login');
 });
@@ -59,34 +86,6 @@ user.find({"username": username, "password": password}).exec((error,data)=>{
     }
 });
 });
-app.use(express.static('public'));
-app.use(express.static("Database JSON"));
-app.use('/kumpulanData', express.static(__dirname+ 'Database JSON/kumpulanData'));
-app.use('/css', express.static(__dirname+ 'public/css'));
-app.use('/js', express.static(__dirname+ 'public/js'));
-app.use('/img', express.static(__dirname+ 'public/img'));
-app.use('/json', express.static(__dirname+ 'public/json'));
-
-app.get('', (req,res)=>{
-    res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
-});
-
-// app.get('/items', (req,res)=>{
-//     res.render('layout/selectedItems', {pageTitle: 'PONSHOP', header:'header', body:'templateItem'});
-// });
-
-app.get('/items',(req,res)=>{
-    res.render('pages/templateItem', {pageTitle: 'PONSHOP'});
-});
-
-app.get('/itemsElec',(req,res)=>{
-    res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
-});
-
-app.get('/account', async (req,res)=>{
-res.render('pages/Account');
-});
-
 app.get('/register',async(req,res)=>{
 res.render('pages/Login',{layout:false});
 });
