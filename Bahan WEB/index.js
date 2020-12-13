@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const user = require('./models/user');
 const { static } = require('express');
 const connectDB = require('./server/database/connection')
-const app = express(); 
+const app = express();
 
 
 app.use(express.json());
@@ -22,7 +22,6 @@ app.use(session({
  
 //MonggoDB Connection
  connectDB();
-
 // body-parser to parse request body 
 
 router.use(bodyParser.urlencoded()); 
@@ -31,7 +30,7 @@ router.use(bodyParser.urlencoded());
 //     "mongodb://127.0.0.1:27017/Account-ponshop",
 //     {useNewUrlParser:true}
 // )
-// const db = mongoose.connection;
+//const db = mongoose.connection;
 // db.once("open",()=>{
 //     console.log("Success connect ke monggose")
 // })
@@ -86,7 +85,12 @@ app.put('/account', async (req,res)=>{
         if(error) console.log(JSON.stringify(error));
         if(data){
             console.log("Find: "+JSON.stringify(data));
-            username = req.db.user
+            document.getElementsByName('username').innerHTML = user.username;
+            document.getElementsByName('dateof').innerHTML = user.dateof;
+            document.getElementsByName('mobnum').innerHTML = user.mobnum;
+            document.getElementsByName('gender').innerHTML = user.gender;
+            document.getElementsByName('email').innerHTML = user.email;
+            document.getElementsByName('address').innerHTML = user.address;
         }
     }))
 });
@@ -100,10 +104,14 @@ const username = req.body.username;
 const password = req.body.password;
 
 user.find({"username": username, "password": password}).exec((error,data)=>{
-    if(error) console.log(JSON.stringify(error));
+    if(error) {
+        console.log(JSON.stringify(error));
+        res.redirect('/login')
+    }
     if(data){
         console.log("Find: "+JSON.stringify(data));
         req.session.user = username;
+        console.log(req.session.user);
         res.redirect('/account');
     }
 });
@@ -134,23 +142,47 @@ app.post('/update',async(req,res)=>{
     user.find({"username": username}).exec((error,data)=>{
         if (error) console.log(error);
         if (data){
-var acc_update = user({
-    username : req.body.username,
-    email : req.body.email,
-    password : req.body.password,
-    dateof : req.body.dateof,
-    gender : req.body.gender,
-    address : req.body.address,
-    mobnum : req.body.mobnum,
-});
-db.collection("user").updateMany(data,acc_update,function(err,res){
+user.update({username:req.body.username},
+    {email : req.body.email},
+    function(err,res){
     if (err) throw err;
-    console.log(res.result.nModified + " document(s) updated");
+    console.log(req.body.email);
 });
-    }
+user.update({email : req.body.email},
+    {dateof : req.body.dateof},
+    function(err,res){
+    if (err) throw err;
+    console.log(req.body.dateof);
+});
+user.update({dateof : req.body.dateof},
+    {gender : req.body.gender},
+    function(err,res){
+    if (err) throw err;
+    console.log(req.body.gender);
+});
+user.update({gender : req.body.gender},
+    {address : req.body.address},
+    function(err,res){
+    if (err) throw err;
+    console.log(req.body.address);
+});
+user.update({address : req.body.address},
+    {mobnum : req.body.mobnum},
+    function(err,res){
+    if (err) throw err;
+    console.log(req.body.mobnum);
+});
+user.update({mobnum : req.body.mobnum},
+    {username:req.body.username},
+    function(err,res){
+    if (err) throw err;
+    console.log(req.body.username);
+});
+}
 });
 });
-app.get('/logout',async(req,res)=>{
+
+app.post('/logout',async(req,res)=>{
 req.session.destroy();
 res.redirect('/login');
 });

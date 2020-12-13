@@ -10,5 +10,4 @@ var UserSchema = new mongoose.Schema({
     mobnum: String
 }
 );
-
 module.exports = mongoose.model('user', UserSchema);
