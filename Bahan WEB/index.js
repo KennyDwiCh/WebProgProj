@@ -181,6 +181,7 @@ user.update({mobnum : req.body.mobnum},
 });
 }
 });
+res.redirect('/account');
 });
 
 app.post('/logout',async(req,res)=>{
