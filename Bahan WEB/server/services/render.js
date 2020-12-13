@@ -7,11 +7,11 @@ exports.homeRouter = (req, res) =>{
 }
 
 exports.itemPage = (req, res) =>{
-    res.render('pages/templateItem', {pageTitle: 'PONSHOP'});
+    res.render('layout/selectedItems', {pageTitle: 'PONSHOP', header:'header'});
 }
 
 exports.itemPageElec = (req, res) =>{
-    res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
+    res.render('pages/templateItemElec', {pageTitle: 'PONSHOP', header:'header'});
 }
 
 exports.checkOut = (req, res) =>{
