@@ -1,0 +1,461 @@
+{
+    "beautySkin":   
+    [
+        {
+            "ID":"SC",
+            "namaItem":"Skin Care",
+            "Image": "public/img/kategori/Beauty/SC.jpg", 
+            "Name": "Anti Aging Serum 3-Pack for Face - Vitamin C", 
+            "Description": "A HIGHER FORM OF ACTIVE, BIO-AVAILABLE VITAMIN C, our Vitamin C Serum combines many natural and organic ingredients in such a way that your face feels smooth and refreshed the moment it touches your skin.", 
+            "Color": "B", 
+            "ListPrice": 249000, 
+            "Category": "Beauty", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 249000, 
+            "Save": 0
+        }
+    ],
+    "beautyFace":
+    [
+        {
+            "ID":"FW",
+            "namaItem":"Face Wash",
+            "Image": "public/img/kategori/Beauty/FW.jpg", 
+            "Name": "Solimo Morning Fresh Facial Cleanser with Ginseng and Vitamin C, 8 fl oz", 
+            "Description": " One 8-fluid ounce bottle of Solimo Morning Fresh Facial Cleanser with ginseng, vitamin C and non-plastic cellulose beads.", 
+            "Color": "B", 
+            "ListPrice": 49000, 
+            "Category": "Beauty", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 49000, 
+            "Save": 0
+        }
+    ],
+    "beautyBody":
+    [
+        {
+            "ID":"BF",
+            "namaItem":"Body Foam",
+            "Image": "public/img/kategori/Beauty/BF.jpg", 
+            "Name": "Dove Foaming Body Wash, Body Wash for All Skin Types", 
+            "Description": "DOVE MANGO BUTTER FOAMING BODY WASH This rich bodywash is made with mango butter to moisturize dry skin and give you a pampered spa-like experience every time you namaItemer.", 
+            "Color": "B", 
+            "ListPrice": 79000, 
+            "Category": "Beauty", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 79000, 
+            "Save": 0
+        }
+    ],
+    "elecTv":
+    [
+        {
+            "ID":"TV",
+            "namaItem":"Television",
+            "Image": "public/img/kategori/Electronic/TV.jpg", 
+            "Name": "TCL 32inch 3 SMART TV", 
+            "Description": "Smart functionality delivers all your favorite content with over 500,000 movies and TV episodes, accessible through the simple and intuitive Roku TV.", 
+            "Color": "B", 
+            "ListPrice": 1850000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1850000, 
+            "Save": 0
+        }
+    ],
+    "elecHT":
+    [
+        {
+            "ID":"HT",
+            "namaItem":"Home Theater",
+            "Image": "public/img/kategori/Electronic/HT.jpg", 
+            "Name": "BESTISAN Home Theater System Wired and Wireless Soundbar Speaker", 
+            "Description": "100 watt 40 Inch Deep bass sound bar trasfer 105dB room-filling and and crystal-clear home theater sound.", 
+            "Color": "B", 
+            "ListPrice": 1490000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1490000, 
+            "Save": 0
+        }
+    ],
+    "elecWM":
+    [
+        {
+            "ID":"WM",
+            "namaItem":"Washing Machine",
+            "Image": "public/img/kategori/Electronic/WM.jpg", 
+            "Name": "COMFEE’ 1.6 Cu.ft Portable Washing Machine", 
+            "Description": "This portable washing machine has 6 most commonly used programs including Normal, Quick, Heavy, Bulky, Delicate, and Spin Only. You are allowed to quickly start the machine the way you like.", 
+            "Color": "B", 
+            "ListPrice": 3790000, 
+            "Category": "Electronic", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 3790000, 
+            "Save": 0
+        }
+    ],
+    "gadgetSW":
+    [
+        {
+            "ID":"SM",
+            "namaItem":"Smart Watch",
+            "Image": "public/img/kategori/gadget/SM.jpg", 
+            "Name": "Samsung Galaxy Watch 3", 
+            "Description": "Galaxy Watch3 combines style—two sizes, two finishes, three colors and, 50,000 plus watch faces-with military-grade durability and water resistance.", 
+            "Color": "B", 
+            "ListPrice": 4499000, 
+            "Category": "gadget", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 4499000, 
+            "Save": 0
+        }
+    ],
+    "gadgetSP":
+    [
+        {
+            "ID":"SP",
+            "namaItem":"Smart Phone",
+            "Image": "public/img/kategori/gadget/SP.jpg", 
+            "Name": "Apple iPhone 8 Plus", 
+            "Description": "Apple iPhone 8 Plus 64GB Rose Gold Fully Unlocked.", 
+            "Color": "B", 
+            "ListPrice": 6999000, 
+            "Category": "gadget", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 6999000, 
+            "Save": 0
+        }
+    ],
+    "gadgetPB":
+    [
+        {
+            "ID":"PB",
+            "namaItem":"Power Bank",
+            "Image": "public/img/kategori/gadget/PB.jpg", 
+            "Name": "Anker Portable Charger", 
+            "Description": "Ultra-High Capacity: The massive 20,000mAh capacity provides more than 5 charges for iPhone XS, almost 5 full charges for Galaxy S10, more than 3 and a half charges for Huawei P30, and over 2 and a half charges for iPad mini 5.", 
+            "Color": "B", 
+            "ListPrice": 629000, 
+            "Category": "gadget", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 629000, 
+            "Save": 0
+        }
+    ],
+    "musicGuitar":
+    [
+        {
+            "ID":"guitar",
+            "namaItem":"Guitar",
+            "Image": "public/img/kategori/music/Guitar.jpg", 
+            "Name": "Yamaha GL1 Guitalele", 
+            "Description": "A unique mini 6-string nylon guitar that is sized like a baritone ukulele (17inch scale) and plays like a guitar.", 
+            "Color": "B", 
+            "ListPrice": 1350000, 
+            "Category": "music", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1350000, 
+            "Save": 0
+        }
+    ],
+    "musicDrum":
+    [
+        {
+            "ID":"drum",
+            "namaItem":"Drum",
+            "Image": "public/img/kategori/music/Drum.jpg", 
+            "Name": "Alesis Drums Turbo Mesh Kit", 
+            "Description": "Electronic Drum Kit Powered by Mesh Technology All mesh drum heads deliver the most realistic, responsive and immersive playing experience modern drummers demand.", 
+            "Color": "B", 
+            "ListPrice": 3999000, 
+            "Category": "music", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 3999000, 
+            "Save": 0
+        }
+    ],
+    "musicPiano":
+    [
+        {
+            "ID":"piano",
+            "namaItem":"Piano",
+            "Image": "public/img/kategori/music/Piano.jpg", 
+            "Name": "LAGRIMA Digital Piano with Bench", 
+            "Description": "FEATURE-3 pedal system(Soft/Sustain/Rear sustain pedal)/LCD display screen/80 demo songs/480 tones/128 standard GM tones/200 present rhythms/64 Polyphony/Built-in stereo speakers/Slide cover design/Storage bench.", 
+            "Color": "B", 
+            "ListPrice": 4999000, 
+            "Category": "music", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 4999000, 
+            "Save": 0
+        }
+    ],
+    "menShirt":
+    [
+        {
+            "ID":"shirt",
+            "namaItem":"Shirt",
+            "Image": "public/img/kategori/men/Shirt.jpg", 
+            "Name": "Champion Men's Classic Jersey Script T-Shirt", 
+            "Description": "100% Cotton,Imported,Pull On closure,Machine Wash,Ring spun cotton fabric for extra softness. Oxford 90 percent cotton/10.", 
+            "Color": "B", 
+            "ListPrice": 479000, 
+            "Category": "men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 479000, 
+            "Save": 0
+        }
+    ],
+    "menPants":
+    [
+        {
+            "ID":"pants",
+            "namaItem":"Pants",
+            "Image": "public/img/kategori/men/Pants.jpg", 
+            "Name": "adidas Men's Tiro 19 Training Pants", 
+            "Description": "Adidas Soccer apparel is designed to keep you comfortable for the entire 90 minutes on the field and beyond.", 
+            "Color": "B", 
+            "ListPrice": 579000, 
+            "Category": "men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 579000, 
+            "Save": 0
+        }
+    ],
+    "menShoes":
+    [
+        {
+            "ID":"shoes",
+            "namaItem":"Shoes",
+            "Image": "public/img/kategori/men/shoes.jpg", 
+            "Name": "Nike Men's Odyssey React 2 Flyknit Running Shoe", 
+            "Description": "Lace Up closure,Nike React technology delivers a soft, smooth and responsive ride,Flyknit construction provides lightweight flexibility and breathability.", 
+            "Color": "B", 
+            "ListPrice": 1279000, 
+            "Category": "shoes", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1279000, 
+            "Save": 0
+        }
+    ],
+    "womenBag":
+    [
+        {
+            "ID":"bag",
+            "namaItem":"Bag",
+            "Image": "public/img/kategori/women/Bag.jpg", 
+            "Name": "Michael Kors Women's Jet Set Travel", 
+            "Description": "Top zip closure MK Strap Logo, detail on front Exterior side pockets,Interior: 1 zippered pocket & 2 slip pockets Michael Kors signature lining.", 
+            "Color": "B", 
+            "ListPrice": 2350000, 
+            "Category": "women", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 2350000, 
+            "Save": 0
+        }
+    ],
+    "womenSneaker":
+    [
+        {
+            "ID":"sneakers",
+            "namaItem":"Sneakers", 
+            "Image": "public/img/kategori/women/Sneakers.jpg", 
+            "Name": "Fila Women's Disruptor II", 
+            "Description": "Be bold and provocative. Remain vintage, but never conventional,Radiate sophistication and style without sacrificing performance,Inspired by vintage athletic wear. Retro looks, with classic stylings. ", 
+            "Color": "B", 
+            "ListPrice": 999000, 
+            "Category": "women", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 999000, 
+            "Save": 0
+        }
+    ],
+    "womenJewerly":
+    [
+        {
+            "ID":"jewelry",
+            "namaItem":"Jewelry",
+            "Image": "public/img/kategori/women/Jewelry.jpg", 
+            "Name": "SWAROVSKI Women's Angelic Tennis Bracelet Crystal Jewelry Collection", 
+            "Description": "The Angelic Tennis Bracelet combines the precision and quality of brilliant crystals with a timeless design and rhodium plated band, for a touch of glamour for any occasion.", 
+            "Color": "B", 
+            "ListPrice": 1999000, 
+            "Category": "women", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1999000, 
+            "Save": 0
+        }
+    ],
+    "pcLaptop":
+    [
+        {
+            "ID":"laptop",
+            "namaItem":"Laptop",
+            "Image": "public/img/kategori/pc/Laptop.jpg", 
+            "Name": "Acer Predator Helios 300 Gaming Laptop", 
+            "Description": "Acer Predator Helios 300 Gaming Laptop, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6inch Full HD 144Hz 3ms IPS Display, 16GB Dual-Channel DDR4, 512GB NVMe SSD, Wi-Fi 6, RGB Keyboard.", 
+            "Color": "B", 
+            "ListPrice": 15999000, 
+            "Category": "pc", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 15999000, 
+            "Save": 0
+        }
+    ],
+    "pcMonitor":
+    [
+        {
+            "ID":"monitor",
+            "namaItem":"Monitor",
+            "Image": "public/img/kategori/pc/Monitor.jpg", 
+            "Name": "AORUS FI27Q 27inch 165Hz 1440P FreeSync IPS Gaming Monitor", 
+            "Description": "AORUS FI27Q 27inch 165Hz 1440P FreeSync IPS Gaming Monitor, Exclusive Built-in ANC, 2560x1440 Display, 1 ms Response Time, HDR, 95% DCI-P3, 1x Display Port 1.2, 2X HDMI 2.0, 2X USB 3.0.", 
+            "Color": "B", 
+            "ListPrice": 6999000, 
+            "Category": "monitor", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 6999000, 
+            "Save": 0
+        }
+    ],
+    "pcDesktop":
+    [
+        {
+            "ID":"desktop",
+            "namaItem":"Dekstop",
+            "Image": "public/img/kategori/pc/Desktop.jpg", 
+            "Name": "MSI MEG Trident X 10SD-864US SFF Gaming Desktop", 
+            "Description": " MSI MEG Trident X 10SD-864US SFF Gaming Desktop, Intel Core i7-10700KF, GeForce RTX 2070 Super, 32GB Memory, 1TB SSD, WiFi 6, USB Type-C, Thunderbolt 3, Windows 10 Home.", 
+            "Color": "B", 
+            "ListPrice": 25499000, 
+            "Category": "pc", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 25499000, 
+            "Save": 0
+        }
+    ],
+    "furnitureTable":
+    [
+        {
+            "ID":"table",
+            "namaItem":"Table",
+            "Image": "public/img/kategori/furniture/Table.jpg", 
+            "Name": "Home Office Desk, Modern Industrial Simple Style Computer Desk", 
+            "Description": "Modern Industrial design with simple pattern supplies plenty room for legs and work. Metal frame with MDF panel makes it qualified enough and suitable to be an office desk for carrying PCs, printers, and other purpose. It can be used as a study writing desk for college students or used in dorm, house etc.", 
+            "Color": "B", 
+            "ListPrice": 949000, 
+            "Category": "furniture", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 949000, 
+            "Save": 0
+        }
+    ],
+    "furnitureChair":
+    [
+        {
+            "ID":"chair",
+            "namaItem":"Chair",
+            "Image": "public/img/kategori/furniture/Chair.jpg", 
+            "Name": "FurnitureMaxx Lotusville Vintage PU Leather Dining Chairs, Antique Brown, Set of 2", 
+            "Description": "Hand crafted metal dining chairs with Vintage PU Leather in Antique brown color, Set of 2.", 
+            "Color": "B", 
+            "ListPrice": 1149000, 
+            "Category": "furniture", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1149000, 
+            "Save": 0
+        }
+    ],
+    "furnitureBed":
+    [
+        {
+            "ID":"bed",
+            "namaItem":"Bed",
+            "Image": "public/img/kategori/furniture/Bed.jpg", 
+            "Name": "Olee Sleep 12 inch Hybrid Euro Box Top Pocket Spring Mattress", 
+            "Description": "Composed of 5 Layers Includes Pocket Spring, High density foam absorbs and disperse your weight, Your purchase includes One Olee Sleep Pegasus 12-Inch Euro Box Top Spring Mattress, in Full Size.", 
+            "Color": "B", 
+            "ListPrice": 4149000, 
+            "Category": "furniture", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 4149000, 
+            "Save": 0
+        }
+    ],
+    "cameraMirror":
+    [
+        {
+            "ID":"mirrorless",
+            "namaItem":"Mirrorless",
+            "Image": "public/img/kategori/camera/Mirrorless.jpg", 
+            "Name": "Sony Alpha a6400 Mirrorless Camera", 
+            "Description": "Sony Alpha a6400 Mirrorless Camera: Compact APS-C Interchangeable Lens Digital Camera with Real-Time Eye Auto Focus, 4K Video, Flip Screen & 16-50mm Lens - E Mount Compatible Cameras - ILCE-6400L/B.", 
+            "Color": "B", 
+            "ListPrice": 14099000, 
+            "Category": "camera", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 14099000, 
+            "Save": 0
+        }
+    ],
+    "cameraDrone":
+    [
+        {
+            "ID":"drone",
+            "namaItem":"Drone",
+            "Image": "public/img/kategori/camera/Drone.jpg", 
+            "Name": "DJI Mavic Mini Combo", 
+            "Description": "DJI Mavic Mini Combo - Drone FlyCam Quadcopter UAV with 2.7K Camera 3-Axis Gimbal GPS 30min Flight Time, less than 0.55lbs.", 
+            "Color": "B", 
+            "ListPrice": 8299000, 
+            "Category": "camera", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 8299000, 
+            "Save": 0
+        }
+    ],
+    "cameraAction":
+    [
+        {
+            "ID":"actionCam",
+            "namaItem":"Action Camera",
+            "Image": "public/img/kategori/camera/ActionCam.jpg", 
+            "Name": "GoPro Camera Fusion", 
+            "Description": "GoPro Camera Fusion - 360 Waterproof Digital VR Camera with Spherical 5.2K HD Video 18MP Photos, Spherical video + photos capture incredible 5.2k videos and 18MP photos of everything around you by shooting in every direction at once.", 
+            "Color": "B", 
+            "ListPrice": 5700000, 
+            "Category": "camera", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 5700000, 
+            "Save": 0
+        }
+    ]
+}

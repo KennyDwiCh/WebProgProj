@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ponshop</title>
+    <link rel="icon" href="/Gambar/Logo/160059991334135361 (1).png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="navbar_top">
+    <div id="navbar" class="atas" style="padding-left: 60px; background-color: white; width: auto; height: 90px;">
+      <div class="d-flex bd-highlight mb-3">
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <div class="p-2 bd-highlight">
+            <div class="mr-auto p-2 bd-highlight" style="margin-top: -7px;">
+              
+              <img onclick="topFunction()" class="ponshop" src="public/img/HomePage/Logo/160059991334135361 .png" width="150px" style="margin-left: 10px;">
+          </div>
+          </div>
+          <a href="category.html"  style="margin-top: 30px; margin-right: 9px; margin-left: 9px; color: #0A292B;">
+            <small>Category</small>
+          </a>
+          <div class="p-2 bd-highlight">
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="p-2 bd-highlight" style="margin-top: -17px;">
+                <div id="search" class="p-2 bd-highlight" style="margin-top: 20px; padding-right: 100px;">
+                  <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" style="width: 44rem; height: 32px; border-color: #0A292B; border-right: none; ">
+                      <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" style="height: 32px; border-color: #0A292B; border-left: none; background-color: white;"><img src="img/Icon/newIcon/icon Search.svg" width="20" height="20" style="margin-top: -10px;"></button>
+                      </div>
+                  </div>
+                  <div class="d-flex flex-row bd-highlight mb-3" style="font-size: 10px; margin-top: -20px; margin-left: -7px; color: #687D7E;">
+                    <div class="p-2 bd-highlight">
+                      <a href="category_electronic_TV.html" style="color: #687D7E;">Television</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_beauty_SC.html" style="color: #687D7E;">Skin Care</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_men_Shirt.html" style="color: #687D7E;">Men Shirt</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_pc_Laptop.html" style="color: #687D7E;">Laptop</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_gadget_SP.html" style="color: #687D7E;">Smartphone</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_music_Drum.html" style="color: #687D7E;">Music</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_camera_Drone.html" style="color: #687D7E;">Drone</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_furniture_Table.html" style="color: #687D7E;">Table</a>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <a href="category_women_Bag.html  " style="color: #687D7E;">Women Bag</a>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                  
+                <div class="p-2 bd-highlight" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <img onclick="basket()" class="leftsearch" src="img/Icon/add-to-basket.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                </div>
+                <div class="collapse" id="collapseExample" style="position: absolute; width: 300px; margin-top: 15px;">
+                  <div class="card card-body" style="height: 300px; width: 400px; overflow-y: scroll; margin-left: -100px;">
+                    <table class="table" >
+                      <thead>
+                        <tr>
+                          <th>Basket (?)</th>
+                          <th></th>
+                          <th style="font-size: small;">See More</th>
+                        </tr>
+                      </thead>
+                      <tbody id="listbasket" class="basketItems">
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="p-2 bd-highlight" data-toggle="collapse" href="#collapseExample222" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <img class="leftsearch" src="img/Icon/notification.png" type="button" width="20" height="20" style="margin-top: 7px;">
+                </div>
+                <div class="collapse" id="collapseExample222" style="position: absolute; width: 300px; margin-top: 15px;">
+                  <div class="card card-body" style="height: 300px; width: 400px; overflow-y: scroll; margin-left: -100px;">
+                    <table class="table" >
+                      <thead>
+                        <tr>
+                          <th>Notification</th>
+                          <th></th>
+                          <th style="font-size: small;">See More</th>
+                        </tr>
+                      </thead>
+                      <tbody id="listbasket" class="basketItems">
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="vertical"></div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
+              Kelusi
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
+              <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
+              <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
+            </div>
+          </div>
+          <div class="help" style="margin-top: 30px; margin-left: 20px;">
+            <a href="" style="color: #0A292B;">
+              <small >Help</small>
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</nav>
+
+    </div>
+    </div>
+
+    <div class="mid">
+        <div class="ongoing" style="margin-top: 10px;">
+
+            <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm">
+                            <div class="card-deck">
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/MesinCuci.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li class="list-group-item"><a id="elecTv" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">
+                                            Television</a></li>
+                                            <li class="list-group-item"><a id="elecHT" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Home Theater</a></li>
+                                            <li class="list-group-item"><a id="elecWM" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Washing Machine</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/Iphone8Plus.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="gadgetSW" onClick="doSomething(this.id)" href="/cat-items" class="text-dark"> Smart Watch</a></li>
+                                            <li  class="list-group-item"><a id="gadgetSP" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Smart Phone</a></li>
+                                            <li class="list-group-item"><a id="gadgetPB" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Power Bank</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/GitarListrik.png" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="musicGuitar" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Guitar</a></li>
+                                            <li  class="list-group-item"><a id="musicDrum" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Drum</a></li>
+                                            <li  class="list-group-item"><a id="musicPiano" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Piano</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/Handwash.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="beautySkin" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Skin Care</a></li>
+                                            <li  class="list-group-item"><a id="beautyFace" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Face Wash</a></li>
+                                            <li  class="list-group-item"><a id="beautyBody" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Body Foam</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/men.png" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="menShirt" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Shirt</a></li>
+                                            <li  class="list-group-item"><a id="menPants" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Pants</a></li>
+                                            <li  class="list-group-item"><a id="menShoes" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Shoes</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/women.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="womenBag" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Bag</a></li>
+                                            <li  class="list-group-item"><a id="womenSneaker" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Sneakers</a></li>
+                                            <li  class="list-group-item"><a id="womenJewerly" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Jewelry</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3 mb-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/PC.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="pcLaptop" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Laptop</a></li>
+                                            <li  class="list-group-item"><a id="pcMonitor" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Monitor</a></li>
+                                            <li  class="list-group-item"><a id="pcDekstop" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Desktop</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3 mb-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/Furniture.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="furnitureTable" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Table</a></li>
+                                            <li  class="list-group-item"><a id="furnitureChair" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Chair</a></li>
+                                            <li  class="list-group-item"><a id="furnitureBed" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Bed</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 mt-3 mb-3">
+                                        <div class="card" style="width: 333px;">
+                                          <img src="public/img/kategori/Camera.jpg" class="card-img-top" alt="...">
+                                          <ul class="list-group list-group-flush">
+                                            <li  class="list-group-item"><a id="cameraMirror" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Mirrorless</a></li>
+                                            <li  class="list-group-item"><a id="cameraDrone" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Drone</a></li>
+                                            <li  class="list-group-item"><a id="cameraAction" onClick="doSomething(this.id)" href="/cat-items" class="text-dark">Action Cam</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <footer>
+      <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column bd-highlight mb-3" >
+          <div class="p-2 bd-highlight" style="margin-bottom: -15px;">EXPLORE</div>
+          <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;"><small>About Us</small></a>
+          <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;"><small>Blog</small></a>
+          <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;"><small>Contact</small></a>
+        </div>
+        <div class="d-flex flex-column bd-highlight mb-3" style="margin-left: 160px; margin-right: 160px;">
+          <div class="p-2 bd-highlight"style="margin-bottom: -15px;">FOLLOW US</div>
+          <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;">
+            <img src="public/img/icon/facebook (1).png" width="15px" alt="">
+            <small>Facebook</small>
+          </a>
+          <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;">
+            <img src="public/img/icon/instagram (1).png" width="15px" alt="">
+            <small>Instagram</small>
+          </a>
+          <a href="" class="p-2 bd-highlight" style="margin-bottom: -15px; color: #F4F9F9;">
+            <img src="public/img/icon/twitter.png" width="15px" alt="">
+            <small>Twitter</small>
+          </a>
+        </div>
+        <div class="d-flex flex-column bd-highlight mb-3">
+          <div class="p-2 bd-highlight" style="margin-bottom: -15px;">DOWNLOAD</div>
+          <div class="p-2 bd-highlight" style="margin-bottom: -20px;">
+            <img src="public/img/Icon/barcode.png" width="50px" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="" style="color: #F4F9F9;"> Ponshop.com</a>
+      </div>
+    </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="js/home.js"></script> 
+    <script src="js/home2.js"></script> 
+    <script src="js/home3.js"></script> -->
+    <script src="js/category.js"></script>
+  </body>
+</html>
