@@ -2,7 +2,7 @@
     "beautySkin":   
     [
         {
-            "ID":"SC",
+            "subID":"beautySkin1",
             "namaItem":"Skin Care",
             "Image": "public/img/kategori/Beauty/SC.jpg", 
             "Name": "Anti Aging Serum 3-Pack for Face - Vitamin C", 
@@ -19,7 +19,7 @@
     "beautyFace":
     [
         {
-            "ID":"FW",
+            "subID":"beautyFace1",
             "namaItem":"Face Wash",
             "Image": "public/img/kategori/Beauty/FW.jpg", 
             "Name": "Solimo Morning Fresh Facial Cleanser with Ginseng and Vitamin C, 8 fl oz", 
@@ -36,7 +36,7 @@
     "beautyBody":
     [
         {
-            "ID":"BF",
+            "subID":"beautyBody1",
             "namaItem":"Body Foam",
             "Image": "public/img/kategori/Beauty/BF.jpg", 
             "Name": "Dove Foaming Body Wash, Body Wash for All Skin Types", 
@@ -53,7 +53,7 @@
     "elecTv":
     [
         {
-            "ID":"TV",
+            "subID":"elecTv1",
             "namaItem":"Television",
             "Image": "public/img/kategori/Electronic/TV.jpg", 
             "Name": "TCL 32inch 3 SMART TV", 
@@ -70,7 +70,7 @@
     "elecHT":
     [
         {
-            "ID":"HT",
+            "subID":"elecHT1",
             "namaItem":"Home Theater",
             "Image": "public/img/kategori/Electronic/HT.jpg", 
             "Name": "BESTISAN Home Theater System Wired and Wireless Soundbar Speaker", 
@@ -87,7 +87,7 @@
     "elecWM":
     [
         {
-            "ID":"WM",
+            "subID":"elecWM1",
             "namaItem":"Washing Machine",
             "Image": "public/img/kategori/Electronic/WM.jpg", 
             "Name": "COMFEE’ 1.6 Cu.ft Portable Washing Machine", 
@@ -104,7 +104,7 @@
     "gadgetSW":
     [
         {
-            "ID":"SM",
+            "subID":"gadgetSW1",
             "namaItem":"Smart Watch",
             "Image": "public/img/kategori/gadget/SM.jpg", 
             "Name": "Samsung Galaxy Watch 3", 
@@ -121,7 +121,7 @@
     "gadgetSP":
     [
         {
-            "ID":"SP",
+            "subID":"gadgetSP1",
             "namaItem":"Smart Phone",
             "Image": "public/img/kategori/gadget/SP.jpg", 
             "Name": "Apple iPhone 8 Plus", 
@@ -138,7 +138,7 @@
     "gadgetPB":
     [
         {
-            "ID":"PB",
+            "subID":"gadgetPB1",
             "namaItem":"Power Bank",
             "Image": "public/img/kategori/gadget/PB.jpg", 
             "Name": "Anker Portable Charger", 
@@ -155,7 +155,7 @@
     "musicGuitar":
     [
         {
-            "ID":"guitar",
+            "subID":"musicGuitar1",
             "namaItem":"Guitar",
             "Image": "public/img/kategori/music/Guitar.jpg", 
             "Name": "Yamaha GL1 Guitalele", 
@@ -172,7 +172,7 @@
     "musicDrum":
     [
         {
-            "ID":"drum",
+            "subID":"musicDrum1",
             "namaItem":"Drum",
             "Image": "public/img/kategori/music/Drum.jpg", 
             "Name": "Alesis Drums Turbo Mesh Kit", 
@@ -189,7 +189,7 @@
     "musicPiano":
     [
         {
-            "ID":"piano",
+            "subID":"musicPiano1",
             "namaItem":"Piano",
             "Image": "public/img/kategori/music/Piano.jpg", 
             "Name": "LAGRIMA Digital Piano with Bench", 
@@ -206,7 +206,7 @@
     "menShirt":
     [
         {
-            "ID":"shirt",
+            "subID":"menShirt1",
             "namaItem":"Shirt",
             "Image": "public/img/kategori/men/Shirt.jpg", 
             "Name": "Champion Men's Classic Jersey Script T-Shirt", 
@@ -223,7 +223,7 @@
     "menPants":
     [
         {
-            "ID":"pants",
+            "subID":"menPants1",
             "namaItem":"Pants",
             "Image": "public/img/kategori/men/Pants.jpg", 
             "Name": "adidas Men's Tiro 19 Training Pants", 
@@ -240,7 +240,7 @@
     "menShoes":
     [
         {
-            "ID":"shoes",
+            "subID":"menShoes1",
             "namaItem":"Shoes",
             "Image": "public/img/kategori/men/shoes.jpg", 
             "Name": "Nike Men's Odyssey React 2 Flyknit Running Shoe", 
@@ -257,7 +257,7 @@
     "womenBag":
     [
         {
-            "ID":"bag",
+            "subID":"womenBag1",
             "namaItem":"Bag",
             "Image": "public/img/kategori/women/Bag.jpg", 
             "Name": "Michael Kors Women's Jet Set Travel", 
@@ -274,7 +274,7 @@
     "womenSneaker":
     [
         {
-            "ID":"sneakers",
+            "subID":"womenSneaker1",
             "namaItem":"Sneakers", 
             "Image": "public/img/kategori/women/Sneakers.jpg", 
             "Name": "Fila Women's Disruptor II", 
@@ -291,7 +291,7 @@
     "womenJewerly":
     [
         {
-            "ID":"jewelry",
+            "subID":"womenJewerly1",
             "namaItem":"Jewelry",
             "Image": "public/img/kategori/women/Jewelry.jpg", 
             "Name": "SWAROVSKI Women's Angelic Tennis Bracelet Crystal Jewelry Collection", 
@@ -308,7 +308,7 @@
     "pcLaptop":
     [
         {
-            "ID":"laptop",
+            "subID":"pcLaptop1",
             "namaItem":"Laptop",
             "Image": "public/img/kategori/pc/Laptop.jpg", 
             "Name": "Acer Predator Helios 300 Gaming Laptop", 
@@ -325,7 +325,7 @@
     "pcMonitor":
     [
         {
-            "ID":"monitor",
+            "subID":"pcMonitor1",
             "namaItem":"Monitor",
             "Image": "public/img/kategori/pc/Monitor.jpg", 
             "Name": "AORUS FI27Q 27inch 165Hz 1440P FreeSync IPS Gaming Monitor", 
@@ -342,7 +342,7 @@
     "pcDesktop":
     [
         {
-            "ID":"desktop",
+            "subID":"pcDesktop1",
             "namaItem":"Dekstop",
             "Image": "public/img/kategori/pc/Desktop.jpg", 
             "Name": "MSI MEG Trident X 10SD-864US SFF Gaming Desktop", 
@@ -359,7 +359,7 @@
     "furnitureTable":
     [
         {
-            "ID":"table",
+            "subID":"furnitureTable1",
             "namaItem":"Table",
             "Image": "public/img/kategori/furniture/Table.jpg", 
             "Name": "Home Office Desk, Modern Industrial Simple Style Computer Desk", 
@@ -376,7 +376,7 @@
     "furnitureChair":
     [
         {
-            "ID":"chair",
+            "subID":"furnitureChair1",
             "namaItem":"Chair",
             "Image": "public/img/kategori/furniture/Chair.jpg", 
             "Name": "FurnitureMaxx Lotusville Vintage PU Leather Dining Chairs, Antique Brown, Set of 2", 
@@ -393,7 +393,7 @@
     "furnitureBed":
     [
         {
-            "ID":"bed",
+            "subID":"furnitureBed1",
             "namaItem":"Bed",
             "Image": "public/img/kategori/furniture/Bed.jpg", 
             "Name": "Olee Sleep 12 inch Hybrid Euro Box Top Pocket Spring Mattress", 
@@ -410,7 +410,7 @@
     "cameraMirror":
     [
         {
-            "ID":"mirrorless",
+            "subID":"cameraMirror1",
             "namaItem":"Mirrorless",
             "Image": "public/img/kategori/camera/Mirrorless.jpg", 
             "Name": "Sony Alpha a6400 Mirrorless Camera", 
@@ -427,7 +427,7 @@
     "cameraDrone":
     [
         {
-            "ID":"drone",
+            "subID":"cameraDrone1",
             "namaItem":"Drone",
             "Image": "public/img/kategori/camera/Drone.jpg", 
             "Name": "DJI Mavic Mini Combo", 
@@ -444,7 +444,7 @@
     "cameraAction":
     [
         {
-            "ID":"actionCam",
+            "subID":"cameraAction1",
             "namaItem":"Action Camera",
             "Image": "public/img/kategori/camera/ActionCam.jpg", 
             "Name": "GoPro Camera Fusion", 

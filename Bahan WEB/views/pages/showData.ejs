@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/home.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin: 0 auto;
+            margin-top: 50px ;
+            background-color:  #F4F9F9;
+            width: 90%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        tr{
+            background-color: white;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <table class="table center">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Path</th>
+            <th scope="col">Description</th>
+            <th scope="col">List Price</th>
+            <th scope="col">Category</th>
+            <th scope="col">Filter</th>
+            <th scope="col">Discount</th>
+            <th scope="col">Action</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+         <% for(var i = 0; i < items.length; i++){ %> 
+          <tr>
+            <td><%= i+1 %> </td>
+            <td><%= items[i].Name %></td>
+            <td><%= items[i].Image %></td>
+            <td ><%= items[i].Description %></td>
+            <td><%= items[i].ListPrice %></td>
+            <td><%= items[i].Category %></td>
+            <td><%= items[i].Filter %></td>
+            <td><%= items[i].Discount %></td>
+            <td>
+                <img src="public/img/Icon/edit.png" alt="" width="20px">
+                <img src="public/img/Icon/delete.png" alt="" width="20px">
+            </td>
+          </tr>
+          <% } %> 
+        </tbody>
+      </table>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="js/home.js"></script> 
+    <script src="js/home2.js"></script> 
+    <script src="js/home3.js"></script> -->
+</body>
+</html>

@@ -21,13 +21,47 @@ function sendInfo(data){
     localStorage.setItem("serialNumber", imgs);
 }
 
-function basket(){
-  // var imgs = data.className;
-  // localStorage.setItem("serialNumber", imgs);
-}
+// function basket(){
+//   // var imgs = data.className;
+//   // localStorage.setItem("serialNumber", imgs);
+// }
+
+
+
+// function postData(){
+//   fetch("http://localhost:3000/api/items",{
+//     method: 'POST',
+//     headers: {
+//       'Type' : 'Wear'
+//     },
+//     body: JSON.stringify({
+//       name : "Ivan",
+//       job : "leader"
+//     })
+//   })
+//   .then(response => {
+//       if(!response.ok){
+//           throw Error("Error");
+//       }
+//       return response.json();
+//   })
+//   .then( data => {
+//       console.log(data);
+//   })
+//   .catch(error =>{
+//       console.log(error);
+//   });
+// }
+  
+// postData();
+
+// var fetchFile = fetch("http://localhost:3000/api/items").then(response =>{
+//   return response;
+// });
+// console.log(fetchFile);
 
 var addtobasket = document.getElementById("addtobasket");
-var listbasket = document.getElementById("listbasket");
+
 var buynow = document.getElementById("buynow");
 
 var locImage = localStorage.getItem("serialNumber");
@@ -39,6 +73,28 @@ window.addEventListener('load', function(){
   var eles = document.getElementsByClassName(slicing);
 });
 
+// function fetchData(){
+//   fetch("http://localhost:3000/api/items")
+//   .then(response => {
+//       if(!response.ok){
+//           throw Error("Error");
+//       }
+//       return response.json();
+//   })
+//   .then( data => {
+//       console.log(data);
+//       const html = data.map(users =>{
+//         return `<p>Name: ${users.Name}</p>`;
+//       })
+//       .join("");
+//       console.log(html)
+//   })
+//   .catch(error =>{
+//       console.log(error);
+//   });
+// }
+  
+// fetchData();
 $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
   let allItem = data;
   $.each(allItem, function(i, data){
@@ -124,7 +180,7 @@ $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
       var gambar = data.Image;
       var harga = data.ListPrice*valueCount;
       var total = formatToCurrency(harga);
-
+      var listbasket = document.getElementById("listbasket");
       buynow.addEventListener("click", function(){
         console.log("oke");
       });

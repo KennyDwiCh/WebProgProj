@@ -12,6 +12,9 @@ route.get('/itemsElec', services.itemPageElec);
 
 route.get('/checkout', services.checkOut); 
 
+route.get('/show-data', services.showPage);
+
+route.get('/input-data', services.inputPage);
 
 //API
 route.post('/api/items', controller.create);

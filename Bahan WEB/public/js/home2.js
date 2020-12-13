@@ -16,6 +16,8 @@ function save(price, disc){
     return "IDR "+(harga).toLocaleString("id-ID")+",-";
 }
 
+
+
 $.getJSON('public/json/kumpulanDataHome/homeMen.json', function(data){
     let men = data.men;
     

@@ -1,13 +1,12 @@
-// const axios = require('axios');
+const axios = require('axios');
 
 
 exports.homeRouter = (req, res) =>{
-    // axios.get("http://localhost:3000/api/items")
     res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
 }
 
 exports.itemPage = (req, res) =>{
-    res.render('layout/selectedItems', {pageTitle: 'PONSHOP', header:'header'});
+    res.render('pages/templateItem', {pageTitle: 'PONSHOP', header:'header'});
 }
 
 exports.itemPageElec = (req, res) =>{
@@ -16,4 +15,20 @@ exports.itemPageElec = (req, res) =>{
 
 exports.checkOut = (req, res) =>{
     res.render('pages/checkout', {pageTitle: 'PONSHOP'});
+}
+
+exports.showPage = (req, res) => {
+    axios.get("http://localhost:3000/api/items")
+    .then(function(response){
+        console.log(response.data)
+        res.render('pages/showData',{items: response.data});
+    })
+    .catch(err =>{
+        res.render(err);
+    })
+    
+}
+
+exports.inputPage = (req, res) => {
+    res.render('pages/inputData',{items: response});
 }

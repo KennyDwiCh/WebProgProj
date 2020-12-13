@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+// const db = ('../database/connection');
 
 var schema = new mongoose.Schema({
     Image : {
@@ -28,4 +29,16 @@ var schema = new mongoose.Schema({
 
 const itemDB = mongoose.model('itemDB', schema);
 
+
+
 module.exports = itemDB;
+// module.exports = {
+//     fetchData:function(callback){
+//         var userData=itemDB.find({});
+//         userData.exec(function(err, data){
+//             if(err) throw err;
+//             return callback(data);
+//         })
+        
+//      }
+// }

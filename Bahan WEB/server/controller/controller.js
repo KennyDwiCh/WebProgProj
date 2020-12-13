@@ -1,4 +1,6 @@
 var itemDB = require('../model/item');
+const express = require("express")
+const app = express(); 
 
 exports.create = (req, res) => {
     if(!req.body){
@@ -16,6 +18,8 @@ exports.create = (req, res) => {
         Filter: req.body.Filter,
         Discount: req.body.Discount
     });
+
+     
 
     //save to DB
     item
