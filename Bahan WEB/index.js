@@ -5,14 +5,9 @@ const session = require('express-session');
 const mongoose = require("mongoose");
 const user = require('./models/user');
 const { static } = require('express');
-<<<<<<< HEAD
-const connectDB = require('./server/database/connection')
-const app = express();
-=======
 const connectDB = require('./server/database/connection');
 const database_searching = require('./server/model/item');
 const app = express(); 
->>>>>>> 93f83c93f42c74ef635ca3bdfb3635472c1bd83c
 
 
 app.use(express.json());
