@@ -51,9 +51,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // routes 
-// app.get('/', (req,res)=>{
+//app.get('/', (req,res)=>{
 //     res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
-// });
+//});
 
 // module.exports = (params)=>{
 //     router.use('/data', itemRouter());
@@ -70,6 +70,11 @@ app.use(bodyParser.json())
 
 // Setelah disearching muncul 
 
+// testing format searching 
+app.get('/Search' , (req,res) => {
+    res.render('pages/Search' , {pageTitle : 'PONSHOP'});
+});
+
 // const database_searching = require('.models/database');
 
 //app.post('/' , async (req,res) => {
@@ -79,12 +84,14 @@ app.use(bodyParser.json())
 //var searching = database_searching.find({Name : {$regex: "J"}})
     // searching.exec((error, data) => {
     //      if (data) console.log("Got result in = " + JSON.stringify(data));
+    //      res.redirect('/Search');
    // })
      
 //})
 
 // routes 
 app.use('/', require('./server/route/routes'))
+app.use('/', require('./server/route/catRoute'))
 
 app.get('/account', async (req,res)=>{
 res.render('pages/Account',{layout:false});

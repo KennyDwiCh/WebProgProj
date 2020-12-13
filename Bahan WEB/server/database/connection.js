@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = "mongodb://127.0.0.1:27017/Account-onshop"
+const url = "mongodb://127.0.0.1:27017/Account-ponshop"
 const connectDB = async()=>{
     try{
         const con = await mongoose.connect(url, 
