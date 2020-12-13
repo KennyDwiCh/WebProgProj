@@ -42,7 +42,7 @@ window.addEventListener('load', function(){
 $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
   let allItem = data;
   $.each(allItem, function(i, data){
-      if(slicing == data.ID){
+      if(slicing == data.subID){
       
         // var menPack = slicing.slice(0,3);
         // var womenPack = slicing.slice(0,5);
@@ -81,7 +81,7 @@ $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
       } 
   });
   $.each(allItem, function(i, data){
-    if(slicing == data.ID){
+    if(slicing == data.subID){
       document.querySelector(".minus-btn").setAttribute("disabled", "disabled");
 
       var valueCount=1;

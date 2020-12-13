@@ -51,22 +51,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // routes 
-//app.get('/', (req,res)=>{
-//     res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'});
-//});
-
-// module.exports = (params)=>{
-//     router.use('/data', itemRouter());
-// }
-
-// app.get('/itemsElec',(req,res)=>{
-//     res.render('pages/templateItemElec', {pageTitle: 'PONSHOP'});
-// });
-
-
-//app.get('/Filter', (req,res) => {
-//    res.render('pages/' , {pagetitle: 'ponshop'});
-//})
 
 // Setelah disearching muncul 
 
