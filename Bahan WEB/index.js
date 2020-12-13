@@ -125,7 +125,7 @@ app.post('/register',async(req,res)=>{
 var acc_insert = new user({
     username : req.body.username,
     email : req.body.email,
-    password : req.body.password,
+    password : req.body.password,   
     reppass : req.body.reppass,
     dateof : req.body.dateof,
     gender : req.body.gender,
@@ -135,6 +135,7 @@ var acc_insert = new user({
 acc_insert.save((err,product) => {
     if (err) console.log(err);
     console.log(JSON.stringify(product))
+    req.session.user = req.body.username;
     res.redirect('/account');
 });
 });
