@@ -5,7 +5,8 @@ const session = require('express-session');
 const mongoose = require("mongoose");
 const user = require('./models/user');
 const { static } = require('express');
-const connectDB = require('./server/database/connection')
+const connectDB = require('./server/database/connection');
+const database_searching = require('./server/model/item');
 const app = express(); 
 
 
@@ -59,19 +60,19 @@ app.get('/Search' , (req,res) => {
     res.render('pages/Search' , {pageTitle : 'PONSHOP'});
 });
 
-// const database_searching = require('.models/database');
 
-app.post('/' , async (req,res) => {
+app.post('/Search' , async (req,res) => {
+    
+const search_name = req.body.Name;
 
-//const category_barang = req.body.category_barang;
-
-//var searching = database_searching.find({Name : {$regex: "J"}})
-    // searching.exec((error, data) => {
-    //      if (data) console.log("Got result in = " + JSON.stringify(data));
-          res.redirect('/Search');
-    });
+var searching = database_searching.find({Name : {$regex: search_name}})
+    searching.exec((error, data) => {
+    if (error) console.log("No Result for " + search_name);
+    if (data) console.log("Got result in = " + JSON.stringify(data));  
+    res.redirect('/Search');
+});
      
-//})
+});
 
 // routes 
 app.use('/', require('./server/route/routes'))
