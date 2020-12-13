@@ -80,12 +80,17 @@
                   <div class="vertical"></div>
                   <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white; color: #006667; border: none; margin-top: 24px; margin-left: 22px;">
-                      Kelusi
+                      Username
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">My Account</a>
                       <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">Order</a>
                       <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">History</a>
+                      <form action="/logout" method ="post">
+                        <a class="dropdown-item" href="#" style="color: #0A292B; font-size: small; font-family: 'Roboto', sans-serif;">
+                        <button class ="link">Logout</button>
+                        </a>
+                      </form>
                     </div>
                   </div>
                   <div class="help" style="margin-top: 30px; margin-left: 20px;">
@@ -101,13 +106,13 @@
             <div class= "col-xs-6"> 
             <div id="profilez" class="navbar-toggler">
                 <img src="/public/img/newIcon/iconuser.png">
-                <p><button class ="link">Kelompok 8</button></p>
-                <p>Member since 2019</p>
+                <p><button class ="link">Username</button></p>
                 <p><button class ="link" onclick="openTab(event,'Accs')" id="defaultOpen">My Account</button></p>
                 <p><button class ="link" onclick="openTab(event,'Ord')">Order</button></p>
                 <p><button class ="link" onclick="openTab(event,'Wish')">Wishlist</button></p>
                 <p><button class ="link" onclick="openTab(event,'Hist')">History</button></p>
                 <p><button class ="link" onclick="openTab(event,'Help')">Help & Support</button></p>
+                
             </div>
             </div>
             <div class= "col-xs-6">
