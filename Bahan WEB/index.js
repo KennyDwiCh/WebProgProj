@@ -61,15 +61,15 @@ app.get('/Search' , (req,res) => {
 
 // const database_searching = require('.models/database');
 
-//app.post('/' , async (req,res) => {
+app.post('/' , async (req,res) => {
 
 //const category_barang = req.body.category_barang;
 
 //var searching = database_searching.find({Name : {$regex: "J"}})
     // searching.exec((error, data) => {
     //      if (data) console.log("Got result in = " + JSON.stringify(data));
-    //      res.redirect('/Search');
-   // })
+          res.redirect('/Search');
+    });
      
 //})
 
