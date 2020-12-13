@@ -85,6 +85,7 @@ app.use(bodyParser.json())
 
 // routes 
 app.use('/', require('./server/route/routes'))
+app.use('/', require('./server/route/catRoute'))
 
 app.get('/account', async (req,res)=>{
 res.render('pages/Account',{layout:false});
