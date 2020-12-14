@@ -72,7 +72,7 @@ $.getJSON('public/json/kumpulanDataHome/homeHoodies.json', function(data){
 
 $.getJSON('public/json/kumpulanDataHome/homeFurniture.json', function(data){
     let furnitures = data.furnitures;
- 
+    
     $.each(furnitures, function(i, data){
         if(i%2==0){
             $('#furnitureCol').append('<a href="items"><img onclick="sendInfo(this)" class="mr-3 mb-5 zzzzz furniture'+[i+1]+'" src="'+ data.Image +'" width="400px" height="auto" alt="Generic placeholder image" ></a><div class="media-body"><div class="bingkai "><h5 class="mt-0"><b>' + data.Name + '</b></h5> <div class="row"><div class="col-3" style="font-size: smaller;">List Price</div><div class="col-8" style=" font-size: smaller;"><strike>'+ formatToCurrency(data.ListPrice) +'</strike></div></div> <div class="row"><div class="col-3" style="font-size: medium;">Price</div> <div class="col-8" style="color: #006667; font-size: large;"><b>'+ discount(data.ListPrice, data.Discount) +'</b></div> </div><div class="row"><div class="col-3" style="font-size: smaller;">Save</div> <div class="col-8" style=" font-size: smaller;">'+ save(data.ListPrice, data.Discount) +'</div> </div> </div><p><br>'+ data.Description +'</p></div>');
@@ -150,7 +150,7 @@ $.getJSON('public/json/kumpulanDataHome/homeSaleFashion.json', function(data){
 
 $.getJSON('public/json/kumpulanDataHome/homeSaleFurniture.json', function(data){
     let homefurniture = data.homefurniture;
-
+    console.log("gasdas")
     $.each(homefurniture, function(i, data){
         if(i<4){
             $('#homeFurniture').append('<div class="card col"><a href="items"><img src="'+ data.Image +'" onclick="sendInfo(this)" class="card-img-top zz tfurniture'+[i+1]+'" alt="..."></a><div class="card-body"><h5 class="card-title"><b>'+ data.Name +'</b></h5><p class="card-text desc" style="height: 100px;">'+ data.Description +'</p><div class="d-flex flex-row" > <div class="p-2"><div class="box"><small class="diskonBorder" style="color: #006667;">'+ formatDiscount(data.Discount) +'</small></div></div><div class="p-2" ><strike style="display: inline;"><small style="color: #006667;"><b>'+ formatToCurrency(data.ListPrice) +'</b></small> </strike> </div></div><p style="color: #006667; font-size: large;"><b>'+ discount(data.ListPrice,data.Discount) +'</b></p></div></div>');

@@ -1,7 +1,16 @@
 {
     "homefurniture":    [
         {
-            
+            "Image": "public/img/HomePage/sale/Furniture/5.png", 
+            "Name": "Classic Glass One Tier", 
+            "Description": "This table was designed to mix contemporary design with Classic comfort while looking incredibly modern and stylish", 
+            "Color": "None", 
+            "ListPrice": 935000, 
+            "Category": "Furniture", 
+            "Filter": "Sale", 
+            "Discount": 20.0, 
+            "Price": 748000, 
+            "Save": 187000
         },
         {
             "Image": "public/img/HomePage/sale/Furniture/8.png", 
