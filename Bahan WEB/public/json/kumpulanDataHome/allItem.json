@@ -1043,7 +1043,7 @@
         {
             "subID":"cameraAction1",
             "namaItem":"Action Camera",
-            "Image": "public/img/kategori/camera/ActionCam.jpg", 
+            "Image": "public/img/kategori/Camera/ActionCam.jpg", 
             "Name": "GoPro Camera Fusion", 
             "Description": "GoPro Camera Fusion - 360 Waterproof Digital VR Camera with Spherical 5.2K HD Video 18MP Photos, Spherical video + photos capture incredible 5.2k videos and 18MP photos of everything around you by shooting in every direction at once.", 
             "Color": "B", 
