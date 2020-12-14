@@ -1,16 +1,5 @@
-const axios = require('axios');
-
-
 exports.homeRouter = (req, res) =>{
-    axios.get("http://localhost:3000/api/items")
-    .then(function(response){
-        console.log(response.data)
-        res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer', items: response.data})
-    })
-    .catch(err =>{
-        res.render(err);
-    })
-    ;
+    res.render('layout/main', {pageTitle: 'PONSHOP', header:'header', body:'home', footer:'footer'})
 }
 
 exports.itemPage = (req, res) =>{
@@ -26,16 +15,7 @@ exports.checkOut = (req, res) =>{
 }
 
 exports.showPage = (req, res) => {
-    axios.get("http://localhost:3000/api/items")
-    .then(function(response){
-        console.log(response.data)
-        res.render('pages/showData',{items: response.data});
-        // var a = db.collection.find( { allItems: { $gt: 4 } } )
-    })
-    .catch(err =>{
-        res.render(err);
-    })
-    
+        res.render('pages/showData',{items: response.data});   
 }
 
 exports.inputPage = (req, res) => {
@@ -43,11 +23,5 @@ exports.inputPage = (req, res) => {
 }
 
 exports.updatePage = (req, res) => {
-    axios.get("http://localhost:3000/api/items", {params: {id:req.query._id}})
-    .then(function(response){
-        res.render("pages/updateData",{items : response.data});
-    })
-    .catch(err =>{
-        res.send(err)
-    })
+        res.render("pages/updateData");
 }
