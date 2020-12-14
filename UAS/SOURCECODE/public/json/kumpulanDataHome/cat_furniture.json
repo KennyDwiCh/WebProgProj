@@ -1,0 +1,47 @@
+{
+
+    "furniture":   
+    [
+        {
+            "ID":"bed",
+            "Image": "public/img/kategori/furniture/Bed.jpg", 
+            "Name": "Olee Sleep 12 inch Hybrid Euro Box Top Pocket Spring Mattress", 
+            "Description": "Composed of 5 Layers Includes Pocket Spring, High density foam absorbs and disperse your weight, Your purchase includes One Olee Sleep Pegasus 12-Inch Euro Box Top Spring Mattress, in Full Size.", 
+            "Color": "B", 
+            "ListPrice": 4149000, 
+            "Category": "furniture", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 4149000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"chair",
+            "Image": "public/img/kategori/furniture/Chair.jpg", 
+            "Name": "FurnitureMaxx Lotusville Vintage PU Leather Dining Chairs, Antique Brown, Set of 2", 
+            "Description": "Hand crafted metal dining chairs with Vintage PU Leather in Antique brown color, Set of 2.", 
+            "Color": "B", 
+            "ListPrice": 1149000, 
+            "Category": "furniture", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1149000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"table",
+            "Image": "public/img/kategori/furniture/Table.jpg", 
+            "Name": "Home Office Desk, Modern Industrial Simple Style Computer Desk", 
+            "Description": "Modern Industrial design with simple pattern supplies plenty room for legs and work. Metal frame with MDF panel makes it qualified enough and suitable to be an office desk for carrying PCs, printers, and other purpose. It can be used as a study writing desk for college students or used in dorm, house etc.", 
+            "Color": "B", 
+            "ListPrice": 949000, 
+            "Category": "furniture", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 949000, 
+            "Save": 0
+        }
+    ]
+}

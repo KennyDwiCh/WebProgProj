@@ -1,0 +1,117 @@
+{
+    
+    "men":  [
+        {
+            "ID":   "men1",
+            "Image": "public/img/HomePage/Men/sepatu.png", 
+            "Name": "Converse Urban Utility Chuck", 
+            "Description": "Shaft measures approximately 4.75\" from arch", 
+            "Color": "None", 
+            "List Price": 349000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 349.000,-",
+            "Price": 349000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men2",
+            "Image": "public/img/HomePage/Men/lengan.png", 
+            "Name": "Japan Long Sleeve", 
+            "Description": "Soft premium cotton for added comfort", 
+            "Color": "None", 
+            "List Price": 142000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 142.000,-",
+            "Price": 142000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men3",
+            "Image": "public/img/HomePage/Men/jogger.png", 
+            "Name": "Jogger Sweatpants", 
+            "Description": "Midweight, 50% cotton/50% polyester fleece provides warmth without the weight", 
+            "Color": "None", 
+            "List Price": 120000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 120.000,-",
+            "Price": 120000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men4",
+            "Image": "public/img/HomePage/Men/jam.png", 
+            "Name": "LeMannosh", 
+            "Description": "Slim black plated stainless steel case; black dial with gold-tone hands and linear hour and minute markers", 
+            "Color": "None", 
+            "List Price": 149000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 149.000,-",
+            "Price": 149000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men5",
+            "Image": "public/img/HomePage/Men/nasa.png", 
+            "Name": "NASA Jacket", 
+            "Description": "Crafted of a waterproof nylon shell durable enough to withstand anything from drizzle to downpour at a moment's notice.", 
+            "Color": "None", 
+            "List Price": 425000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 425.000,-",
+            "Price": 425000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men6",
+            "Image": "public/img/HomePage/Men/kaos.png", 
+            "Name": "Smooth T-Shirt", 
+            "Description": "100% Cotton; Light Steel: 90% Cotton, 10% Polyester", 
+            "Color": "None", 
+            "List Price": 99000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 99.000,-",
+            "Price": 99000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men7",
+            "Image": "public/img/HomePage/Men/topi.png", 
+            "Name": "Space Bucket Hat", 
+            "Description": "The 100% cotton (Solid color) and 55%Cotton,45%Polyester (Camouflage color) make it, cozy and comfortable for the perfect fit.", 
+            "Color": "None", 
+            "List Price": 92000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 92.000,-",
+            "Price": 92000, 
+            "Save": 0
+        }, 
+        {
+            "ID":   "men8",
+            "Image": "public/img/HomePage/Men/kemeja.png", 
+            "Name": "Tropical Leaf Stripe", 
+            "Description": "Fashion Plaid and Button-down Design, Concise and Easy, Fashionable Elegance, Convenient and Practical.", 
+            "Color": "None", 
+            "List Price": 251000, 
+            "Category": "Men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Harga": "IDR 251.000,-",
+            "Price": 251000, 
+            "Save": 0
+            }
+        ]
+}

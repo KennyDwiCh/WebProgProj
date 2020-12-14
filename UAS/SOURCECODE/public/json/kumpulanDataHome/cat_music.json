@@ -1,0 +1,47 @@
+{
+
+    "music":   
+    [
+        {
+            "ID":"drum",
+            "Image": "public/img/kategori/music/Drum.jpg", 
+            "Name": "Alesis Drums Turbo Mesh Kit", 
+            "Description": "Electronic Drum Kit Powered by Mesh Technology All mesh drum heads deliver the most realistic, responsive and immersive playing experience modern drummers demand.", 
+            "Color": "B", 
+            "ListPrice": 3999000, 
+            "Category": "music", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 3999000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"guitar",
+            "Image": "public/img/kategori/music/Guitar.jpg", 
+            "Name": "Yamaha GL1 Guitalele", 
+            "Description": "A unique mini 6-string nylon guitar that is sized like a baritone ukulele (17inch scale) and plays like a guitar.", 
+            "Color": "B", 
+            "ListPrice": 1350000, 
+            "Category": "music", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1350000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"piano",
+            "Image": "public/img/kategori/music/Piano.jpg", 
+            "Name": "LAGRIMA Digital Piano with Bench", 
+            "Description": "FEATURE-3 pedal system(Soft/Sustain/Rear sustain pedal)/LCD display screen/80 demo songs/480 tones/128 standard GM tones/200 present rhythms/64 Polyphony/Built-in stereo speakers/Slide cover design/Storage bench.", 
+            "Color": "B", 
+            "ListPrice": 4999000, 
+            "Category": "music", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 4999000, 
+            "Save": 0
+        }
+    ]
+}

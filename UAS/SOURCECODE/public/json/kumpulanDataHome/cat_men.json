@@ -1,0 +1,47 @@
+{
+
+    "men":   
+    [
+        {
+            "ID":"pants",
+            "Image": "public/img/kategori/men/Pants.jpg", 
+            "Name": "adidas Men's Tiro 19 Training Pants", 
+            "Description": "Adidas Soccer apparel is designed to keep you comfortable for the entire 90 minutes on the field and beyond.", 
+            "Color": "B", 
+            "ListPrice": 579000, 
+            "Category": "men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 579000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"shirt",
+            "Image": "public/img/kategori/men/Shirt.jpg", 
+            "Name": "Champion Men's Classic Jersey Script T-Shirt", 
+            "Description": "100% Cotton,Imported,Pull On closure,Machine Wash,Ring spun cotton fabric for extra softness. Oxford 90 percent cotton/10.", 
+            "Color": "B", 
+            "ListPrice": 479000, 
+            "Category": "men", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 479000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"shoes",
+            "Image": "public/img/kategori/men/shoes.jpg", 
+            "Name": "Nike Men's Odyssey React 2 Flyknit Running Shoe", 
+            "Description": "Lace Up closure,Nike React technology delivers a soft, smooth and responsive ride,Flyknit construction provides lightweight flexibility and breathability.", 
+            "Color": "B", 
+            "ListPrice": 1279000, 
+            "Category": "shoes", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1279000, 
+            "Save": 0
+        }
+    ]
+}

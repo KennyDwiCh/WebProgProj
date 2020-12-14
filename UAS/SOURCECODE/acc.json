@@ -1,0 +1,11 @@
+[
+{ "username": "admin",
+  "password": "admin",
+  "email" : "admin",
+  "reppass" : "admin",
+  "dateof" : "admin",
+  "gender" : "admin",
+  "address" : "admin",
+  "mobnum" : "admin"
+}
+]

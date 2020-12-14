@@ -1,0 +1,47 @@
+{
+
+    "women":   
+    [
+        {
+            "ID":"bag",
+            "Image": "public/img/kategori/women/Bag.jpg", 
+            "Name": "Michael Kors Women's Jet Set Travel", 
+            "Description": "Top zip closure MK Strap Logo, detail on front Exterior side pockets,Interior: 1 zippered pocket & 2 slip pockets Michael Kors signature lining.", 
+            "Color": "B", 
+            "ListPrice": 2350000, 
+            "Category": "women", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 2350000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"jewelry",
+            "Image": "public/img/kategori/women/Jewelry.jpg", 
+            "Name": "SWAROVSKI Women's Angelic Tennis Bracelet Crystal Jewelry Collection", 
+            "Description": "The Angelic Tennis Bracelet combines the precision and quality of brilliant crystals with a timeless design and rhodium plated band, for a touch of glamour for any occasion.", 
+            "Color": "B", 
+            "ListPrice": 1999000, 
+            "Category": "women", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 1999000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"sneakers",
+            "Image": "public/img/kategori/women/Sneakers.jpg", 
+            "Name": "Fila Women's Disruptor II", 
+            "Description": "Be bold and provocative. Remain vintage, but never conventional,Radiate sophistication and style without sacrificing performance,Inspired by vintage athletic wear. Retro looks, with classic stylings. ", 
+            "Color": "B", 
+            "ListPrice": 999000, 
+            "Category": "women", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 999000, 
+            "Save": 0
+        }
+    ]
+}

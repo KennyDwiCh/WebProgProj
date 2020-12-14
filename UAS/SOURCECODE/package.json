@@ -1,0 +1,33 @@
+{
+  "name": "ponshop",
+  "version": "1.0.0",
+  "description": "PONSHOP Website",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.16",
+    "nodemon": "^2.0.6",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WebProgProj"
+  },
+  "keywords": [
+    "UaS"
+  ],
+  "author": "Steven Tjayadi/535180085 Ivan Jairus/535180086 Lucas/535180095 Kenny Dwi Cahya/535180100",
+  "license": "MIT"
+}

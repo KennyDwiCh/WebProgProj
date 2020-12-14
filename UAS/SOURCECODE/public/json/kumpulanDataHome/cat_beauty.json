@@ -1,0 +1,47 @@
+{
+
+    "beauty":   
+    [
+        {
+            "ID":"BF",
+            "Image": "public/img/kategori/Beauty/BF.jpg", 
+            "Name": "Dove Foaming Body Wash, Body Wash for All Skin Types", 
+            "Description": "DOVE MANGO BUTTER FOAMING BODY WASH This rich bodywash is made with mango butter to moisturize dry skin and give you a pampered spa-like experience every time you shower.", 
+            "Color": "B", 
+            "ListPrice": 79000, 
+            "Category": "Beauty", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 79000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"FW",
+            "Image": "public/img/kategori/Beauty/FW.jpg", 
+            "Name": "Solimo Morning Fresh Facial Cleanser with Ginseng and Vitamin C, 8 fl oz", 
+            "Description": " One 8-fluid ounce bottle of Solimo Morning Fresh Facial Cleanser with ginseng, vitamin C and non-plastic cellulose beads.", 
+            "Color": "B", 
+            "ListPrice": 49000, 
+            "Category": "Beauty", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 49000, 
+            "Save": 0
+        },
+
+        {
+            "ID":"SC",
+            "Image": "public/img/kategori/Beauty/SC.jpg", 
+            "Name": "Anti Aging Serum 3-Pack for Face - Vitamin C", 
+            "Description": "A HIGHER FORM OF ACTIVE, BIO-AVAILABLE VITAMIN C, our Vitamin C Serum combines many natural and organic ingredients in such a way that your face feels smooth and refreshed the moment it touches your skin.", 
+            "Color": "B", 
+            "ListPrice": 249000, 
+            "Category": "Beauty", 
+            "Filter": "Normal", 
+            "Discount": 0.0, 
+            "Price": 249000, 
+            "Save": 0
+        }
+    ]
+}
