@@ -8,7 +8,7 @@ const connectDB = async()=>{
             useFindAndModify: false,
             useCreateIndex: true
         })
-        console.log(`MonggoDB Connected: ${con.connection.host}`);
+        console.log(`mongoose Connected: ${con.connection.host}`);
     }catch(err){
         console.log(err);
         process.exit(1); 
