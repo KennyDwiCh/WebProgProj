@@ -25,32 +25,32 @@
 </head>
 <body>
   <a href="/show-data" style="color: #006667;">Back to Data</a>
-  <form action="/api/items" method="POST" id="add_items">
-    <h1 style="color:  #006667; font-weight: bold;">Input Data</h1>
+  <form method="POST" id="add_items">
+    <h1 style="color:  #006667; font-weight: bold;">Update Data</h1>
     <form method="post" action="/input-data">
       
       <div class="form-group">
-        <label >Path Image</label>
-        <input name="Image" type="text" class="form-control"  placeholder="public/img/(path)">
+        <label>Path Image</label>
+        <input name="Image" value="<%= items.Image %>" type="text" class="form-control"  placeholder="public/img/(path)">
       </div>
       <div class="form-group">
         <label >Name</label>
-        <input name="Name" type="text" class="form-control" placeholder="Nasa Jacket">
+        <input name="Name" value="<%= items.Name %>" type="text" class="form-control" placeholder="Nasa Jacket">
       </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label >Price</label>
-            <input name="ListPrice" type="number" class="form-control"  placeholder="300000">
+            <input name="ListPrice" value="<%= items.ListPrice %>" type="number" class="form-control"  placeholder="300000">
           </div>
           <div class="form-group col-md-6">
             <label >Discount</label>
-            <input name="Discount" type="number" class="form-control" placeholder="20">
+            <input name="Discount" value="<%= items.Discount %>" type="number" class="form-control" placeholder="20">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputState" >Category</label>
-            <select id="inputState" name="Category" class="form-control">
+            <select id="inputState" name="Category"  value="<%= items.Category %>" class="form-control">
               <option selected>Choose...</option>
               <option>Art</option>
               <option>Bag</option>
@@ -89,7 +89,7 @@
           </div>
           <div class="form-group col-md-6">
             <label for="inputState" >Filter</label>
-            <select id="inputState" name="Filter" class="form-control">
+            <select id="inputState" name="Filter" value="<%= items.Filter %>"  class="form-control">
               <option selected>Choose...</option>
               <option>Trending</option>
               <option>Sale</option>
@@ -100,10 +100,10 @@
         </div>
         <div class="form-group">
           <label >Description</label>
-          <input name="Description" type="text" class="form-control"  placeholder="Warm and cool">
+          <input name="Description" value="<%= items.Description %>" type="text" class="form-control"  placeholder="Warm and cool">
         </div>
         </div>
-        <button type="submit" class="btn btn-primary" style="background-color: #006667; border-color:  #006667;">OK</button>
+        <button id="update_items" type="submit" class="btn btn-primary" style="background-color: #006667; border-color:  #006667;">Save</button>
       </form>
 
     </form>
@@ -113,9 +113,28 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script>
-      $("#add_items").submit(function(event){
-        alert("Data Inserted!");
-      })
+    $("#update_items").submit(function(event){
+    event.preventDefault();
+
+    var unindexed_array = $(this).serializeArray();
+    var data = {}
+
+    $.map(unindexed_array, function(n, i){
+        data[n['Name']] = n['value']
+    })
+
+
+    var request = {
+        "url" : `http://localhost:3000/api/items/${data._id}`,
+        "method" : "PUT",
+        "data" : data
+    }
+
+    $.ajax(request).done(function(response){
+        alert("Data Updated Successfully!");
+    })
+
+})
     </script>
   </body>
 </html>

@@ -99,23 +99,14 @@ $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
   let allItem = data;
   $.each(allItem, function(i, data){
       if(slicing == data.subID){
-      
-        // var menPack = slicing.slice(0,3);
-        // var womenPack = slicing.slice(0,5);
-        // var furniturePack = slicing.slice(0,9);
-        // var hoodiePack = slicing.slice(0,6);
-        // var musicPack = slicing.slice(0,5);
-        // var elecPack = slicing.slice(0,4);
-        // var fashionPack = slicing.slice(0,7);
-        // var tfurniturePack = slicing.slice(0,10);
-        // var technewsPack = slicing.slice(0,8);
-        // var totebackPack = slicing.slice(0,7); 
+        try{
           document.getElementById("imgChange").src = data.Image;
           document.getElementById("nameChange").innerHTML = data.Name;
           document.getElementById("priceChange").innerHTML = formatToCurrency(data.ListPrice);
           document.getElementById("descChange").innerHTML = data.Description;
           document.getElementById("totalChange").innerHTML = formatToCurrency(data.ListPrice);;
           
+
           if(slicing.slice(0,8)=="technews"){
             document.getElementById("nameItem").innerHTML = data.nameItem;
             document.getElementById("screenItem").innerHTML = data.Screen;
@@ -130,7 +121,17 @@ $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
           }else if(slicing.slice(0,9)=="furniture" || slicing.slice(0,5)=="music" || slicing.slice(0,10)=="tfurniture" || slicing.slice(0,4)=="elec" || slicing=="men4"){
             document.getElementById("sizeList").remove();
           }
-          return false;
+        }catch(err){
+          
+          // var xangka =  document.getElementById("labelChanged").innerHTML
+          // var fangka = parseInt(xangka)
+          document.getElementById("checkoutimage").src = data.Image;
+          document.getElementById("checkoutName").innerHTML = data.Name;
+          document.getElementById("checkoutPrice").innerHTML = formatToCurrency(data.ListPrice);
+          document.getElementById("subTotal").innerHTML = formatToCurrency(data.ListPrice+5000);
+          
+        } 
+          // return false;
       }
       else{
         console.log("gk ada");
@@ -147,6 +148,8 @@ $.getJSON('public/json/kumpulanDataHome/allItem.json', function(data){
           var total = valueCount * price;
           var totalChange = formatToCurrency(total);
           document.getElementById("totalChange").innerText = totalChange;
+        //  return valueCount;
+          
       }
 
       document.querySelector(".plus-btn").addEventListener("click", function() {

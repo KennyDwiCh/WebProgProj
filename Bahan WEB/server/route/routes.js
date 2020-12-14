@@ -16,6 +16,8 @@ route.get('/show-data', services.showPage);
 
 route.get('/input-data', services.inputPage);
 
+route.get('/update-data', services.updatePage);
+
 //API
 route.post('/api/items', controller.create);
 route.get('/api/items', controller.find);

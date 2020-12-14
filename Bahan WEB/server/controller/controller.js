@@ -25,7 +25,8 @@ exports.create = (req, res) => {
     item
         .save(item)
         .then(data =>{
-            res.send(data)
+            // res.send(data)
+            res.redirect('/input-data')
         })
         .catch(err => {
             res.status(500).send({
@@ -64,25 +65,25 @@ exports.find = (req, res) => {
 }
 
 // update by id
-exports.update = (req, res) => {
-    if(req.body){
+exports.update = (req, res)=>{
+    if(!req.body){
         return res
-        .status(400)
-        .send({message: "Data to update not be empty"})
+            .status(400)
+            .send({ message : "Data to update can not be empty"})
     }
 
     const id = req.params.id;
-    itemDB.findByIdAndUpdate(id,req.body, {useFindAndModify: false})
-    .then(data =>{
-        if(!data){
-            res.status(404).send({message: `Cannot Update item with ${id}. Maybe user not found!`})
-        }else{
-            send.data
-        }
-    })
-    .catch(err =>{
-        res.status(500).send({message: "Error update item information"})
-    })
+    itemDB.findByIdAndUpdate(id, req.body, { useFindAndModify: false})
+        .then(data => {
+            if(!data){
+                res.status(404).send({ message : `Cannot Update user with ${id}. Maybe user not found!`})
+            }else{
+                res.send(data)
+            }
+        })
+        .catch(err =>{
+            res.status(500).send({ message : "Error Update user information"})
+        })
 }
 
 // delete by id

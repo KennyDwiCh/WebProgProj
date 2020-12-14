@@ -196,23 +196,23 @@
 
                   
                   <div class="category" style="margin-left: 25px; ">
-                    <a href="category.html" type="button" class="btn">
+                    <a href="/category" type="button" class="btn">
                       <img src="public/img/newicon/shopping-bag.png" alt="" width="19px">
                       Category
                     </a>
-                    <a href="category_beauty_FW.html" type="button" class="btn">
+                    <a href="/category" type="button" class="btn">
                       <img src="public/img/newicon/beauty.png" alt="" width="20px">
                       Face Wash
                     </a>
-                    <a href="category_men_Shoes.html" type="button" class="btn">
+                    <a href="/category" type="button" class="btn">
                       <img src="public/img/newicon/fashion.png" alt="" width="20px">
                       Fashion
                     </a>
-                    <a href="category_electronic_HT.html" type="button" class="btn">
+                    <a href="/category" type="button" class="btn">
                       <img src="public/img/newicon/desktop.png" alt="" width="20px">
                       Electronic
                     </a>
-                    <a href="category_gadget_SP.html" type="button" class="btn">
+                    <a href="/category" type="button" class="btn">
                       <img src="public/img/newicon/smartphone.png" alt="" width="20px">
                       Smartphone
                     </a>
@@ -348,7 +348,27 @@
         <div id="men" class="men" style="margin-top: 60px; margin-left: 90px; margin-right: 90px;">
           <h3 style="margin-bottom: 20px;">Men</h3>
           <div class="row goingToTemplate" id="homeMen" >
-            
+            <% for(var i = 0; i < items.length; i++){ %>
+              <% if (items.subID == ("men"+[i+1])) { %>
+                <div onclick="sendInfo(this)" class="col-md-3 mb-4 z men'+[i+1]+'" >
+                  <a href="items">
+                    <div class="card h-100 " style="width: 19rem;">
+                      <img  class="card-img-top " src="'+ data.Image +'" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          <b><%= items[i].Name %></b>
+                        </h5>
+                        <p class="card-text" style="height: 100px;" >' + data.Description + '</p>
+                        <h6 style="color: #006667;">
+                          <b>' + data.Harga + '</b>
+                        </h6>
+                        </a> 
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              <% } %>
+            <% } %> 
           </div>
         </div>
         <!-- --------------------------------------------------------------------- -->

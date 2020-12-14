@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/home.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
@@ -28,8 +29,9 @@
 
 </head>
 <body>
-    
+  <a href="/input-data" style="color: #006667;">Add a new Item</a>
     <table class="table center">
+      <h1 style="text-align: center; color:  #006667; font-weight: bold;">List Data</h1>
         <thead class="thead-dark">
           <tr>
             <th scope="col">No</th>
@@ -56,8 +58,12 @@
             <td><%= items[i].Filter %></td>
             <td><%= items[i].Discount %></td>
             <td>
+              <a href="update-data?id=<%= items[i]._id %>">
                 <img src="public/img/Icon/edit.png" alt="" width="20px">
-                <img src="public/img/Icon/delete.png" alt="" width="20px">
+              </a>
+              <a class="delete" data-id= <%= items[i].id%> >
+                <img type="button" src="public/img/Icon/delete.png"  alt="" width="20px">
+              </a>  
             </td>
           </tr>
           <% } %> 
@@ -66,12 +72,33 @@
 
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- <script src="js/home.js"></script> 
     <script src="js/home2.js"></script> 
     <script src="js/home3.js"></script> -->
+
+    <script>
+  if(window.location.pathname == "/show-data"){
+    $ondelete = $(".table tbody td a.delete");
+    $ondelete.click(function(){
+      var id = $(this).attr("data-id")
+
+      var request = {
+        "url" : `http://localhost:3000/api/items/${data._id}`,
+        "method" : "DELETE"
+    };
+
+    if(confirm("Delete this?")){
+      $.ajax(request).done(function(response){
+        alert("Data Delete Successfully!");
+        location.reload();
+    });
+    };
+    });
+  }
+    </script>
 </body>
 </html>

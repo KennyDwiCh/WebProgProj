@@ -42,7 +42,7 @@
     </div>
     </nav>
 
-    <div id="contentMain" style="background-color: white;">
+    <div id="contentMain" style="background-color: white; height: 500px;">
       <div class="information">
         <div class="row">
             <div class="col-8">
@@ -77,13 +77,13 @@
                                     <img id="checkoutimage" src="public/img/HomePage/Men/jam.png" alt="" width="150px">
                                 </div>
                                 <div class="col-md-auto">
-                                    <div class="col-md-auto" style="color: #0A292B; font-weight: bold; font-size: larger;">
+                                    <div id="checkoutName" class="col-md-auto" style="color: #0A292B; font-weight: bold; font-size: larger;">
                                         Jam Tangan
                                     </div>
                                     <div class="col-md-auto">
-                                      <small>QTY: 1</small> 
+                                      <small id="checkoutQTY">QTY: 1</small> 
                                     </div>
-                                    <div class="col-md-auto" style="color: #006667; font-weight: 500;">
+                                    <div id="checkoutPrice" class="col-md-auto" style="color: #006667; font-weight: 500;">
                                         IDR 200.000
                                     </div>
                                 </div>
@@ -98,20 +98,18 @@
                             <section>Select Duration</section>
                             <section>
                                 <div class="dropdown">
-                                    <select class="form-control" style="background-color: #006667; color: #F4F9F9;  ">
-                                        <option>Normal (3-4 Days)</option>
-                                        <option>Reguler (2-3 Days)</option>
-                                        <option>Express (1-2 Days)</option>
+                                    <select id="calcOption" class="form-control" style="background-color: #006667; color: #F4F9F9;  ">
+                                        <option class="sending1" value="5000">Normal (3-4 Days)</option>
                                     </select>
                                 </div>
                             </section>
                             <section>Price</section>
-                            <section>IDR 5.000,-</section>
+                            <section id="labelChanged">IDR 5.0000</section>
                         </td>
                       </tr>             
                         <td style="color:#0A292B; font-weight: 700; font-size: 20px;">Sub Total</td>
                         <td></td>
-                        <td style="color: #006667; font-weight: bold; font-size: 20px;">IDR 205.000</td>
+                        <td id="subTotal" style="color: #006667; font-weight: bold; font-size: 20px;">IDR 205.000</td>
                       </tr>
                     </tbody>
                   </table>
@@ -119,7 +117,7 @@
 
             <div class="col-4">
                 <br><br>
-                <div style="border: 1px #006667 solid; border-radius: 20px;">
+                <!-- <div style="border: 1px #006667 solid; border-radius: 20px;">
                   <div style="margin: 10px;">
                     <div class="dropdown">
                       <select class="form-control" style="background-color: white; color: #0A292B; border-radius: 10px;">
@@ -127,8 +125,8 @@
                             Promo
                           </option>
                       </select>
-                  </div>
-                    <table class="table">
+                  </div> -->
+                    <!-- <table class="table">
                         <tbody>
                           <tr>
                             <td colspan="4" style="color: #0A292B; font-weight: bold;">Summary</td>
@@ -145,7 +143,7 @@
                               Shipment
                             </td>
                             <td></td>
-                            <td colspan="2">IDR 5.000,-</td>
+                            <td id="labelChanged" colspan="2">IDR 5.000,-</td>
                           </tr>
                           <tr>
                             <td colspan="2" style="color: #0A292B; font-weight: bold;">Bill</td>
@@ -153,7 +151,7 @@
                             <td colspan="2" style="color: #006667; font-weight: bold;" class="col-md-auto">IDR 205.000,-</td>
                           </tr>
                         </tbody>
-                      </table>
+                      </table> -->
                   </div>
                 </div>
             </div>
@@ -206,6 +204,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="public/js/home3.js"></script>
-
+    <!-- <script>
+      $('#calcOption').on('change', function(){
+        var v = $(this).find(':selected').text();
+        if(v=="Normal (3-4 Days)"){
+          var x = 5000;
+        }else if(v=="Reguler (2-3 Days)"){
+          var x = 7000;
+        }else{
+          var x = 9000;
+        }
+        $('#labelChanged').text( x );
+      });
+    </script> -->
 </body>
 </html>
